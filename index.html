@@ -6,58 +6,279 @@
     <meta name="robots" content="max-image-preview:large">
     <meta name="google-adsense-account" content="ca-pub-3600813755953882">
 
-    <!-- SEO -->
-    <title>DopaBrain - 무료 온라인 게임, 퀴즈, 심리테스트</title>
-    <meta name="description" content="퀴즈, 게임, 계산기, 심리테스트 등 다양한 무료 온라인 도구를 제공합니다.">
+    <!-- SEO Meta Tags -->
+    <title>DopaBrain - 게임, 퀴즈, 심리테스트 | 무료 온라인</title>
+    <meta name="description" content="중독성 게임, 심리테스트, 퀴즈, 계산기 등 다양한 무료 콘텐츠! 설치 없이 바로 즐기세요.">
+    <meta name="keywords" content="온라인 게임, 심리테스트, 퀴즈, 계산기, 운세, MBTI, 로또, 바이럴 테스트">
+    <meta name="author" content="DopaBrain">
+    <link rel="canonical" href="https://dopabrain.com/">
 
-    <!-- Redirect to Portal -->
-    <meta http-equiv="refresh" content="0; url=https://dopabrain.com/portal/">
-    <link rel="canonical" href="https://dopabrain.com/portal/">
+    <!-- Open Graph -->
+    <meta property="og:title" content="DopaBrain - 게임, 퀴즈, 심리테스트">
+    <meta property="og:description" content="중독성 게임, 심리테스트, 퀴즈 등 다양한 무료 콘텐츠!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dopabrain.com/">
+    <meta property="og:locale" content="ko_KR">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DopaBrain - 게임, 퀴즈, 심리테스트">
+    <meta name="twitter:description" content="중독성 게임, 심리테스트, 퀴즈 등 다양한 무료 콘텐츠!">
+
+    <meta name="theme-color" content="#030014">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "DopaBrain",
+        "description": "게임, 퀴즈, 심리테스트 - 무료 온라인 콘텐츠",
+        "url": "https://dopabrain.com/"
+    }
+    </script>
 
     <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #030014;
+            color: #f0f0ff;
             min-height: 100vh;
-            margin: 0;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Background orbs */
+        .bg-effects { position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 0; overflow: hidden; }
+        .bg-orb { position: absolute; border-radius: 50%; filter: blur(100px); opacity: 0.35; animation: orbFloat 25s ease-in-out infinite; }
+        .bg-orb-1 { width: 500px; height: 500px; background: radial-gradient(circle, rgba(139,92,246,0.4), transparent); top: -150px; right: -150px; }
+        .bg-orb-2 { width: 400px; height: 400px; background: radial-gradient(circle, rgba(6,182,212,0.3), transparent); bottom: 10%; left: -120px; animation-delay: -8s; }
+        .bg-orb-3 { width: 350px; height: 350px; background: radial-gradient(circle, rgba(236,72,153,0.25), transparent); top: 40%; right: -80px; animation-delay: -16s; }
+        @keyframes orbFloat {
+            0%, 100% { transform: translate(0,0) scale(1); }
+            25% { transform: translate(40px,-40px) scale(1.08); }
+            50% { transform: translate(-30px,30px) scale(0.92); }
+            75% { transform: translate(25px,15px) scale(1.04); }
+        }
+
+        .container {
+            position: relative; z-index: 1;
+            max-width: 800px; margin: 0 auto;
+            padding: 40px 20px 60px;
             text-align: center;
         }
-        .container {
-            padding: 2rem;
+
+        /* Header */
+        .logo-icon {
+            font-size: 56px;
+            animation: brainPulse 3s ease-in-out infinite;
+            filter: drop-shadow(0 0 16px rgba(139,92,246,0.6));
+            margin-bottom: 8px;
         }
+        @keyframes brainPulse {
+            0%, 100% { filter: drop-shadow(0 0 16px rgba(139,92,246,0.6)); transform: scale(1); }
+            50% { filter: drop-shadow(0 0 30px rgba(6,182,212,0.8)) drop-shadow(0 0 50px rgba(139,92,246,0.4)); transform: scale(1.1); }
+        }
+
         h1 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
+            font-size: 42px; font-weight: 800;
+            background: linear-gradient(135deg, #c084fc, #22d3ee, #f472b6);
+            background-size: 200% 200%;
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: gradientShift 4s ease infinite;
+            margin-bottom: 6px;
         }
-        p {
-            font-size: 1.2rem;
-            margin-bottom: 2rem;
+        @keyframes gradientShift { 0%,100% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } }
+
+        .tagline {
+            font-size: 12px; color: #06b6d4; font-weight: 600;
+            letter-spacing: 3px; text-transform: uppercase; margin-bottom: 12px;
         }
-        a {
-            display: inline-block;
-            padding: 1rem 2rem;
-            background: white;
-            color: #667eea;
+        .subtitle { font-size: 15px; color: #5a5580; margin-bottom: 32px; }
+
+        /* Category quick links */
+        .quick-cats {
+            display: flex; gap: 10px; justify-content: center;
+            flex-wrap: wrap; margin-bottom: 36px;
+        }
+        .quick-cat {
+            padding: 10px 20px;
+            background: rgba(139,92,246,0.08);
+            border: 1px solid rgba(139,92,246,0.15);
+            border-radius: 100px;
+            color: #a5a0d0; font-size: 14px; font-weight: 500;
             text-decoration: none;
-            border-radius: 8px;
-            font-weight: bold;
-            transition: transform 0.2s;
+            transition: all 0.3s ease;
+            min-height: 44px; display: flex; align-items: center; gap: 6px;
         }
-        a:hover {
+        .quick-cat:hover {
+            background: rgba(139,92,246,0.18);
+            border-color: rgba(139,92,246,0.35);
+            color: #f0f0ff;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 16px rgba(139,92,246,0.15);
+        }
+
+        /* App grid */
+        .app-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin-bottom: 36px;
+            text-align: left;
+        }
+
+        .app-card {
+            display: flex; align-items: center; gap: 12px;
+            padding: 14px 16px;
+            background: rgba(139,92,246,0.04);
+            border: 1px solid rgba(139,92,246,0.1);
+            border-radius: 14px;
+            text-decoration: none; color: #f0f0ff;
+            transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
+            min-height: 60px;
+        }
+        .app-card:hover {
+            transform: translateY(-3px);
+            border-color: var(--c, rgba(139,92,246,0.3));
+            box-shadow: 0 6px 24px rgba(0,0,0,0.3), 0 0 20px color-mix(in srgb, var(--c,#8b5cf6) 15%, transparent);
+        }
+        .app-card:active { transform: translateY(-1px) scale(0.98); }
+
+        .app-icon {
+            width: 42px; height: 42px;
+            border-radius: 10px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 20px; flex-shrink: 0;
+            border: 1px solid rgba(139,92,246,0.1);
+        }
+        .app-name { font-size: 14px; font-weight: 600; line-height: 1.3; }
+        .app-desc { font-size: 11px; color: #a5a0d0; margin-top: 2px; }
+
+        .badge-hot {
+            display: inline-block;
+            padding: 1px 6px; border-radius: 100px;
+            font-size: 9px; font-weight: 700;
+            background: linear-gradient(135deg, #ec4899, #f472b6);
+            color: #fff; margin-left: 4px; vertical-align: middle;
+        }
+
+        /* Section title */
+        .section-title {
+            font-size: 18px; font-weight: 700;
+            background: linear-gradient(135deg, #c084fc, #22d3ee);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 16px; text-align: left;
+        }
+
+        /* CTA */
+        .cta-link {
+            display: inline-block;
+            padding: 14px 32px;
+            background: linear-gradient(135deg, #8b5cf6, #06b6d4);
+            border-radius: 100px;
+            color: #fff; font-size: 15px; font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 20px rgba(139,92,246,0.3);
+        }
+        .cta-link:hover {
             transform: scale(1.05);
+            box-shadow: 0 6px 28px rgba(139,92,246,0.4);
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 40px; padding-top: 20px;
+            border-top: 1px solid rgba(139,92,246,0.1);
+            font-size: 12px; color: #5a5580;
+        }
+        .footer a { color: #a5a0d0; text-decoration: none; }
+        .footer a:hover { color: #c084fc; }
+
+        /* Responsive */
+        @media (max-width: 480px) {
+            .app-grid { grid-template-columns: 1fr; }
+            h1 { font-size: 32px; }
+            .container { padding: 24px 16px 40px; }
+        }
+        @media (min-width: 600px) {
+            .app-grid { grid-template-columns: repeat(3, 1fr); }
         }
     </style>
 </head>
 <body>
+    <div class="bg-effects">
+        <div class="bg-orb bg-orb-1"></div>
+        <div class="bg-orb bg-orb-2"></div>
+        <div class="bg-orb bg-orb-3"></div>
+    </div>
+
     <div class="container">
-        <h1>🧠 DopaBrain</h1>
-        <p>무료 온라인 게임, 퀴즈, 심리테스트</p>
-        <p>잠시 후 포털로 이동합니다...</p>
-        <a href="https://dopabrain.com/portal/">포털로 이동</a>
+        <div class="logo-icon">🧠</div>
+        <h1>DopaBrain</h1>
+        <p class="tagline">Games & Tests & Tools</p>
+        <p class="subtitle">중독성 게임, 심리테스트, 퀴즈 등 도파민 자극 콘텐츠</p>
+
+        <!-- Category quick links -->
+        <div class="quick-cats">
+            <a href="/portal/#quiz" class="quick-cat">🎮 게임</a>
+            <a href="/portal/#fortune" class="quick-cat">🔮 심리테스트</a>
+            <a href="/portal/#tool" class="quick-cat">🧮 도구</a>
+            <a href="/portal/#life" class="quick-cat">🧘 라이프</a>
+        </div>
+
+        <!-- Popular -->
+        <h2 class="section-title">🔥 인기 콘텐츠</h2>
+        <div class="app-grid">
+            <a href="/emoji-merge/" class="app-card" style="--c:#f4a261">
+                <div class="app-icon" style="background:linear-gradient(135deg,#f4a26133,#f4a26111)">🧬</div>
+                <div><div class="app-name">이모지 머지 <span class="badge-hot">HOT</span></div><div class="app-desc">이모지 진화 퍼즐</div></div>
+            </a>
+            <a href="/idle-clicker/" class="app-card" style="--c:#fbbf24">
+                <div class="app-icon" style="background:linear-gradient(135deg,#fbbf2433,#fbbf2411)">💰</div>
+                <div><div class="app-name">Idle Clicker <span class="badge-hot">HOT</span></div><div class="app-desc">방치형 클리커 경영</div></div>
+            </a>
+            <a href="/stack-tower/" class="app-card" style="--c:#3498db">
+                <div class="app-icon" style="background:linear-gradient(135deg,#3498db33,#3498db11)">🏗️</div>
+                <div><div class="app-name">Stack Tower</div><div class="app-desc">타이밍 블록 쌓기</div></div>
+            </a>
+            <a href="/emotion-temp/" class="app-card" style="--c:#e07a5f">
+                <div class="app-icon" style="background:linear-gradient(135deg,#e07a5f33,#e07a5f11)">🌡️</div>
+                <div><div class="app-name">감정 온도계 <span class="badge-hot">HOT</span></div><div class="app-desc">나의 감정 온도는?</div></div>
+            </a>
+            <a href="/mbti-love/" class="app-card" style="--c:#e74c3c">
+                <div class="app-icon" style="background:linear-gradient(135deg,#e74c3c33,#e74c3c11)">💕</div>
+                <div><div class="app-name">MBTI 연애 궁합</div><div class="app-desc">나의 연애 스타일은?</div></div>
+            </a>
+            <a href="/kpop-position/" class="app-card" style="--c:#ff2d78">
+                <div class="app-icon" style="background:linear-gradient(135deg,#ff2d7833,#ff2d7811)">🎤</div>
+                <div><div class="app-name">K-POP 포지션</div><div class="app-desc">나의 아이돌 포지션</div></div>
+            </a>
+            <a href="/sky-runner/" class="app-card" style="--c:#5f27cd">
+                <div class="app-icon" style="background:linear-gradient(135deg,#5f27cd33,#5f27cd11)">🚀</div>
+                <div><div class="app-name">Sky Runner</div><div class="app-desc">우주 비행 아케이드</div></div>
+            </a>
+            <a href="/past-life/" class="app-card" style="--c:#C9A96E">
+                <div class="app-icon" style="background:linear-gradient(135deg,#C9A96E33,#C9A96E11)">🗡️</div>
+                <div><div class="app-name">전생 직업 테스트</div><div class="app-desc">나의 전생은?</div></div>
+            </a>
+            <a href="/dream-fortune/" class="app-card" style="--c:#9b59b6">
+                <div class="app-icon" style="background:linear-gradient(135deg,#9b59b633,#9b59b611)">🔮</div>
+                <div><div class="app-name">꿈해몽 & 운세</div><div class="app-desc">AI 꿈 해석</div></div>
+            </a>
+        </div>
+
+        <a href="/portal/" class="cta-link">전체 23개 콘텐츠 보기 →</a>
+
+        <footer class="footer">
+            <p>© 2026 DopaBrain. All content is free.</p>
+            <p style="margin-top:8px"><a href="/portal/privacy-policy.html">개인정보처리방침</a></p>
+        </footer>
     </div>
 
     <!-- Google Analytics 4 -->
