@@ -314,11 +314,62 @@
         .footer a { color: #a5a0d0; text-decoration: none; }
         .footer a:hover { color: #c084fc; }
 
+        /* Stats Row */
+        .stats-row {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px;
+            margin-bottom: 36px;
+        }
+        .stat-box {
+            text-align: center;
+            padding: 16px 8px;
+            background: rgba(139,92,246,0.06);
+            border: 1px solid rgba(139,92,246,0.12);
+            border-radius: 16px;
+            transition: all 0.3s ease;
+        }
+        .stat-box:hover {
+            transform: translateY(-2px);
+            border-color: rgba(139,92,246,0.3);
+            box-shadow: 0 4px 16px rgba(139,92,246,0.12);
+        }
+        .stat-num {
+            font-size: 24px;
+            font-weight: 800;
+            background: linear-gradient(135deg, #c084fc, #22d3ee);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .stat-desc {
+            font-size: 11px;
+            color: #5a5580;
+            margin-top: 4px;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            text-align: center;
+            margin: 36px 0;
+            padding: 32px 20px;
+            background: rgba(139,92,246,0.05);
+            border: 1px solid rgba(139,92,246,0.12);
+            border-radius: 20px;
+        }
+        .cta-desc {
+            font-size: 14px;
+            color: #a5a0d0;
+            margin-bottom: 16px;
+        }
+
         /* Responsive */
         @media (max-width: 480px) {
             .app-grid { grid-template-columns: 1fr; }
             h1 { font-size: 32px; }
             .container { padding: 24px 16px 40px; }
+            .stats-row { grid-template-columns: repeat(2, 1fr); }
+            .stat-num { font-size: 20px; }
         }
         @media (min-width: 600px) {
             .app-grid { grid-template-columns: repeat(3, 1fr); }
@@ -367,11 +418,35 @@
             <a href="/portal/#life" class="quick-cat" data-i18n="categories.life">🧘 라이프</a>
         </div>
 
+        <!-- Stats Section -->
+        <div class="stats-row">
+            <div class="stat-box">
+                <div class="stat-num" id="stat-count">24+</div>
+                <div class="stat-desc" data-i18n="stats.content">무료 콘텐츠</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-num">5</div>
+                <div class="stat-desc" data-i18n="stats.categories">카테고리</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-num">100%</div>
+                <div class="stat-desc" data-i18n="stats.free">무료 이용</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-num">5</div>
+                <div class="stat-desc" data-i18n="stats.languages">지원 언어</div>
+            </div>
+        </div>
+
         <!-- Popular - dynamically loaded from app-data.js -->
         <h2 class="section-title" data-i18n="popular.title">🔥 인기 콘텐츠</h2>
         <div class="app-grid" id="app-grid"></div>
 
-        <a href="/portal/" class="cta-link" id="cta-link" data-i18n="cta.button">전체 콘텐츠 보기 →</a>
+        <!-- CTA Section -->
+        <div class="cta-section">
+            <p class="cta-desc" data-i18n="cta.desc">게임, 심리테스트, 퀴즈, 계산기 등 모든 콘텐츠를 만나보세요</p>
+            <a href="/portal/" class="cta-link" id="cta-link" data-i18n="cta.button">전체 콘텐츠 보기 →</a>
+        </div>
 
         <footer class="footer">
             <p data-i18n="footer.copyright">© 2026 DopaBrain. All content is free.</p>
@@ -387,10 +462,43 @@
 
     <!-- i18n Initialization and App Grid -->
     <script>
+    // Render app grid (global for language change re-render)
+    function renderAppGrid() {
+        if (typeof APP_DATA === 'undefined') return;
+
+        var grid = document.getElementById('app-grid');
+        var cta = document.getElementById('cta-link');
+        var lang = i18n.getCurrentLanguage();
+
+        var sorted = APP_DATA.slice().sort(function(a, b) {
+            if (a.isNew && !b.isNew) return -1;
+            if (!a.isNew && b.isNew) return 1;
+            if (a.isPopular && !b.isPopular) return -1;
+            if (!a.isPopular && b.isPopular) return 1;
+            return 0;
+        });
+
+        var items = sorted.slice(0, 12);
+        var html = '';
+        items.forEach(function(app) {
+            var badge = app.isNew ? '<span class="badge-hot">NEW</span>'
+                      : app.isPopular ? '<span class="badge-hot">HOT</span>' : '';
+            html += '<a href="' + app.url.replace('https://dopabrain.com', '') + '" class="app-card" style="--c:' + app.color + '">'
+                + '<div class="app-icon" style="background:linear-gradient(135deg,' + app.color + '33,' + app.color + '11)">' + app.icon + '</div>'
+                + '<div><div class="app-name">' + getAppName(app, lang) + ' ' + badge + '</div>'
+                + '<div class="app-desc">' + getAppDesc(app, lang) + '</div></div></a>';
+        });
+        grid.innerHTML = html;
+
+        var ctaText = i18n.t('cta.button');
+        cta.textContent = ctaText.replace('→', APP_DATA.length + ' →');
+    }
+
     // i18n initialization
     (async function initI18n() {
         await i18n.loadTranslations(i18n.getCurrentLanguage());
         i18n.updateUI();
+        renderAppGrid();
 
         var langToggle = document.getElementById('lang-toggle');
         var langMenu = document.getElementById('lang-menu');
@@ -415,48 +523,9 @@
                 langOptions.forEach(function(o) { o.classList.remove('active'); });
                 opt.classList.add('active');
                 langMenu.classList.add('hidden');
-
-                // Update CTA count
-                var cta = document.getElementById('cta-link');
-                if (typeof APP_DATA !== 'undefined' && cta) {
-                    var ctaText = i18n.t('cta.button');
-                    cta.textContent = ctaText.replace('→', APP_DATA.length + ' →');
-                }
+                renderAppGrid();
             });
         });
-    })();
-
-    // Render app grid
-    (function() {
-        if (typeof APP_DATA === 'undefined') return;
-
-        var grid = document.getElementById('app-grid');
-        var cta = document.getElementById('cta-link');
-
-        // NEW items first, then POPULAR, then rest - max 12 shown
-        var sorted = APP_DATA.slice().sort(function(a, b) {
-            if (a.isNew && !b.isNew) return -1;
-            if (!a.isNew && b.isNew) return 1;
-            if (a.isPopular && !b.isPopular) return -1;
-            if (!a.isPopular && b.isPopular) return 1;
-            return 0;
-        });
-
-        var items = sorted.slice(0, 12);
-        var html = '';
-        items.forEach(function(app) {
-            var badge = app.isNew ? '<span class="badge-hot">NEW</span>'
-                      : app.isPopular ? '<span class="badge-hot">HOT</span>' : '';
-            html += '<a href="' + app.url.replace('https://dopabrain.com', '') + '" class="app-card" style="--c:' + app.color + '">'
-                + '<div class="app-icon" style="background:linear-gradient(135deg,' + app.color + '33,' + app.color + '11)">' + app.icon + '</div>'
-                + '<div><div class="app-name">' + app.name + ' ' + badge + '</div>'
-                + '<div class="app-desc">' + app.shortDesc + '</div></div></a>';
-        });
-        grid.innerHTML = html;
-
-        // Update CTA count
-        var ctaText = i18n.t('cta.button');
-        cta.textContent = ctaText.replace('→', APP_DATA.length + ' →');
     })();
     </script>
 

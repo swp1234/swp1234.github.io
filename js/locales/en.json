@@ -13,10 +13,17 @@
     "tools": "🧮 Tools",
     "life": "🧘 Life"
   },
+  "stats": {
+    "content": "Free Content",
+    "categories": "Categories",
+    "free": "100% Free",
+    "languages": "Languages"
+  },
   "popular": {
     "title": "🔥 Popular Content"
   },
   "cta": {
+    "desc": "Explore all games, personality tests, quizzes, calculators and more",
     "button": "View All Content →"
   },
   "footer": {

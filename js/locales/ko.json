@@ -13,10 +13,17 @@
     "tools": "🧮 도구",
     "life": "🧘 라이프"
   },
+  "stats": {
+    "content": "무료 콘텐츠",
+    "categories": "카테고리",
+    "free": "무료 이용",
+    "languages": "지원 언어"
+  },
   "popular": {
     "title": "🔥 인기 콘텐츠"
   },
   "cta": {
+    "desc": "게임, 심리테스트, 퀴즈, 계산기 등 모든 콘텐츠를 만나보세요",
     "button": "전체 콘텐츠 보기 →"
   },
   "footer": {
