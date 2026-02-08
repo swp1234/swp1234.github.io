@@ -1,0 +1,33 @@
+{
+  "app": {
+    "title": "DopaBrain - Oyunlar, Sınavlar, Testler | Ücretsiz Online",
+    "description": "Bağımlayıcı oyunlar, kişilik testleri, sınavlar, hesaplayıcılar & daha fazlası! Anında oyna, kurulum gerekli değil."
+  },
+  "header": {
+    "tagline": "Oyunlar & Testler & Araçlar",
+    "subtitle": "Bağımlayıcı oyunlar, kişilik testleri, sınavlar & dopamin içeriği"
+  },
+  "categories": {
+    "games": "🎮 Oyunlar",
+    "tests": "🔮 Testler",
+    "tools": "🧮 Araçlar",
+    "life": "🧘 Yaşam"
+  },
+  "stats": {
+    "content": "Ücretsiz İçerik",
+    "categories": "Kategoriler",
+    "free": "%100 Ücretsiz",
+    "languages": "Diller"
+  },
+  "popular": {
+    "title": "🔥 Popüler İçerik"
+  },
+  "cta": {
+    "desc": "Tüm oyunları, kişilik testlerini, sınavları, hesaplayıcıları ve daha fazlasını keşfet",
+    "button": "Tüm İçeriği Görüntüle →"
+  },
+  "footer": {
+    "copyright": "© 2026 DopaBrain. Tüm içerik ücretsizdir.",
+    "privacy": "Gizlilik Politikası"
+  }
+}

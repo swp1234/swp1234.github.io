@@ -1,0 +1,33 @@
+{
+  "app": {
+    "title": "DopaBrain - Spiele, Quizze, Tests | Kostenlos Online",
+    "description": "Süchtig machende Spiele, Persönlichkeitstests, Quizze, Rechner & mehr! Sofort spielen, keine Installation erforderlich."
+  },
+  "header": {
+    "tagline": "Spiele & Tests & Werkzeuge",
+    "subtitle": "Süchtig machende Spiele, Persönlichkeitstests, Quizze & Dopamin-Inhalte"
+  },
+  "categories": {
+    "games": "🎮 Spiele",
+    "tests": "🔮 Tests",
+    "tools": "🧮 Werkzeuge",
+    "life": "🧘 Leben"
+  },
+  "stats": {
+    "content": "Kostenlose Inhalte",
+    "categories": "Kategorien",
+    "free": "100% Kostenlos",
+    "languages": "Sprachen"
+  },
+  "popular": {
+    "title": "🔥 Beliebte Inhalte"
+  },
+  "cta": {
+    "desc": "Erkunde alle Spiele, Persönlichkeitstests, Quizze, Rechner und mehr",
+    "button": "Alle Inhalte anzeigen →"
+  },
+  "footer": {
+    "copyright": "© 2026 DopaBrain. Alle Inhalte sind kostenlos.",
+    "privacy": "Datenschutzrichtlinie"
+  }
+}

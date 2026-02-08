@@ -1,0 +1,33 @@
+{
+  "app": {
+    "title": "DopaBrain - Juegos, Cuestionarios, Pruebas | Gratuito en Línea",
+    "description": "¡Juegos adictivos, pruebas de personalidad, cuestionarios, calculadoras y más! Juega instantáneamente, sin instalación necesaria."
+  },
+  "header": {
+    "tagline": "Juegos y Pruebas y Herramientas",
+    "subtitle": "Juegos adictivos, pruebas de personalidad, cuestionarios y contenido de dopamina"
+  },
+  "categories": {
+    "games": "🎮 Juegos",
+    "tests": "🔮 Pruebas",
+    "tools": "🧮 Herramientas",
+    "life": "🧘 Vida"
+  },
+  "stats": {
+    "content": "Contenido Gratuito",
+    "categories": "Categorías",
+    "free": "100% Gratuito",
+    "languages": "Idiomas"
+  },
+  "popular": {
+    "title": "🔥 Contenido Popular"
+  },
+  "cta": {
+    "desc": "Explora todos los juegos, pruebas de personalidad, cuestionarios, calculadoras y más",
+    "button": "Ver Todo Contenido →"
+  },
+  "footer": {
+    "copyright": "© 2026 DopaBrain. Todo el contenido es gratuito.",
+    "privacy": "Política de Privacidad"
+  }
+}
