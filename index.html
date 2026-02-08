@@ -323,6 +323,16 @@
         @media (min-width: 600px) {
             .app-grid { grid-template-columns: repeat(3, 1fr); }
         }
+
+        /* Language Selector */
+        .language-selector { position: fixed; top: 20px; right: 20px; z-index: 1000; }
+        .lang-btn { background: rgba(139,92,246,0.3); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border: 1px solid rgba(139,92,246,0.4); color: #fff; font-size: 20px; width: 44px; height: 44px; border-radius: 50%; cursor: pointer; transition: all 0.2s ease; }
+        .lang-btn:hover { background: rgba(139,92,246,0.5); transform: scale(1.05); }
+        .lang-menu { position: absolute; top: 52px; right: 0; background: rgba(3,0,20,0.95); backdrop-filter: blur(20px); border: 1px solid rgba(139,92,246,0.3); border-radius: 12px; padding: 8px; min-width: 150px; box-shadow: 0 8px 24px rgba(0,0,0,0.4); }
+        .lang-menu.hidden { display: none; }
+        .lang-option { width: 100%; padding: 10px 14px; background: transparent; border: none; text-align: left; cursor: pointer; border-radius: 8px; font-size: 14px; color: #a5a0d0; transition: background 0.2s; }
+        .lang-option:hover { background: rgba(139,92,246,0.2); color: #f0f0ff; }
+        .lang-option.active { background: rgba(139,92,246,0.3); font-weight: 600; color: #f0f0ff; }
     </style>
 </head>
 <body>
@@ -333,34 +343,90 @@
     </div>
 
     <div class="container">
+        <div class="language-selector">
+            <button id="lang-toggle" class="lang-btn" aria-label="Language">🌐</button>
+            <div id="lang-menu" class="lang-menu hidden">
+                <button class="lang-option" data-lang="ko">🇰🇷 한국어</button>
+                <button class="lang-option" data-lang="en">🇺🇸 English</button>
+                <button class="lang-option" data-lang="zh">🇨🇳 简体中文</button>
+                <button class="lang-option" data-lang="hi">🇮🇳 हिन्दी</button>
+                <button class="lang-option" data-lang="ru">🇷🇺 Русский</button>
+            </div>
+        </div>
+
         <div class="logo-icon">🧠</div>
         <h1>DopaBrain</h1>
-        <p class="tagline">Games & Tests & Tools</p>
-        <p class="subtitle">중독성 게임, 심리테스트, 퀴즈 등 도파민 자극 콘텐츠</p>
+        <p class="tagline" data-i18n="header.tagline">Games & Tests & Tools</p>
+        <p class="subtitle" data-i18n="header.subtitle">중독성 게임, 심리테스트, 퀴즈 등 도파민 자극 콘텐츠</p>
 
         <!-- Category quick links -->
         <div class="quick-cats">
-            <a href="/portal/#quiz" class="quick-cat">🎮 게임</a>
-            <a href="/portal/#fortune" class="quick-cat">🔮 심리테스트</a>
-            <a href="/portal/#tool" class="quick-cat">🧮 도구</a>
-            <a href="/portal/#life" class="quick-cat">🧘 라이프</a>
+            <a href="/portal/#quiz" class="quick-cat" data-i18n="categories.games">🎮 게임</a>
+            <a href="/portal/#fortune" class="quick-cat" data-i18n="categories.tests">🔮 심리테스트</a>
+            <a href="/portal/#tool" class="quick-cat" data-i18n="categories.tools">🧮 도구</a>
+            <a href="/portal/#life" class="quick-cat" data-i18n="categories.life">🧘 라이프</a>
         </div>
 
         <!-- Popular - dynamically loaded from app-data.js -->
-        <h2 class="section-title">🔥 인기 콘텐츠</h2>
+        <h2 class="section-title" data-i18n="popular.title">🔥 인기 콘텐츠</h2>
         <div class="app-grid" id="app-grid"></div>
 
-        <a href="/portal/" class="cta-link" id="cta-link">전체 콘텐츠 보기 →</a>
+        <a href="/portal/" class="cta-link" id="cta-link" data-i18n="cta.button">전체 콘텐츠 보기 →</a>
 
         <footer class="footer">
-            <p>© 2026 DopaBrain. All content is free.</p>
-            <p style="margin-top:8px"><a href="/portal/privacy-policy.html">개인정보처리방침</a></p>
+            <p data-i18n="footer.copyright">© 2026 DopaBrain. All content is free.</p>
+            <p style="margin-top:8px"><a href="/portal/privacy-policy.html" data-i18n="footer.privacy">개인정보처리방침</a></p>
         </footer>
     </div>
 
+    <!-- i18n Support -->
+    <script src="js/i18n.js"></script>
+
     <!-- App data from portal -->
     <script src="/portal/js/app-data.js"></script>
+
+    <!-- i18n Initialization and App Grid -->
     <script>
+    // i18n initialization
+    (async function initI18n() {
+        await i18n.loadTranslations(i18n.getCurrentLanguage());
+        i18n.updateUI();
+
+        var langToggle = document.getElementById('lang-toggle');
+        var langMenu = document.getElementById('lang-menu');
+        var langOptions = document.querySelectorAll('.lang-option');
+        var currentLangBtn = document.querySelector('[data-lang="' + i18n.getCurrentLanguage() + '"]');
+
+        if (currentLangBtn) currentLangBtn.classList.add('active');
+
+        langToggle.addEventListener('click', function() {
+            langMenu.classList.toggle('hidden');
+        });
+
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('.language-selector')) {
+                langMenu.classList.add('hidden');
+            }
+        });
+
+        langOptions.forEach(function(opt) {
+            opt.addEventListener('click', async function() {
+                await i18n.setLanguage(opt.getAttribute('data-lang'));
+                langOptions.forEach(function(o) { o.classList.remove('active'); });
+                opt.classList.add('active');
+                langMenu.classList.add('hidden');
+
+                // Update CTA count
+                var cta = document.getElementById('cta-link');
+                if (typeof APP_DATA !== 'undefined' && cta) {
+                    var ctaText = i18n.t('cta.button');
+                    cta.textContent = ctaText.replace('→', APP_DATA.length + ' →');
+                }
+            });
+        });
+    })();
+
+    // Render app grid
     (function() {
         if (typeof APP_DATA === 'undefined') return;
 
@@ -389,7 +455,8 @@
         grid.innerHTML = html;
 
         // Update CTA count
-        cta.textContent = '전체 ' + APP_DATA.length + '개 콘텐츠 보기 →';
+        var ctaText = i18n.t('cta.button');
+        cta.textContent = ctaText.replace('→', APP_DATA.length + ' →');
     })();
     </script>
 
