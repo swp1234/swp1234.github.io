@@ -459,6 +459,7 @@
 
     <!-- App data from portal -->
     <script src="/portal/js/app-data.js"></script>
+    <script src="/portal/js/personalize.js"></script>
 
     <!-- i18n Initialization and App Grid -->
     <script>
@@ -470,20 +471,29 @@
         var cta = document.getElementById('cta-link');
         var lang = i18n.getCurrentLanguage();
 
-        var sorted = APP_DATA.slice().sort(function(a, b) {
-            if (a.isNew && !b.isNew) return -1;
-            if (!a.isNew && b.isNew) return 1;
-            if (a.isPopular && !b.isPopular) return -1;
-            if (!a.isPopular && b.isPopular) return 1;
-            return 0;
-        });
+        var apps = APP_DATA.slice();
 
-        var items = sorted.slice(0, 12);
+        // Try personalized sort first
+        if (typeof Personalize !== 'undefined' && Personalize.hasData()) {
+            var scored = Personalize.scoreApps(apps);
+            if (scored) apps = scored;
+        } else {
+            // Default: isNew > isPopular
+            apps.sort(function(a, b) {
+                if (a.isNew && !b.isNew) return -1;
+                if (!a.isNew && b.isNew) return 1;
+                if (a.isPopular && !b.isPopular) return -1;
+                if (!a.isPopular && b.isPopular) return 1;
+                return 0;
+            });
+        }
+
+        var items = apps.slice(0, 12);
         var html = '';
         items.forEach(function(app) {
             var badge = app.isNew ? '<span class="badge-hot">NEW</span>'
                       : app.isPopular ? '<span class="badge-hot">HOT</span>' : '';
-            html += '<a href="' + app.url.replace('https://dopabrain.com', '') + '" class="app-card" style="--c:' + app.color + '">'
+            html += '<a href="' + app.url.replace('https://dopabrain.com', '') + '" class="app-card" data-id="' + app.id + '" style="--c:' + app.color + '">'
                 + '<div class="app-icon" style="background:linear-gradient(135deg,' + app.color + '33,' + app.color + '11)">' + app.icon + '</div>'
                 + '<div><div class="app-name">' + getAppName(app, lang) + ' ' + badge + '</div>'
                 + '<div class="app-desc">' + getAppDesc(app, lang) + '</div></div></a>';
@@ -493,6 +503,15 @@
         var ctaText = i18n.t('cta.button');
         cta.textContent = ctaText.replace('→', APP_DATA.length + ' →');
     }
+
+    // Click tracking for root-domain grid
+    document.addEventListener('click', function(e) {
+        var card = e.target.closest('.app-card');
+        if (card && card.dataset.id && typeof Personalize !== 'undefined') {
+            var app = APP_DATA.find(function(a) { return a.id === card.dataset.id; });
+            if (app) Personalize.trackClick(card.dataset.id, app.category);
+        }
+    });
 
     // i18n initialization
     (async function initI18n() {
