@@ -1,0 +1,46 @@
+# DopaBrain
+
+> Free online games, quizzes, psychological tests, and utility tools. No installation required.
+
+DopaBrain (dopabrain.com) provides 24+ free browser-based interactive content including casual games, personality tests, compatibility quizzes, and calculators.
+
+## Games
+- [Emoji Merge](https://dopabrain.com/emoji-merge/): 2048-style emoji evolution puzzle game
+- [Stack Tower](https://dopabrain.com/stack-tower/): Timing-based block stacking arcade game
+- [Sky Runner](https://dopabrain.com/sky-runner/): Endless space runner arcade game
+- [Zigzag Runner](https://dopabrain.com/zigzag-runner/): Direction-change arcade game
+- [Dungeon Clicker](https://dopabrain.com/idle-clicker/): Idle RPG dungeon clicker game
+
+## Personality & Compatibility Tests
+- [Valentine Compatibility Test](https://dopabrain.com/valentine/): Name stroke + zodiac + love type compatibility analysis
+- [MBTI Love Compatibility](https://dopabrain.com/mbti-love/): MBTI-based romantic compatibility test
+- [Love Frequency Test](https://dopabrain.com/love-frequency/): Discover your love frequency in Hz
+- [Emotion Temperature Test](https://dopabrain.com/emotion-temp/): Measure your emotional temperature
+- [HSP Sensitivity Test](https://dopabrain.com/hsp-test/): Highly Sensitive Person self-diagnosis
+- [K-POP Position Test](https://dopabrain.com/kpop-position/): Find your K-POP idol position
+- [Past Life Job Test](https://dopabrain.com/past-life/): Discover your past life occupation
+
+## Quizzes
+- [General Knowledge Quiz](https://dopabrain.com/quiz-app/): 100 adult-level trivia questions
+- [Developer Quiz](https://dopabrain.com/dev-quiz/): IT and coding knowledge quiz
+
+## Utility Tools
+- [Dream Fortune](https://dopabrain.com/dream-fortune/): AI dream interpretation and daily fortune
+- [Lottery Generator](https://dopabrain.com/lottery/): Korean Lotto number generator with analysis
+- [D-Day Counter](https://dopabrain.com/dday-counter/): Event countdown tracker
+- [Tax Refund Calculator](https://dopabrain.com/tax-refund-preview/): Korean year-end tax refund simulator
+- [Unit Converter](https://dopabrain.com/unit-converter/): Area, weight, temperature, volume converter
+- [Shopping Calculator](https://dopabrain.com/shopping-calc/): Global shopping with exchange rate and customs
+- [Digital Detox Timer](https://dopabrain.com/detox-timer/): Smartphone usage timer
+- [Daily Affirmation](https://dopabrain.com/affirmation/): Positive affirmation cards
+- [MBTI Tips](https://dopabrain.com/mbti-tips/): MBTI personality type guide
+- [White Noise Player](https://dopabrain.com/white-noise/): Ambient sounds for focus and sleep
+
+## Blog (Korean)
+- [Valentine Compatibility Guide](https://dopabrain.com/portal/blog/valentine-compatibility-guide.html)
+- [Lunar New Year Fortune 2026](https://dopabrain.com/portal/blog/lunar-new-year-fortune.html)
+- [Tax Refund Guide](https://dopabrain.com/portal/blog/tax-refund-guide.html)
+- [MBTI Compatibility Guide](https://dopabrain.com/portal/blog/mbti-compatibility.html)
+- [Lotto Strategy Guide](https://dopabrain.com/portal/blog/lotto-strategy.html)
+- [HSP Guide](https://dopabrain.com/portal/blog/hsp-guide.html)
+- [Pyeongsu Calculator](https://dopabrain.com/portal/blog/pyeongsu-calculator.html)

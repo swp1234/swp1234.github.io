@@ -1,0 +1,147 @@
+# DopaBrain - Complete Content Directory
+
+> DopaBrain (https://dopabrain.com) is a free online platform offering 24+ browser-based games, personality tests, quizzes, and utility tools. All content is free, requires no installation, and works on mobile and desktop.
+
+## About
+- Website: https://dopabrain.com
+- Portal: https://dopabrain.com/portal/
+- Language: Korean (primary), some content in English
+- Platform: Progressive Web Apps (PWA), works offline
+- Cost: Free
+
+---
+
+## Games (5)
+
+### Emoji Merge
+- URL: https://dopabrain.com/emoji-merge/
+- Type: Puzzle game (2048-style)
+- Description: Merge matching emojis to evolve them into new combinations. Strategic puzzle gameplay with progressive difficulty.
+
+### Stack Tower
+- URL: https://dopabrain.com/stack-tower/
+- Type: Arcade game
+- Description: Stack blocks with precise timing. Each level requires more accuracy. How high can you build?
+
+### Sky Runner
+- URL: https://dopabrain.com/sky-runner/
+- Type: Endless runner
+- Description: Navigate through space obstacles in this fast-paced endless runner arcade game.
+
+### Zigzag Runner
+- URL: https://dopabrain.com/zigzag-runner/
+- Type: Arcade game
+- Description: Change direction at the right moment to stay on the path. Simple controls, challenging gameplay.
+
+### Dungeon Clicker
+- URL: https://dopabrain.com/idle-clicker/
+- Type: Idle/Clicker RPG
+- Description: Click to defeat dungeon monsters, collect equipment upgrades from wooden sword to hero's blade. 10 equipment tiers.
+
+---
+
+## Personality & Compatibility Tests (7)
+
+### Valentine Compatibility Test
+- URL: https://dopabrain.com/valentine/
+- Type: Compatibility quiz
+- Description: Enter names and birthdays for two people, answer 5 love-style questions each. Analyzes name stroke compatibility, zodiac compatibility, and love type matching. Generates shareable result image.
+- Seasonal: Valentine's Day (February 14)
+
+### MBTI Love Compatibility
+- URL: https://dopabrain.com/mbti-love/
+- Type: Personality test
+- Description: Discover your MBTI-based romantic compatibility and love style.
+
+### Love Frequency Test
+- URL: https://dopabrain.com/love-frequency/
+- Type: Personality test
+- Description: Find your unique love frequency in Hz through personality questions. Includes audio frequency playback.
+
+### Emotion Temperature Test
+- URL: https://dopabrain.com/emotion-temp/
+- Type: Psychological test
+- Description: Measure your current emotional temperature through 10 questions. Visual thermometer result.
+
+### HSP Sensitivity Test
+- URL: https://dopabrain.com/hsp-test/
+- Type: Self-diagnosis test
+- Description: Highly Sensitive Person assessment. Discover your sensitivity level and get personalized tips.
+
+### K-POP Position Test
+- URL: https://dopabrain.com/kpop-position/
+- Type: Fun personality test
+- Description: Find out which K-POP idol position suits you - main vocalist, rapper, dancer, or visual.
+
+### Past Life Job Test
+- URL: https://dopabrain.com/past-life/
+- Type: Fun personality test
+- Description: Discover your past life occupation through 10 questions. 8 possible past life types with compatibility analysis.
+
+---
+
+## Quizzes (2)
+
+### General Knowledge Quiz
+- URL: https://dopabrain.com/quiz-app/
+- Type: Trivia quiz
+- Description: 100 adult-level general knowledge questions covering science, history, geography, culture, and more.
+
+### Developer Quiz
+- URL: https://dopabrain.com/dev-quiz/
+- Type: Technical quiz
+- Description: Test your IT and coding knowledge with programming-related questions.
+
+---
+
+## Utility Tools (10)
+
+### Dream Fortune & Daily Horoscope
+- URL: https://dopabrain.com/dream-fortune/
+- Type: Fortune/Entertainment
+- Description: AI-powered dream interpretation and daily fortune reading.
+
+### Lottery Number Generator
+- URL: https://dopabrain.com/lottery/
+- Type: Entertainment tool
+- Description: Korean Lotto (6/45) and pension lottery number generator with statistical analysis.
+
+### D-Day Counter
+- URL: https://dopabrain.com/dday-counter/
+- Type: Utility
+- Description: Track important dates with countdown/countup. Supports recurring events and categories.
+
+### Tax Refund Calculator
+- URL: https://dopabrain.com/tax-refund-preview/
+- Type: Financial calculator
+- Description: Korean year-end tax settlement simulator. Estimate your tax refund based on income and deductions.
+
+### Unit Converter Pro
+- URL: https://dopabrain.com/unit-converter/
+- Type: Utility
+- Description: Convert between units of area (pyeong), weight, temperature, volume, and more.
+
+### Global Shopping Calculator
+- URL: https://dopabrain.com/shopping-calc/
+- Type: Financial calculator
+- Description: Calculate total cost of overseas purchases including exchange rate, customs duty, and tips.
+
+### Digital Detox Timer
+- URL: https://dopabrain.com/detox-timer/
+- Type: Wellness tool
+- Description: Set smartphone usage goals and track your digital detox progress.
+
+### Daily Affirmation Cards
+- URL: https://dopabrain.com/affirmation/
+- Type: Wellness
+- Description: Receive daily positive affirmation messages for motivation and mental wellness.
+
+### MBTI Personality Tips
+- URL: https://dopabrain.com/mbti-tips/
+- Type: Reference
+- Description: Comprehensive MBTI personality type guide with compatibility information.
+
+### White Noise Player
+- URL: https://dopabrain.com/white-noise/
+- Type: Audio tool
+- Description: Ambient sound player for focus, study, and sleep. Multiple nature and white noise tracks.
