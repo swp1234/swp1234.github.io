@@ -40,16 +40,60 @@
   <url><loc>https://dopabrain.com/portal/blog/en/personality-tests.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://dopabrain.com/portal/blog/en/free-games.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://dopabrain.com/portal/blog/en/valentine-guide.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/en/habit-building.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/en/sleep-science.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/en/digital-detox.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/en/decision-making.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <!-- Chinese Blog Posts -->
   <url><loc>https://dopabrain.com/portal/blog/zh/personality-tests.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://dopabrain.com/portal/blog/zh/free-games.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://dopabrain.com/portal/blog/zh/love-compatibility.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/zh/emotion-management.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/zh/focus-methods.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/zh/sleep-guide.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/zh/relationship-tips.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <!-- Russian Blog Posts -->
   <url><loc>https://dopabrain.com/portal/blog/ru/personality-tests.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://dopabrain.com/portal/blog/ru/free-games.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://dopabrain.com/portal/blog/ru/love-compatibility.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/ru/stress-management.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/ru/digital-detox.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/ru/habit-psychology.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/ru/sleep-science.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <!-- Hindi Blog Posts -->
   <url><loc>https://dopabrain.com/portal/blog/hi/personality-tests.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://dopabrain.com/portal/blog/hi/free-games.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://dopabrain.com/portal/blog/hi/love-compatibility.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/hi/meditation-guide.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/hi/stress-management.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/hi/healthy-habits.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/hi/career-mindset.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <!-- Japanese Blog Posts -->
+  <url><loc>https://dopabrain.com/portal/blog/ja/personality-tests.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/ja/free-games.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/ja/blood-type-personality.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <!-- Spanish Blog Posts -->
+  <url><loc>https://dopabrain.com/portal/blog/es/personality-tests.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/es/free-games.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/es/love-compatibility.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <!-- Portuguese Blog Posts -->
+  <url><loc>https://dopabrain.com/portal/blog/pt/personality-tests.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/pt/free-games.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/pt/self-care-guide.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <!-- Indonesian Blog Posts -->
+  <url><loc>https://dopabrain.com/portal/blog/id/personality-tests.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/id/free-games.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/id/zodiac-ramalan.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <!-- Turkish Blog Posts -->
+  <url><loc>https://dopabrain.com/portal/blog/tr/personality-tests.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/tr/free-games.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/tr/kisisel-gelisim.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <!-- German Blog Posts -->
+  <url><loc>https://dopabrain.com/portal/blog/de/personality-tests.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/de/free-games.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/de/produktivitaet.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <!-- French Blog Posts -->
+  <url><loc>https://dopabrain.com/portal/blog/fr/personality-tests.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/fr/free-games.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://dopabrain.com/portal/blog/fr/bien-etre.html</loc><lastmod>2026-02-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
