@@ -244,6 +244,53 @@
             animation: gradientShift 4s ease infinite;
             margin-bottom: 6px;
         }
+
+        .hero-title {
+            position: relative;
+            display: inline-block;
+        }
+
+        .hero-pulse {
+            animation: brainPulseGlow 3s ease-in-out infinite, bobbing 2s ease-in-out infinite;
+        }
+
+        @keyframes brainPulseGlow {
+            0%, 100% { filter: drop-shadow(0 0 12px rgba(139, 92, 246, 0.6)); }
+            50% { filter: drop-shadow(0 0 24px rgba(6, 182, 212, 0.8)) drop-shadow(0 0 48px rgba(139, 92, 246, 0.4)); }
+        }
+
+        @keyframes bobbing {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-4px); }
+        }
+
+        /* Brand Essence */
+        .brand-essence {
+            margin: 20px 0;
+            padding: 16px 20px;
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(6, 182, 212, 0.08));
+            border: 1px solid rgba(139, 92, 246, 0.2);
+            border-radius: 12px;
+            animation: slideUpEssence 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) 0.15s backwards;
+        }
+
+        @keyframes slideUpEssence {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .essence-text {
+            font-size: 13px;
+            color: #a5a0d0;
+            line-height: 1.6;
+            text-align: center;
+            margin: 0;
+        }
+
+        .essence-text strong {
+            color: #c084fc;
+            font-weight: 600;
+        }
         @keyframes gradientShift { 0%,100% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } }
 
         .tagline {
@@ -504,10 +551,16 @@
             </div>
         </div>
 
-        <div class="logo-icon">🧠</div>
-        <h1>DopaBrain</h1>
+        <div class="logo-icon hero-pulse">🧠</div>
+        <h1 class="hero-title">DopaBrain</h1>
         <p class="tagline" data-i18n="header.tagline">Games & Tests & Tools</p>
         <p class="subtitle" data-i18n="header.subtitle">중독성 게임, 심리테스트, 퀴즈 등 도파민 자극 콘텐츠</p>
+
+        <!-- Brand Essence -->
+        <div class="brand-essence">
+            <p class="essence-text">DopaBrain은 <strong>설치 없는 엔터테인먼트</strong>의 신세계입니다.<br>
+            심리테스트에서 게임까지, 즉시 즐기고 순간에 공유하세요.</p>
+        </div>
 
         <!-- Top picks - static above-the-fold CTA (visible before JS loads) -->
         <div class="top-picks">
