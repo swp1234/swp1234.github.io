@@ -527,13 +527,22 @@
         /* Responsive */
         @media (max-width: 480px) {
             .app-grid { grid-template-columns: 1fr; }
-            h1 { font-size: 32px; }
+            h1 { font-size: 40px; }
+            .logo-icon { font-size: 60px; }
             .container { padding: 24px 16px 40px; }
-            .stats-row { grid-template-columns: repeat(2, 1fr); }
-            .stat-num { font-size: 20px; }
+            .stats-row { grid-template-columns: repeat(2, 1fr); padding: 18px 12px; gap: 10px; }
+            .stat-num { font-size: 24px; }
+            .subtitle { font-size: 16px; }
+            .top-picks { flex-direction: column; gap: 8px; }
+            .pick-card { width: 100%; justify-content: center; }
+            .quick-cats { gap: 8px; }
+            .quick-cat { flex: 1; min-width: 0; }
         }
         @media (min-width: 600px) {
             .app-grid { grid-template-columns: repeat(3, 1fr); }
+        }
+        @media (max-width: 640px) {
+            .stats-row { margin: 0 -20px 40px -20px; padding: 20px 16px; border-radius: 16px; }
         }
 
         /* Language Selector */
@@ -580,8 +589,8 @@
 
         <!-- Brand Essence -->
         <div class="brand-essence">
-            <p class="essence-text">DopaBrain은 <strong>설치 없는 엔터테인먼트</strong>의 신세계입니다.<br>
-            심리테스트에서 게임까지, 즉시 즐기고 순간에 공유하세요.</p>
+            <p class="essence-text"><strong>설치 없이 바로 즐기는</strong> 무료 게임, 심리테스트, 퀴즈<br>
+            도파민 자극 콘텐츠 플랫폼 DopaBrain</p>
         </div>
 
         <!-- Top picks - static above-the-fold CTA (visible before JS loads) -->
