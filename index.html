@@ -252,6 +252,29 @@
         }
         .subtitle { font-size: 15px; color: #5a5580; margin-bottom: 32px; }
 
+        /* Top picks (static above-the-fold) */
+        .top-picks {
+            display: flex; gap: 8px; flex-wrap: wrap;
+            justify-content: center; margin-bottom: 24px;
+        }
+        .pick-card {
+            padding: 10px 16px;
+            background: linear-gradient(135deg, rgba(139,92,246,0.12), rgba(6,182,212,0.08));
+            border: 1px solid rgba(139,92,246,0.2);
+            border-radius: 12px;
+            color: #e0d8ff; font-size: 13px; font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            min-height: 40px; display: flex; align-items: center;
+        }
+        .pick-card:hover {
+            background: linear-gradient(135deg, rgba(139,92,246,0.25), rgba(6,182,212,0.15));
+            border-color: rgba(139,92,246,0.45);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 16px rgba(139,92,246,0.2);
+            color: #fff;
+        }
+
         /* Category quick links */
         .quick-cats {
             display: flex; gap: 10px; justify-content: center;
@@ -402,6 +425,36 @@
             margin-bottom: 16px;
         }
 
+        /* Site Directory (static SEO links) */
+        .site-directory {
+            margin-top: 36px; padding: 24px 20px;
+            background: rgba(139,92,246,0.03);
+            border: 1px solid rgba(139,92,246,0.08);
+            border-radius: 16px;
+            text-align: left;
+        }
+        .dir-title {
+            font-size: 13px; font-weight: 600;
+            color: #5a5580; margin-bottom: 12px;
+            text-transform: uppercase; letter-spacing: 1px;
+        }
+        .dir-grid {
+            display: flex; flex-wrap: wrap; gap: 6px 12px;
+            margin-bottom: 12px;
+        }
+        .dir-grid a, .dir-blogs a {
+            font-size: 12px; color: #7a75a0;
+            text-decoration: none;
+            transition: color 0.2s;
+            padding: 2px 0;
+        }
+        .dir-grid a:hover, .dir-blogs a:hover { color: #c084fc; }
+        .dir-blogs {
+            display: flex; flex-wrap: wrap; gap: 6px 12px;
+            padding-top: 10px;
+            border-top: 1px solid rgba(139,92,246,0.08);
+        }
+
         /* Responsive */
         @media (max-width: 480px) {
             .app-grid { grid-template-columns: 1fr; }
@@ -456,6 +509,16 @@
         <p class="tagline" data-i18n="header.tagline">Games & Tests & Tools</p>
         <p class="subtitle" data-i18n="header.subtitle">중독성 게임, 심리테스트, 퀴즈 등 도파민 자극 콘텐츠</p>
 
+        <!-- Top picks - static above-the-fold CTA (visible before JS loads) -->
+        <div class="top-picks">
+            <a href="/mbti-love/" class="pick-card">🔮 MBTI 연애 궁합</a>
+            <a href="/emotion-temp/" class="pick-card">🌡️ 감정 온도계</a>
+            <a href="/idle-clicker/" class="pick-card">⚔️ 던전 클리커</a>
+            <a href="/hsp-test/" class="pick-card">🧠 HSP 테스트</a>
+            <a href="/stack-tower/" class="pick-card">🏗️ Stack Tower</a>
+            <a href="/past-life/" class="pick-card">🏛️ 전생 테스트</a>
+        </div>
+
         <!-- Category quick links -->
         <div class="quick-cats">
             <a href="/portal/#quiz" class="quick-cat" data-i18n="categories.games">🎮 게임</a>
@@ -467,7 +530,7 @@
         <!-- Stats Section -->
         <div class="stats-row">
             <div class="stat-box">
-                <div class="stat-num" id="stat-count">24+</div>
+                <div class="stat-num" id="stat-count">25+</div>
                 <div class="stat-desc" data-i18n="stats.content">무료 콘텐츠</div>
             </div>
             <div class="stat-box">
@@ -479,7 +542,7 @@
                 <div class="stat-desc" data-i18n="stats.free">무료 이용</div>
             </div>
             <div class="stat-box">
-                <div class="stat-num">5</div>
+                <div class="stat-num">12</div>
                 <div class="stat-desc" data-i18n="stats.languages">지원 언어</div>
             </div>
         </div>
@@ -493,6 +556,45 @@
             <p class="cta-desc" data-i18n="cta.desc">게임, 심리테스트, 퀴즈, 계산기 등 모든 콘텐츠를 만나보세요</p>
             <a href="/portal/" class="cta-link" id="cta-link" data-i18n="cta.button">전체 콘텐츠 보기 →</a>
         </div>
+
+        <!-- Static site directory for SEO crawlability -->
+        <nav class="site-directory" aria-label="All content">
+            <h3 class="dir-title">All Content</h3>
+            <div class="dir-grid">
+                <a href="/quiz-app/">상식 퀴즈</a>
+                <a href="/shopping-calc/">해외쇼핑 계산기</a>
+                <a href="/detox-timer/">디지털 디톡스</a>
+                <a href="/dream-fortune/">꿈해몽·운세</a>
+                <a href="/affirmation/">오늘의 확언</a>
+                <a href="/lottery/">로또 번호 생성기</a>
+                <a href="/dday-counter/">D-Day 카운터</a>
+                <a href="/mbti-tips/">MBTI 꿀팁</a>
+                <a href="/white-noise/">백색소음</a>
+                <a href="/dev-quiz/">개발자 퀴즈</a>
+                <a href="/tax-refund-preview/">연말정산 미리보기</a>
+                <a href="/unit-converter/">단위 변환기</a>
+                <a href="/sky-runner/">Sky Runner</a>
+                <a href="/emotion-temp/">감정 온도계</a>
+                <a href="/mbti-love/">MBTI 연애 궁합</a>
+                <a href="/hsp-test/">HSP 테스트</a>
+                <a href="/love-frequency/">사랑 주파수</a>
+                <a href="/stack-tower/">Stack Tower</a>
+                <a href="/kpop-position/">K-POP 포지션</a>
+                <a href="/emoji-merge/">이모지 머지</a>
+                <a href="/zigzag-runner/">Zigzag Runner</a>
+                <a href="/past-life/">전생 테스트</a>
+                <a href="/idle-clicker/">던전 클리커</a>
+                <a href="/valentine/">발렌타인 궁합</a>
+            </div>
+            <div class="dir-blogs">
+                <a href="/portal/blog/mbti-compatibility.html">MBTI 궁합 가이드</a>
+                <a href="/portal/blog/psychology-test-best.html">심리테스트 추천</a>
+                <a href="/portal/blog/tax-refund-guide.html">연말정산 가이드</a>
+                <a href="/portal/blog/idle-clicker-strategy.html">클리커 공략</a>
+                <a href="/portal/blog/emotion-management-guide.html">감정 관리 가이드</a>
+                <a href="/portal/blog/lunar-new-year-fortune.html">설날 운세</a>
+            </div>
+        </nav>
 
         <footer class="footer">
             <p data-i18n="footer.copyright">© 2026 DopaBrain. All content is free.</p>
