@@ -217,6 +217,7 @@
     </script>
 
     <style>
+        /* Critical CSS - Inline to prevent FOUC */
         *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
@@ -226,6 +227,12 @@
             min-height: 100vh;
             overflow-x: hidden;
             -webkit-font-smoothing: antialiased;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        body.visible {
+            opacity: 1;
         }
 
         /* Background orbs */
@@ -812,6 +819,13 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-J8GSWM40TV');
+    </script>
+
+    <!-- Show page content once DOM is ready (prevent FOUC) -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.classList.add('visible');
+        });
     </script>
 </body>
 </html>
