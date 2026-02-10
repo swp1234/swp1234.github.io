@@ -573,6 +573,10 @@
             .quick-cats { gap: 8px; }
             .quick-cat { flex: 1; min-width: 0; }
         }
+        @media (prefers-reduced-motion: reduce) {
+            .bg-orb, .logo-icon, h1, .hero-pulse { animation: none !important; }
+            .bg-orb { opacity: 0.15; }
+        }
         @media (min-width: 600px) {
             .app-grid { grid-template-columns: repeat(3, 1fr); }
         }
@@ -648,7 +652,7 @@
         <!-- Stats Section -->
         <div class="stats-row">
             <div class="stat-box">
-                <div class="stat-num" id="stat-count">25+</div>
+                <div class="stat-num" id="stat-count">60+</div>
                 <div class="stat-desc" data-i18n="stats.content">무료 콘텐츠</div>
             </div>
             <div class="stat-box">
@@ -763,6 +767,12 @@
                 <a href="/portal/blog/stress-relief-tools-2026.html">스트레스 해소법</a>
                 <a href="/portal/blog/2026-online-games-trend.html">2026 온라인 게임 트렌드</a>
                 <a href="/portal/blog/valentine-compatibility-test-2026.html">발렌타인 궁합</a>
+                <a href="/portal/blog/en/emotional-temperature-test-guide.html">Emotional Temperature Guide</a>
+                <a href="/portal/blog/en/what-your-favorite-color-says-about-you.html">Color Personality Guide</a>
+                <a href="/portal/blog/en/15-signs-highly-sensitive-person.html">15 Signs of HSP</a>
+                <a href="/portal/blog/en/kpop-positions-explained-guide.html">K-Pop Positions Guide</a>
+                <a href="/portal/blog/en/flappy-bird-strategy-tips-2026.html">Flappy Bird Strategy</a>
+                <a href="/portal/blog/en/spirit-animal-personality-quiz.html">Spirit Animal Quiz</a>
             </div>
         </nav>
 
@@ -875,6 +885,12 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-J8GSWM40TV');
+    </script>
+
+    <script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js').catch(() => {});
+    }
     </script>
 
     <!-- Show page content once DOM is ready (prevent FOUC) + safety timeout -->

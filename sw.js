@@ -1,10 +1,8 @@
 // 루트 도메인 - Service Worker
-const CACHE_NAME = 'root-domain-v1';
+const CACHE_NAME = 'root-domain-v2';
 const urlsToCache = [
     './',
     './index.html',
-    './css/style.css',
-    './js/app.js',
     './js/i18n.js',
     './manifest.json',
     './icon-192.svg',
@@ -32,24 +30,14 @@ self.addEventListener('install', (event) => {
     self.skipWaiting();
 });
 
-// Fetch
+// Fetch - Network first, fall back to cache
 self.addEventListener('fetch', (event) => {
     event.respondWith(
-        caches.match(event.request)
-            .then((response) => {
-                if (response) {
-                    // Cache hit - return cached version, but also fetch update
-                    fetch(event.request).then(fetchResponse => {
-                        if (fetchResponse && fetchResponse.status === 200) {
-                            caches.open(CACHE_NAME).then(cache => {
-                                cache.put(event.request, fetchResponse);
-                            });
-                        }
-                    }).catch(() => {});
-                    return response;
-                }
-                return fetch(event.request);
-            })
+        fetch(event.request).then(r => {
+            const c = r.clone();
+            caches.open(CACHE_NAME).then(cache => cache.put(event.request, c));
+            return r;
+        }).catch(() => caches.match(event.request))
     );
 });
 
