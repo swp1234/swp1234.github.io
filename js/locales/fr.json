@@ -1,15 +1,18 @@
 {
   "app": {
-    "title": "DopaBrain - Jeux, Quiz, Tests | Gratuit en Ligne",
-    "description": "Jeux addictifs, tests de personnalité, quiz, calculatrices & plus! Joue instantanément, pas d'installation nécessaire."
+    "title": "DopaBrain - Jeux Gratuits, Tests de Personnalité et Quiz",
+    "description": "Jeux de navigateur gratuits, tests de personnalité, quiz cérébraux et outils pratiques. Sans installation !"
   },
   "header": {
-    "tagline": "Play • Think • Feel",
-    "subtitle": "Jeux gratuits, tests de personnalité, quiz — sans installation"
+    "tagline": "Games & Tests & Tools",
+    "subtitle": "Jeux addictifs, tests de personnalité, quiz et contenus qui boostent votre dopamine"
+  },
+  "brand": {
+    "essence": "<strong>Sans installation, jouez maintenant</strong> — jeux gratuits, tests de personnalité & quiz<br>DopaBrain, votre plateforme de contenus qui booste la dopamine."
   },
   "categories": {
     "games": "🎮 Jeux",
-    "tests": "🔮 Tests",
+    "tests": "🔮 Personnalité",
     "tools": "🧮 Outils",
     "life": "🧘 Vie"
   },
@@ -20,10 +23,10 @@
     "languages": "Langues"
   },
   "popular": {
-    "title": "🔥 Contenu Populaire"
+    "title": "🔥 Populaire"
   },
   "cta": {
-    "desc": "Explore tous les jeux, tests de personnalité, quiz, calculatrices et plus",
+    "desc": "Découvrez tous les jeux, tests de personnalité, quiz, calculateurs et plus encore",
     "button": "Voir Tout le Contenu →"
   },
   "footer": {

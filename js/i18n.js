@@ -50,7 +50,12 @@ class I18n {
 
     updateUI() {
         document.querySelectorAll('[data-i18n]').forEach(el => {
-            el.textContent = this.t(el.getAttribute('data-i18n'));
+            const val = this.t(el.getAttribute('data-i18n'));
+            if (val !== el.getAttribute('data-i18n')) el.textContent = val;
+        });
+        document.querySelectorAll('[data-i18n-html]').forEach(el => {
+            const val = this.t(el.getAttribute('data-i18n-html'));
+            if (val !== el.getAttribute('data-i18n-html')) el.innerHTML = val;
         });
         document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
             el.placeholder = this.t(el.getAttribute('data-i18n-placeholder'));

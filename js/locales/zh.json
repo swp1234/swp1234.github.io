@@ -1,15 +1,18 @@
 {
   "app": {
-    "title": "DopaBrain - 游戏、测验、心理测试 | 免费在线",
-    "description": "上瘾游戏、心理测试、测验、计算器等丰富免费内容！无需安装，即刻体验。"
+    "title": "DopaBrain - 免费游戏、性格测试与趣味问答",
+    "description": "免费浏览器游戏、性格测试、脑力问答和实用工具，无需安装，即开即玩！"
   },
   "header": {
-    "tagline": "Play • Think • Feel",
-    "subtitle": "免费游戏、心理测试、测验 — 无需安装，随处可玩"
+    "tagline": "Games & Tests & Tools",
+    "subtitle": "上瘾游戏、性格测试、趣味问答等多巴胺满满的内容"
+  },
+  "brand": {
+    "essence": "<strong>无需安装，即刻畅玩</strong>免费游戏、性格测试与趣味问答<br>DopaBrain，你的多巴胺内容平台"
   },
   "categories": {
     "games": "🎮 游戏",
-    "tests": "🔮 测试",
+    "tests": "🔮 性格测试",
     "tools": "🧮 工具",
     "life": "🧘 生活"
   },
@@ -23,11 +26,11 @@
     "title": "🔥 热门内容"
   },
   "cta": {
-    "desc": "探索游戏、心理测试、测验、计算器等所有内容",
+    "desc": "探索全部游戏、性格测试、趣味问答、计算工具等精彩内容",
     "button": "查看全部内容 →"
   },
   "footer": {
-    "copyright": "© 2026 DopaBrain. 所有内容免费。",
+    "copyright": "© 2026 DopaBrain. 所有内容均免费。",
     "privacy": "隐私政策"
   },
   "languages": {

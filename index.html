@@ -621,8 +621,7 @@
 
         <!-- Brand Essence -->
         <div class="brand-essence">
-            <p class="essence-text"><strong>설치 없이 바로 즐기는</strong> 무료 게임, 심리테스트, 퀴즈<br>
-            도파민 자극 콘텐츠 플랫폼 DopaBrain</p>
+            <p class="essence-text" data-i18n-html="brand.essence"><strong>설치 없이 바로 즐기는</strong> 무료 게임, 심리테스트, 퀴즈<br>도파민 자극 콘텐츠 플랫폼 DopaBrain</p>
         </div>
 
         <!-- Top picks - static above-the-fold CTA (visible before JS loads) -->
@@ -665,7 +664,21 @@
 
         <!-- Popular - dynamically loaded from app-data.js -->
         <h2 class="section-title" data-i18n="popular.title">🔥 인기 콘텐츠</h2>
-        <div class="app-grid" id="app-grid"></div>
+        <div class="app-grid" id="app-grid">
+            <!-- Static fallback cards (replaced by JS when app-data.js loads) -->
+            <a href="/mbti-love/" class="app-card" style="--c:#e91e63"><div class="app-icon" style="background:linear-gradient(135deg,#e91e6333,#e91e6311)">💕</div><div><div class="app-name">MBTI Love Match</div><div class="app-desc">MBTI compatibility test</div></div></a>
+            <a href="/idle-clicker/" class="app-card" style="--c:#e74c3c"><div class="app-icon" style="background:linear-gradient(135deg,#e74c3c33,#e74c3c11)">⚔️</div><div><div class="app-name">Dungeon Clicker</div><div class="app-desc">Idle RPG adventure</div></div></a>
+            <a href="/stack-tower/" class="app-card" style="--c:#06b6d4"><div class="app-icon" style="background:linear-gradient(135deg,#06b6d433,#06b6d411)">🏗️</div><div><div class="app-name">Stack Tower</div><div class="app-desc">Tower stacking game</div></div></a>
+            <a href="/puzzle-2048/" class="app-card" style="--c:#f39c12"><div class="app-icon" style="background:linear-gradient(135deg,#f39c1233,#f39c1211)">🔢</div><div><div class="app-name">2048 Puzzle</div><div class="app-desc">Number puzzle game</div></div></a>
+            <a href="/emotion-temp/" class="app-card" style="--c:#00b894"><div class="app-icon" style="background:linear-gradient(135deg,#00b89433,#00b89411)">🌡️</div><div><div class="app-name">Emotion Temp</div><div class="app-desc">Emotional thermometer</div></div></a>
+            <a href="/past-life/" class="app-card" style="--c:#9b59b6"><div class="app-icon" style="background:linear-gradient(135deg,#9b59b633,#9b59b611)">🏛️</div><div><div class="app-name">Past Life Test</div><div class="app-desc">Discover your past life</div></div></a>
+            <a href="/hsp-test/" class="app-card" style="--c:#8b5cf6"><div class="app-icon" style="background:linear-gradient(135deg,#8b5cf633,#8b5cf611)">🧠</div><div><div class="app-name">HSP Test</div><div class="app-desc">Sensitivity test</div></div></a>
+            <a href="/zigzag-runner/" class="app-card" style="--c:#1abc9c"><div class="app-icon" style="background:linear-gradient(135deg,#1abc9c33,#1abc9c11)">🏃</div><div><div class="app-name">Zigzag Runner</div><div class="app-desc">Endless runner game</div></div></a>
+            <a href="/brain-type/" class="app-card" style="--c:#667eea"><div class="app-icon" style="background:linear-gradient(135deg,#667eea33,#667eea11)">🧬</div><div><div class="app-name">Brain Type Test</div><div class="app-desc">8 brain types analysis</div></div></a>
+            <a href="/reaction-test/" class="app-card" style="--c:#f472b6"><div class="app-icon" style="background:linear-gradient(135deg,#f472b633,#f472b611)">⚡</div><div><div class="app-name">Reaction Test</div><div class="app-desc">Speed reaction test</div></div></a>
+            <a href="/flappy-bird/" class="app-card" style="--c:#27ae60"><div class="app-icon" style="background:linear-gradient(135deg,#27ae6033,#27ae6011)">🐦</div><div><div class="app-name">Flappy Bird</div><div class="app-desc">Classic flying game</div></div></a>
+            <a href="/snake-game/" class="app-card" style="--c:#2c3e50"><div class="app-icon" style="background:linear-gradient(135deg,#2c3e5033,#2c3e5011)">🐍</div><div><div class="app-name">Snake Game</div><div class="app-desc">Classic snake game</div></div></a>
+        </div>
 
         <!-- CTA Section -->
         <div class="cta-section">
@@ -759,15 +772,15 @@
     <!-- i18n Support -->
     <script src="js/i18n.js"></script>
 
-    <!-- App data from portal -->
-    <script src="/portal/js/app-data.js"></script>
-    <script src="/portal/js/personalize.js"></script>
+    <!-- App data from portal (with error handling) -->
+    <script src="/portal/js/app-data.js" onerror="window._appDataFailed=true"></script>
+    <script src="/portal/js/personalize.js" onerror="void 0"></script>
 
     <!-- i18n Initialization and App Grid -->
     <script>
     // Render app grid (global for language change re-render)
     function renderAppGrid() {
-        if (typeof APP_DATA === 'undefined') return;
+        if (typeof APP_DATA === 'undefined' || typeof getAppName !== 'function') return;
 
         var grid = document.getElementById('app-grid');
         var cta = document.getElementById('cta-link');
@@ -780,7 +793,6 @@
             var scored = Personalize.scoreApps(apps);
             if (scored) apps = scored;
         } else {
-            // Default: isNew > isPopular
             apps.sort(function(a, b) {
                 if (a.isNew && !b.isNew) return -1;
                 if (!a.isNew && b.isNew) return 1;
@@ -809,7 +821,7 @@
     // Click tracking for root-domain grid
     document.addEventListener('click', function(e) {
         var card = e.target.closest('.app-card');
-        if (card && card.dataset.id && typeof Personalize !== 'undefined') {
+        if (card && card.dataset.id && typeof Personalize !== 'undefined' && typeof APP_DATA !== 'undefined') {
             var app = APP_DATA.find(function(a) { return a.id === card.dataset.id; });
             if (app) Personalize.trackClick(card.dataset.id, app.category);
         }
@@ -817,8 +829,11 @@
 
     // i18n initialization
     (async function initI18n() {
-        await i18n.loadTranslations(i18n.getCurrentLanguage());
-        i18n.updateUI();
+        try {
+            await i18n.loadTranslations(i18n.getCurrentLanguage());
+            i18n.updateUI();
+        } catch(e) { /* i18n failed - static Korean text remains visible */ }
+
         renderAppGrid();
 
         var langToggle = document.getElementById('lang-toggle');
@@ -859,11 +874,12 @@
         gtag('config', 'G-J8GSWM40TV');
     </script>
 
-    <!-- Show page content once DOM is ready (prevent FOUC) -->
+    <!-- Show page content once DOM is ready (prevent FOUC) + safety timeout -->
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            document.body.classList.add('visible');
-        });
+        function showPage() { document.body.classList.add('visible'); }
+        if (document.readyState !== 'loading') { showPage(); }
+        else { document.addEventListener('DOMContentLoaded', showPage); }
+        setTimeout(showPage, 1500);
     </script>
 </body>
 </html>

@@ -1,17 +1,20 @@
 {
   "app": {
-    "title": "DopaBrain - Game, Kuis, Tes | Gratis Online",
-    "description": "Game yang adiktif, tes kepribadian, kuis, kalkulator & lainnya! Mainkan secara instan, tanpa perlu instalasi."
+    "title": "DopaBrain - Game Gratis, Tes Kepribadian & Kuis",
+    "description": "Game browser gratis, tes kepribadian, kuis otak & alat praktis. Tanpa instalasi, langsung main!"
   },
   "header": {
-    "tagline": "Play • Think • Feel",
-    "subtitle": "Game gratis, tes kepribadian, kuis — mainkan tanpa instalasi"
+    "tagline": "Games & Tests & Tools",
+    "subtitle": "Game seru, tes kepribadian, kuis & konten pemicu dopamin"
+  },
+  "brand": {
+    "essence": "<strong>Tanpa instal, langsung main</strong> — game gratis, tes kepribadian & kuis<br>DopaBrain, platform konten pemicu dopaminmu."
   },
   "categories": {
     "games": "🎮 Game",
-    "tests": "🔮 Tes",
+    "tests": "🔮 Kepribadian",
     "tools": "🧮 Alat",
-    "life": "🧘 Gaya Hidup"
+    "life": "🧘 Kehidupan"
   },
   "stats": {
     "content": "Konten Gratis",
@@ -20,10 +23,10 @@
     "languages": "Bahasa"
   },
   "popular": {
-    "title": "🔥 Konten Populer"
+    "title": "🔥 Populer"
   },
   "cta": {
-    "desc": "Jelajahi semua game, tes kepribadian, kuis, kalkulator dan lainnya",
+    "desc": "Jelajahi semua game, tes kepribadian, kuis, kalkulator & lainnya",
     "button": "Lihat Semua Konten →"
   },
   "footer": {

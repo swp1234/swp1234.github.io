@@ -1,15 +1,18 @@
 {
   "app": {
-    "title": "DopaBrain - Oyunlar, Sınavlar, Testler | Ücretsiz Online",
-    "description": "Bağımlayıcı oyunlar, kişilik testleri, sınavlar, hesaplayıcılar & daha fazlası! Anında oyna, kurulum gerekli değil."
+    "title": "DopaBrain - Ücretsiz Oyunlar, Kişilik Testleri ve Quizler",
+    "description": "Ücretsiz tarayıcı oyunları, kişilik testleri, beyin quizleri ve kullanışlı araçlar. Kurulum gerektirmez!"
   },
   "header": {
-    "tagline": "Play • Think • Feel",
-    "subtitle": "Ücretsiz oyunlar, kişilik testleri, sınavlar — kurulum gerekmez"
+    "tagline": "Games & Tests & Tools",
+    "subtitle": "Bağımlılık yapan oyunlar, kişilik testleri, quizler ve dopamin yüklü içerikler"
+  },
+  "brand": {
+    "essence": "<strong>Kurulum gerektirmez, hemen oyna</strong> — ücretsiz oyunlar, kişilik testleri & quizler<br>DopaBrain, dopamininizi artıran içerik platformu."
   },
   "categories": {
     "games": "🎮 Oyunlar",
-    "tests": "🔮 Testler",
+    "tests": "🔮 Kişilik",
     "tools": "🧮 Araçlar",
     "life": "🧘 Yaşam"
   },
@@ -20,14 +23,14 @@
     "languages": "Diller"
   },
   "popular": {
-    "title": "🔥 Popüler İçerik"
+    "title": "🔥 Popüler"
   },
   "cta": {
-    "desc": "Tüm oyunları, kişilik testlerini, sınavları, hesaplayıcıları ve daha fazlasını keşfet",
-    "button": "Tüm İçeriği Görüntüle →"
+    "desc": "Tüm oyunları, kişilik testlerini, quizleri, hesaplayıcıları ve daha fazlasını keşfedin",
+    "button": "Tüm İçerikleri Görüntüle →"
   },
   "footer": {
-    "copyright": "© 2026 DopaBrain. Tüm içerik ücretsizdir.",
+    "copyright": "© 2026 DopaBrain. Tüm içerikler ücretsizdir.",
     "privacy": "Gizlilik Politikası"
   },
   "languages": {

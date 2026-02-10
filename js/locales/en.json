@@ -1,15 +1,18 @@
 {
   "app": {
-    "title": "DopaBrain - Games, Quizzes, Tests | Free Online",
-    "description": "Addictive games, personality tests, quizzes, calculators & more! Play instantly, no install needed."
+    "title": "DopaBrain - Free Online Games, Personality Tests & Quizzes",
+    "description": "Play free browser games, personality tests, brain quizzes & handy tools. No install needed!"
   },
   "header": {
-    "tagline": "Play • Think • Feel",
-    "subtitle": "Free games, personality tests & quizzes — instant play, no install needed"
+    "tagline": "Games & Tests & Tools",
+    "subtitle": "Addictive games, personality tests, quizzes & dopamine-boosting content"
+  },
+  "brand": {
+    "essence": "<strong>Play instantly, no install needed</strong> — free games, personality tests & quizzes<br>DopaBrain, your dopamine-boosting content platform."
   },
   "categories": {
     "games": "🎮 Games",
-    "tests": "🔮 Tests",
+    "tests": "🔮 Personality",
     "tools": "🧮 Tools",
     "life": "🧘 Life"
   },
@@ -20,10 +23,10 @@
     "languages": "Languages"
   },
   "popular": {
-    "title": "🔥 Popular Content"
+    "title": "🔥 Popular"
   },
   "cta": {
-    "desc": "Explore all games, personality tests, quizzes, calculators and more",
+    "desc": "Explore all games, personality tests, quizzes, calculators & more",
     "button": "View All Content →"
   },
   "footer": {

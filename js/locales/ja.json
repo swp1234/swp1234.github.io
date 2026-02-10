@@ -1,30 +1,33 @@
 {
   "app": {
-    "title": "DopaBrain - ゲーム、クイズ、テスト | 無料オンライン",
-    "description": "中毒性のあるゲーム、性格テスト、クイズ、計算機など！すぐにプレイ、インストール不要。"
+    "title": "DopaBrain - 無料ゲーム・性格診断・クイズ",
+    "description": "無料のブラウザゲーム、性格診断、脳トレクイズ、便利ツールが勢揃い。インストール不要ですぐ遊べます！"
   },
   "header": {
-    "tagline": "Play • Think • Feel",
-    "subtitle": "無料ゲーム、心理テスト、クイズ — インストール不要ですぐにプレイ"
+    "tagline": "Games & Tests & Tools",
+    "subtitle": "ハマるゲーム、性格診断、クイズなどドーパミン全開コンテンツ"
+  },
+  "brand": {
+    "essence": "<strong>インストール不要、今すぐ遊べる</strong>無料ゲーム・性格診断・クイズ<br>ドーパミン全開コンテンツプラットフォーム DopaBrain"
   },
   "categories": {
     "games": "🎮 ゲーム",
-    "tests": "🔮 テスト",
+    "tests": "🔮 性格診断",
     "tools": "🧮 ツール",
-    "life": "🧘 ライフスタイル"
+    "life": "🧘 ライフ"
   },
   "stats": {
     "content": "無料コンテンツ",
     "categories": "カテゴリー",
-    "free": "100%無料",
-    "languages": "言語"
+    "free": "完全無料",
+    "languages": "対応言語"
   },
   "popular": {
     "title": "🔥 人気コンテンツ"
   },
   "cta": {
-    "desc": "すべてのゲーム、性格テスト、クイズ、計算機など多数のコンテンツを探索してください",
-    "button": "すべてのコンテンツを表示 →"
+    "desc": "ゲーム、性格診断、クイズ、計算ツールなど全コンテンツをチェック",
+    "button": "すべてのコンテンツを見る →"
   },
   "footer": {
     "copyright": "© 2026 DopaBrain. すべてのコンテンツは無料です。",
