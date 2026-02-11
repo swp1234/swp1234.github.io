@@ -27,7 +27,8 @@
   },
   "cta": {
     "desc": "Explore all games, personality tests, quizzes, calculators & more",
-    "button": "View All Content →"
+    "button": "View All Content →",
+    "explore": "Explore 60+ Free Content →"
   },
   "footer": {
     "copyright": "© 2026 DopaBrain. All content is free.",

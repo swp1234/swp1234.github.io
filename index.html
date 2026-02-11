@@ -227,12 +227,6 @@
             min-height: 100vh;
             overflow-x: hidden;
             -webkit-font-smoothing: antialiased;
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-
-        body.visible {
-            opacity: 1;
         }
 
         /* Background orbs */
@@ -331,7 +325,19 @@
             font-size: 14px; color: #06b6d4; font-weight: 700;
             letter-spacing: 4px; text-transform: uppercase; margin-bottom: 16px;
         }
-        .subtitle { font-size: 18px; color: #a5a0d0; margin-bottom: 28px; font-weight: 500; line-height: 1.5; }
+        .subtitle { font-size: 18px; color: #a5a0d0; margin-bottom: 20px; font-weight: 500; line-height: 1.5; }
+
+        /* Hero CTA */
+        .hero-cta {
+            margin-bottom: 32px;
+            font-size: 18px;
+            padding: 18px 48px;
+            animation: ctaPulse 2.5s ease-in-out infinite;
+        }
+        @keyframes ctaPulse {
+            0%, 100% { box-shadow: 0 6px 24px rgba(139,92,246,0.35); }
+            50% { box-shadow: 0 8px 36px rgba(139,92,246,0.55), 0 0 20px rgba(6,182,212,0.25); }
+        }
 
         /* Top picks (static above-the-fold) */
         .top-picks {
@@ -657,10 +663,8 @@
         <p class="tagline" data-i18n="header.tagline">Games & Tests & Tools</p>
         <p class="subtitle" data-i18n="header.subtitle">중독성 게임, 심리테스트, 퀴즈 등 도파민 자극 콘텐츠</p>
 
-        <!-- Brand Essence -->
-        <div class="brand-essence">
-            <p class="essence-text" data-i18n-html="brand.essence"><strong>설치 없이 바로 즐기는</strong> 무료 게임, 심리테스트, 퀴즈<br>도파민 자극 콘텐츠 플랫폼 DopaBrain</p>
-        </div>
+        <!-- Hero CTA - visible above the fold without scrolling -->
+        <a href="/portal/" class="cta-link hero-cta" data-i18n="cta.explore">60+ 무료 콘텐츠 둘러보기 →</a>
 
         <!-- Top picks - static above-the-fold CTA (visible before JS loads) -->
         <div class="top-picks">
@@ -924,12 +928,5 @@
     }
     </script>
 
-    <!-- Show page content once DOM is ready (prevent FOUC) + safety timeout -->
-    <script>
-        function showPage() { document.body.classList.add('visible'); }
-        if (document.readyState !== 'loading') { showPage(); }
-        else { document.addEventListener('DOMContentLoaded', showPage); }
-        setTimeout(showPage, 1500);
-    </script>
 </body>
 </html>

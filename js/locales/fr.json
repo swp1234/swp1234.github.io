@@ -27,7 +27,8 @@
   },
   "cta": {
     "desc": "Découvrez tous les jeux, tests de personnalité, quiz, calculateurs et plus encore",
-    "button": "Voir Tout le Contenu →"
+    "button": "Voir Tout le Contenu →",
+    "explore": "Découvrir 60+ contenus gratuits →"
   },
   "footer": {
     "copyright": "© 2026 DopaBrain. Tout le contenu est gratuit.",

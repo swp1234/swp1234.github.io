@@ -27,7 +27,8 @@
   },
   "cta": {
     "desc": "Entdecken Sie alle Spiele, Persönlichkeitstests, Quizze, Rechner und mehr",
-    "button": "Alle Inhalte ansehen →"
+    "button": "Alle Inhalte ansehen →",
+    "explore": "60+ kostenlose Inhalte entdecken →"
   },
   "footer": {
     "copyright": "© 2026 DopaBrain. Alle Inhalte sind kostenlos.",
