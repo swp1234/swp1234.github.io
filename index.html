@@ -633,16 +633,20 @@
         [data-theme="light"] .lang-option { color: #5a4a70; }
         [data-theme="light"] .lang-option:hover { background: rgba(139, 92, 246, 0.1); color: #1a1028; }
         [data-theme="light"] .lang-option.active { background: rgba(139, 92, 246, 0.15); color: #1a1028; }
+        /* Skip Link */
+        .skip-link { position:absolute; top:-40px; left:0; background:#8b5cf6; color:#fff; padding:8px 16px; z-index:10001; transition:top 0.3s; font-size:14px; text-decoration:none; }
+        .skip-link:focus { top:0; }
     </style>
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to content</a>
     <div class="bg-effects">
         <div class="bg-orb bg-orb-1"></div>
         <div class="bg-orb bg-orb-2"></div>
         <div class="bg-orb bg-orb-3"></div>
     </div>
 
-    <div class="container">
+    <div class="container" id="main-content">
         <div class="language-selector">
             <button id="lang-toggle" class="lang-btn" aria-label="Language">🌐</button>
             <div id="lang-menu" class="lang-menu hidden">
