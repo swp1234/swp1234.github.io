@@ -222,6 +222,40 @@
     }
     </script>
 
+    <!-- Schema.org - FAQPage for Featured Snippets -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is DopaBrain?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "DopaBrain is a free online platform with 60+ browser games, personality tests, brain quizzes, and utility tools. Play 2048, Minesweeper, Flappy Bird, take MBTI compatibility tests, blood type personality quizzes, and use tools like BMI calculator, QR code generator, and Pomodoro timer — all free, no install needed."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is DopaBrain really free?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, all 60+ games, tests, and tools on DopaBrain are completely free. No signup, no download, no hidden fees. Just open your browser and start playing. Works on PC, mobile, and tablet."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What languages does DopaBrain support?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "DopaBrain supports 12 languages: English, Korean, Japanese, Chinese, Hindi, Russian, Spanish, Portuguese, Indonesian, Turkish, German, and French. The language is auto-detected from your browser settings."
+                }
+            }
+        ]
+    }
+    </script>
+
     <style>
         /* ===== RESET & TOKENS ===== */
         *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
@@ -1187,6 +1221,7 @@
         navigator.serviceWorker.register('sw.js').catch(() => {});
     }
     </script>
+    <script src="/portal/js/cross-promo.js" defer></script>
 
 </body>
 </html>
