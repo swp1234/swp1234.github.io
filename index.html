@@ -921,6 +921,7 @@
 </head>
 <body>
     <a href="#main-content" class="skip-link">Skip to content</a>
+    <div id="app-loader" style="position:fixed;top:0;left:0;width:100%;height:100%;background:#0a0118;display:flex;align-items:center;justify-content:center;z-index:10000;transition:opacity .3s"><div style="text-align:center"><div style="font-size:64px">🧠</div><div style="color:#a5a0d0;font-size:14px;margin-top:12px">Loading...</div></div></div>
 
     <div class="bg-aurora"></div>
     <div class="bg-dots"></div>
@@ -1253,6 +1254,7 @@
     }
     </script>
     <script src="/portal/js/cross-promo.js" defer></script>
+    <script>try{var l=document.getElementById('app-loader');if(l){l.style.opacity='0';setTimeout(function(){l.style.display='none'},300)}}catch(e){var l2=document.getElementById('app-loader');if(l2)l2.style.display='none'}</script>
 
 </body>
 </html>
