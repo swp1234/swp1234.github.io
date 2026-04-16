@@ -28,7 +28,9 @@
   "cta": {
     "desc": "Explore todos os jogos, testes de personalidade, quizzes, calculadoras e mais",
     "button": "Ver Todo o Conteúdo →",
-    "explore": "Explore 60+ conteúdos grátis →"
+    "explore": "Explore 60+ conteúdos grátis →",
+    "primary": "Comece com MBTI e amor ?",
+    "secondary": "Ver todo o conte?do"
   },
   "footer": {
     "copyright": "© 2026 DopaBrain. Todo o conteúdo é gratuito.",
@@ -50,5 +52,20 @@
     "fr": "🇫🇷 Français",
     "hi": "🇮🇳 हिन्दी",
     "ru": "🇷🇺 Русский"
+  },
+  "startHere": {
+    "label": "Comece aqui",
+    "title": "Melhores primeiros cliques",
+    "desc": "V? direto para as p?ginas onde as pessoas realmente ficam.",
+    "mbtiKicker": "Hub MBTI",
+    "mbtiTitle": "Comece com MBTI e amor",
+    "mbtiDesc": "Abra primeiro o hub mais forte para testes de relacionamento.",
+    "brainKicker": "Quiz cerebral",
+    "brainTitle": "Abrir Brain Type Test",
+    "brainDesc": "Leve as pessoas para um dos quizzes com melhor reten??o.",
+    "eqKicker": "Caminho premium",
+    "eqTitle": "Fazer EQ Test",
+    "eqDesc": "Entre direto no funil de intelig?ncia emocional.",
+    "cardCta": "Abrir agora"
   }
 }

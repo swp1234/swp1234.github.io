@@ -471,6 +471,152 @@
             padding: 18px 48px;
         }
 
+        .hero-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 26px;
+        }
+
+        .hero-actions .hero-cta {
+            margin-bottom: 0;
+        }
+
+        .cta-secondary {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 52px;
+            padding: 16px 28px;
+            border-radius: 100px;
+            border: 1px solid rgba(255,255,255,0.1);
+            background: rgba(255,255,255,0.04);
+            color: var(--text);
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 700;
+            transition: all 0.3s var(--ease);
+        }
+
+        .cta-secondary:hover {
+            transform: translateY(-2px);
+            background: rgba(255,255,255,0.08);
+            border-color: rgba(255,255,255,0.16);
+        }
+
+        .start-here {
+            margin-bottom: 34px;
+            padding: 22px;
+            background: var(--glass);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            text-align: left;
+        }
+
+        .start-here-copy {
+            margin-bottom: 16px;
+            text-align: center;
+        }
+
+        .start-here-label {
+            font-size: 11px;
+            font-weight: 800;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--neon-amber);
+            margin-bottom: 8px;
+        }
+
+        .start-here-title {
+            font-family: 'Syne', sans-serif;
+            font-size: 24px;
+            font-weight: 800;
+            margin-bottom: 8px;
+        }
+
+        .start-here-desc {
+            font-size: 14px;
+            color: var(--text-dim);
+            line-height: 1.65;
+            max-width: 580px;
+            margin: 0 auto;
+        }
+
+        .start-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 12px;
+        }
+
+        .start-card {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            min-height: 170px;
+            padding: 18px;
+            background: color-mix(in srgb, var(--start, var(--neon-purple)) 10%, rgba(255,255,255,0.02));
+            border: 1px solid color-mix(in srgb, var(--start, var(--neon-purple)) 22%, rgba(255,255,255,0.06));
+            border-radius: 20px;
+            color: var(--text);
+            text-decoration: none;
+            transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease), border-color 0.3s var(--ease);
+        }
+
+        .start-card:hover {
+            transform: translateY(-4px);
+            border-color: color-mix(in srgb, var(--start, var(--neon-purple)) 46%, rgba(255,255,255,0.18));
+            box-shadow: 0 16px 40px color-mix(in srgb, var(--start, var(--neon-purple)) 16%, transparent);
+        }
+
+        .start-card-icon {
+            width: 52px;
+            height: 52px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 16px;
+            font-size: 26px;
+            background: rgba(255,255,255,0.12);
+            border: 1px solid rgba(255,255,255,0.08);
+        }
+
+        .start-card-text {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            flex: 1;
+        }
+
+        .start-card-kicker {
+            font-size: 11px;
+            font-weight: 800;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: color-mix(in srgb, var(--start, var(--neon-purple)) 80%, white);
+        }
+
+        .start-card-name {
+            font-size: 18px;
+            font-weight: 800;
+            line-height: 1.3;
+        }
+
+        .start-card-desc {
+            font-size: 13px;
+            line-height: 1.6;
+            color: var(--text-dim);
+        }
+
+        .start-card-cta {
+            font-size: 13px;
+            font-weight: 700;
+            color: color-mix(in srgb, var(--start, var(--neon-purple)) 78%, white);
+        }
+
         /* ===== TOP PICKS ===== */
         .top-picks {
             display: flex;
@@ -845,6 +991,13 @@
             .app-grid { grid-template-columns: 1fr; }
             .stats-row { grid-template-columns: repeat(2, 1fr); padding: 16px 12px; gap: 10px; }
             .stat-num { font-size: 24px; }
+            .hero-actions { flex-direction: column; }
+            .hero-actions .hero-cta,
+            .hero-actions .cta-secondary { width: 100%; }
+            .start-here { padding: 18px 16px; margin-bottom: 28px; }
+            .start-here-title { font-size: 22px; }
+            .start-grid { grid-template-columns: 1fr; }
+            .start-card { min-height: 0; }
             .top-picks { flex-direction: column; gap: 8px; margin-bottom: 28px; }
             .pick-card { width: 100%; justify-content: center; padding: 14px 20px; font-size: 15px; }
             .quick-cats { gap: 8px; }
@@ -888,6 +1041,11 @@
         [data-theme="light"] .stat-desc { color: var(--text-dim); }
         [data-theme="light"] .cta-desc { color: var(--text-dim); }
         [data-theme="light"] .cta-link { color: #1a1028; }
+        [data-theme="light"] .cta-secondary { background: rgba(0,0,0,0.03); border-color: rgba(0,0,0,0.08); color: var(--text); }
+        [data-theme="light"] .cta-secondary:hover { background: rgba(0,0,0,0.06); }
+        [data-theme="light"] .start-here { background: rgba(0,0,0,0.02); border-color: rgba(0,0,0,0.06); }
+        [data-theme="light"] .start-card { background: color-mix(in srgb, var(--start, var(--neon-purple)) 7%, white); }
+        [data-theme="light"] .start-card-icon { background: rgba(0,0,0,0.04); border-color: rgba(0,0,0,0.06); }
         [data-theme="light"] .dir-grid a, [data-theme="light"] .dir-blogs a { color: var(--text-dim); }
         [data-theme="light"] .dir-grid a:hover, [data-theme="light"] .dir-blogs a:hover { color: #0891b2; }
         [data-theme="light"] .footer { color: var(--text-dim); border-color: rgba(0,0,0,0.06); }
@@ -953,22 +1111,62 @@
         <p class="tagline hero-anim" style="--d:2" data-i18n="header.tagline">Games & Tests & Tools</p>
         <p class="subtitle hero-anim" style="--d:3" data-i18n="header.subtitle">중독성 게임, 심리테스트, 퀴즈 등 도파민 자극 콘텐츠</p>
 
-        <a href="/portal/" class="cta-link hero-cta hero-anim" style="--d:4" data-i18n="cta.explore">100+ 무료 테스트 & 게임 →</a>
-
-        <div class="top-picks hero-anim" style="--d:5" id="top-picks">
-            <a href="/eq-test/" class="pick-card" data-app="eq-test" data-emoji="🎭" style="--accent:#00bcd4">🎭 EQ Test</a>
-            <a href="/stress-response/" class="pick-card" data-app="stress-response" data-emoji="⚡" style="--accent:#6366f1">⚡ Stress Response</a>
-            <a href="/burnout-test/" class="pick-card" data-app="burnout-test" data-emoji="🔥" style="--accent:#ef4444">🔥 Burnout Test</a>
-            <a href="/anxiety-type/" class="pick-card" data-app="anxiety-type" data-emoji="🌊" style="--accent:#10b981">🌊 Anxiety Type</a>
-            <a href="/hsp-test/" class="pick-card" data-app="hsp-test" data-emoji="🧠" style="--accent:#a855f7">🧠 HSP Test</a>
-            <a href="/attachment-style/" class="pick-card" data-app="attachment-style" data-emoji="💔" style="--accent:#ec4899">💔 Attachment Style</a>
+        <div class="hero-actions hero-anim" style="--d:4">
+            <a href="/portal/mbti/" class="cta-link hero-cta" id="hero-primary-cta" data-root-event="root_cta_click" data-root-surface="hero_primary_mbti" data-i18n="cta.primary">Start with MBTI & Love →</a>
+            <a href="/portal/" class="cta-secondary" id="hero-secondary-cta" data-root-event="root_cta_click" data-root-surface="hero_secondary_portal" data-i18n="cta.secondary">Browse all content</a>
         </div>
 
-        <div class="quick-cats hero-anim" style="--d:6">
-            <a href="/portal/tests/" class="quick-cat" style="--cat:#a855f7" data-i18n="categories.tests">🔮 심리테스트</a>
-            <a href="/portal/games/" class="quick-cat" style="--cat:#00e5ff" data-i18n="categories.games">🎮 게임</a>
-            <a href="/portal/mbti/" class="quick-cat" style="--cat:#ff2d78" data-i18n="categories.mbti">💜 MBTI</a>
-            <a href="/portal/blog/en/" class="quick-cat" style="--cat:#ffb800" data-i18n="categories.blog">📖 Blog</a>
+        <section class="start-here hero-anim" style="--d:5" id="start-here">
+            <div class="start-here-copy">
+                <p class="start-here-label" data-i18n="startHere.label">Start Here</p>
+                <h2 class="start-here-title" data-i18n="startHere.title">Best First Clicks</h2>
+                <p class="start-here-desc" data-i18n="startHere.desc">Jump straight into the pages people actually stay on.</p>
+            </div>
+            <div class="start-grid">
+                <a href="/portal/mbti/" class="start-card" style="--start:#ff2d78" data-root-event="root_cta_click" data-root-surface="hero_start_mbti">
+                    <span class="start-card-icon">💞</span>
+                    <span class="start-card-text">
+                        <span class="start-card-kicker" data-i18n="startHere.mbtiKicker">MBTI Hub</span>
+                        <strong class="start-card-name" data-i18n="startHere.mbtiTitle">Start with MBTI & Love</strong>
+                        <span class="start-card-desc" data-i18n="startHere.mbtiDesc">Open the strongest relationship-friendly hub first.</span>
+                    </span>
+                    <span class="start-card-cta" data-i18n="startHere.cardCta">Open now</span>
+                </a>
+                <a href="/brain-type/" class="start-card" style="--start:#00e5ff" data-root-event="root_cta_click" data-root-surface="hero_start_brain_type">
+                    <span class="start-card-icon">🧠</span>
+                    <span class="start-card-text">
+                        <span class="start-card-kicker" data-i18n="startHere.brainKicker">Brain Quiz</span>
+                        <strong class="start-card-name" data-i18n="startHere.brainTitle">Open Brain Type Test</strong>
+                        <span class="start-card-desc" data-i18n="startHere.brainDesc">Send visitors into one of the highest-retention solo quizzes.</span>
+                    </span>
+                    <span class="start-card-cta" data-i18n="startHere.cardCta">Open now</span>
+                </a>
+                <a href="/eq-test/" class="start-card" style="--start:#00bcd4" data-root-event="root_cta_click" data-root-surface="hero_start_eq_test">
+                    <span class="start-card-icon">🎭</span>
+                    <span class="start-card-text">
+                        <span class="start-card-kicker" data-i18n="startHere.eqKicker">Premium Path</span>
+                        <strong class="start-card-name" data-i18n="startHere.eqTitle">Take EQ Test</strong>
+                        <span class="start-card-desc" data-i18n="startHere.eqDesc">Move straight into the emotional-intelligence funnel.</span>
+                    </span>
+                    <span class="start-card-cta" data-i18n="startHere.cardCta">Open now</span>
+                </a>
+            </div>
+        </section>
+
+        <div class="top-picks hero-anim" style="--d:6" id="top-picks">
+            <a href="/eq-test/" class="pick-card" data-root-event="root_pick_click" data-root-surface="hero_top_pick" data-app="eq-test" data-emoji="🎭" style="--accent:#00bcd4">🎭 EQ Test</a>
+            <a href="/stress-response/" class="pick-card" data-root-event="root_pick_click" data-root-surface="hero_top_pick" data-app="stress-response" data-emoji="⚡" style="--accent:#6366f1">⚡ Stress Response</a>
+            <a href="/burnout-test/" class="pick-card" data-root-event="root_pick_click" data-root-surface="hero_top_pick" data-app="burnout-test" data-emoji="🔥" style="--accent:#ef4444">🔥 Burnout Test</a>
+            <a href="/anxiety-type/" class="pick-card" data-root-event="root_pick_click" data-root-surface="hero_top_pick" data-app="anxiety-type" data-emoji="🌊" style="--accent:#10b981">🌊 Anxiety Type</a>
+            <a href="/hsp-test/" class="pick-card" data-root-event="root_pick_click" data-root-surface="hero_top_pick" data-app="hsp-test" data-emoji="🧠" style="--accent:#a855f7">🧠 HSP Test</a>
+            <a href="/attachment-style/" class="pick-card" data-root-event="root_pick_click" data-root-surface="hero_top_pick" data-app="attachment-style" data-emoji="💔" style="--accent:#ec4899">💔 Attachment Style</a>
+        </div>
+
+        <div class="quick-cats hero-anim" style="--d:7">
+            <a href="/portal/tests/" class="quick-cat" data-root-event="root_cta_click" data-root-surface="quick_cat_tests" style="--cat:#a855f7" data-i18n="categories.tests">🔮 심리테스트</a>
+            <a href="/portal/games/" class="quick-cat" data-root-event="root_cta_click" data-root-surface="quick_cat_games" style="--cat:#00e5ff" data-i18n="categories.games">🎮 게임</a>
+            <a href="/portal/mbti/" class="quick-cat" data-root-event="root_cta_click" data-root-surface="quick_cat_mbti" style="--cat:#ff2d78" data-i18n="categories.mbti">💜 MBTI</a>
+            <a href="/portal/blog/en/" class="quick-cat" data-root-event="root_cta_click" data-root-surface="quick_cat_blog" style="--cat:#ffb800" data-i18n="categories.blog">📖 Blog</a>
         </div>
 
         <div class="stats-row reveal">
@@ -1008,7 +1206,7 @@
 
         <div class="cta-section reveal">
             <p class="cta-desc" data-i18n="cta.desc">게임, 심리테스트, 퀴즈, 계산기 등 모든 콘텐츠를 만나보세요</p>
-            <a href="/portal/" class="cta-link" id="cta-link" data-i18n="cta.button">전체 콘텐츠 보기 →</a>
+            <a href="/portal/" class="cta-link" id="cta-link" data-root-event="root_cta_click" data-root-surface="midpage_portal" data-i18n="cta.button">전체 콘텐츠 보기 →</a>
         </div>
 
         <nav class="site-directory reveal" aria-label="All content">
@@ -1113,15 +1311,24 @@
 
     <!-- i18n Initialization and App Grid -->
     <script>
-    // Render app grid (global for language change re-render)
+    var rootViewTracked = false;
+
+    function trackRootEvent(name, params) {
+        if (typeof gtag !== 'function') return;
+        var payload = Object.assign({ event_category: 'root_domain' }, params || {});
+        gtag('event', name, payload);
+    }
+
     function renderAppGrid() {
         if (typeof APP_DATA === 'undefined' || typeof getAppName !== 'function') return;
 
         var grid = document.getElementById('app-grid');
+        if (!grid) return;
+
         var cta = document.getElementById('cta-link');
         var lang = i18n.getCurrentLanguage();
-
         var apps = APP_DATA.slice();
+
         apps.sort(function(a, b) {
             var popDiff = (b.popularity || 0) - (a.popularity || 0);
             if (popDiff !== 0) return popDiff;
@@ -1132,61 +1339,94 @@
 
         var items = apps.slice(0, 12);
         var html = '';
-        items.forEach(function(app) {
+        items.forEach(function(app, index) {
             var badge = app.isNew ? '<span class="badge-hot">NEW</span>'
                       : app.isPopular ? '<span class="badge-hot">HOT</span>' : '';
-            html += '<a href="' + app.url.replace('https://dopabrain.com', '') + '" class="app-card" data-id="' + app.id + '" style="--c:' + app.color + '">'
+            html += '<a href="' + app.url.replace('https://dopabrain.com', '') + '" class="app-card" data-id="' + app.id + '" data-root-event="root_app_click" data-root-surface="popular_grid" data-root-slot="' + (index + 1) + '" style="--c:' + app.color + '">'
                 + '<div class="app-icon" style="background:linear-gradient(135deg,' + app.color + '33,' + app.color + '11)">' + app.icon + '</div>'
                 + '<div><div class="app-name">' + getAppName(app, lang) + ' ' + badge + '</div>'
                 + '<div class="app-desc">' + getAppDesc(app, lang) + '</div></div></a>';
         });
-        grid.innerHTML = html;
 
-        var ctaText = i18n.t('cta.button');
-        cta.textContent = ctaText.replace('→', APP_DATA.length + ' →');
+        grid.innerHTML = html;
+        if (cta) cta.textContent = i18n.t('cta.button');
     }
 
-    // Render pick cards with localized names
     function renderPickCards() {
         if (typeof APP_DATA === 'undefined' || typeof getAppName !== 'function') return;
         var lang = i18n.getCurrentLanguage();
+
         document.querySelectorAll('.pick-card[data-app]').forEach(function(card) {
             var appId = card.dataset.app;
-            var app = APP_DATA.find(function(a) { return a.id === appId; });
+            var app = APP_DATA.find(function(item) { return item.id === appId; });
             if (app) card.textContent = card.dataset.emoji + ' ' + getAppName(app, lang);
         });
     }
 
-    // Render directory with localized names
     function renderDirectory() {
         if (typeof APP_DATA === 'undefined' || typeof getAppName !== 'function') return;
         var lang = i18n.getCurrentLanguage();
+
         document.querySelectorAll('#dir-grid a[data-app]').forEach(function(link) {
             var appId = link.dataset.app;
-            var app = APP_DATA.find(function(a) { return a.id === appId; });
+            var app = APP_DATA.find(function(item) { return item.id === appId; });
             if (app) link.textContent = getAppName(app, lang);
         });
     }
 
-    // Click tracking for root-domain grid
+    function emitRootView() {
+        if (rootViewTracked) return;
+        if (typeof gtag !== 'function') return;
+        rootViewTracked = true;
+        trackRootEvent('root_view', {
+            start_card_count: document.querySelectorAll('.start-card').length,
+            top_pick_count: document.querySelectorAll('.pick-card').length,
+            quick_cat_count: document.querySelectorAll('.quick-cat').length,
+            popular_count: document.querySelectorAll('#app-grid .app-card').length
+        });
+    }
+
     document.addEventListener('click', function(e) {
-        var card = e.target.closest('.app-card');
-        if (card && card.dataset.id && typeof Personalize !== 'undefined' && typeof APP_DATA !== 'undefined') {
-            var app = APP_DATA.find(function(a) { return a.id === card.dataset.id; });
-            if (app) Personalize.trackClick(card.dataset.id, app.category);
+        var tracked = e.target.closest('[data-root-event]');
+        if (tracked) {
+            var eventName = tracked.dataset.rootEvent;
+            var href = tracked.getAttribute('href') || '';
+            var payload = {
+                surface: tracked.dataset.rootSurface || '',
+                destination: href,
+                app_id: tracked.dataset.id || tracked.dataset.app || ''
+            };
+
+            if (tracked.dataset.rootSlot) payload.slot = Number(tracked.dataset.rootSlot);
+            trackRootEvent(eventName, payload);
+
+            if (tracked.classList.contains('app-card') && tracked.dataset.id && typeof Personalize !== 'undefined' && typeof APP_DATA !== 'undefined') {
+                var app = APP_DATA.find(function(item) { return item.id === tracked.dataset.id; });
+                if (app) Personalize.trackClick(tracked.dataset.id, app.category);
+            }
+            return;
+        }
+
+        var directoryLink = e.target.closest('#dir-grid a[data-app], .dir-blogs a');
+        if (directoryLink) {
+            trackRootEvent('root_directory_click', {
+                surface: directoryLink.closest('#dir-grid') ? 'directory_apps' : 'directory_blogs',
+                destination: directoryLink.getAttribute('href') || '',
+                app_id: directoryLink.dataset.app || ''
+            });
         }
     });
 
-    // i18n initialization
     (async function initI18n() {
         try {
             await i18n.loadTranslations(i18n.getCurrentLanguage());
             i18n.updateUI();
-        } catch(e) { /* i18n failed - static Korean text remains visible */ }
+        } catch (e) { /* i18n failed - static content remains visible */ }
 
         renderAppGrid();
         renderPickCards();
         renderDirectory();
+        emitRootView();
 
         var langToggle = document.getElementById('lang-toggle');
         var langMenu = document.getElementById('lang-menu');
@@ -1218,17 +1458,19 @@
         });
     })();
 
-    // Scroll-triggered reveal animations
     (function() {
         var obs = new IntersectionObserver(function(entries) {
-            entries.forEach(function(e) {
-                if (e.isIntersecting) {
-                    e.target.classList.add('in-view');
-                    obs.unobserve(e.target);
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('in-view');
+                    obs.unobserve(entry.target);
                 }
             });
         }, { threshold: 0.12, rootMargin: '0px 0px -30px 0px' });
-        document.querySelectorAll('.reveal').forEach(function(el) { obs.observe(el); });
+
+        document.querySelectorAll('.reveal').forEach(function(el) {
+            obs.observe(el);
+        });
     })();
     </script>
 
@@ -1239,6 +1481,7 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-J8GSWM40TV');
+        if (typeof emitRootView === 'function') emitRootView();
         setTimeout(function(){gtag('event','page_engage',{event_category:'root_domain',engagement_time_msec:5000})},5000);
     </script>
 

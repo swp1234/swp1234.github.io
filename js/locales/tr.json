@@ -28,7 +28,9 @@
   "cta": {
     "desc": "Tüm oyunları, kişilik testlerini, quizleri, hesaplayıcıları ve daha fazlasını keşfedin",
     "button": "Tüm İçerikleri Görüntüle →",
-    "explore": "60+ ücretsiz içeriği keşfet →"
+    "explore": "60+ ücretsiz içeriği keşfet →",
+    "primary": "MBTI ve ask ile basla ?",
+    "secondary": "Tum icerigi gor"
   },
   "footer": {
     "copyright": "© 2026 DopaBrain. Tüm içerikler ücretsizdir.",
@@ -50,5 +52,20 @@
     "fr": "🇫🇷 Français",
     "hi": "🇮🇳 हिन्दी",
     "ru": "🇷🇺 Русский"
+  },
+  "startHere": {
+    "label": "Buradan basla",
+    "title": "En iyi ilk tiklar",
+    "desc": "Insanlarin gercekten kaldigi sayfalara dogrudan git.",
+    "mbtiKicker": "MBTI merkezi",
+    "mbtiTitle": "MBTI ve ask ile basla",
+    "mbtiDesc": "Ilk olarak iliski testleri icin en guclu merkezi ac.",
+    "brainKicker": "Beyin testi",
+    "brainTitle": "Brain Type Test ac",
+    "brainDesc": "Ziyaretciyi elde tutmasi en yuksek bireysel testlerden birine gonder.",
+    "eqKicker": "Premium yol",
+    "eqTitle": "EQ Test yap",
+    "eqDesc": "Dogrudan duygusal zeka hunisine gir.",
+    "cardCta": "Simdi ac"
   }
 }
