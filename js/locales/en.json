@@ -29,7 +29,7 @@
     "desc": "Explore all games, personality tests, quizzes, calculators & more",
     "button": "View All Content →",
     "explore": "Explore 60+ Free Content →",
-    "primary": "Start with MBTI & Love",
+    "primary": "Start with MBTI Compatibility",
     "secondary": "Browse all content"
   },
   "footer": {
@@ -57,9 +57,9 @@
     "label": "Start Here",
     "title": "Best First Clicks",
     "desc": "Jump straight into the pages people actually stay on.",
-    "mbtiKicker": "MBTI Hub",
-    "mbtiTitle": "Start with MBTI & Love",
-    "mbtiDesc": "Open the strongest relationship-friendly hub first.",
+    "mbtiKicker": "MBTI Compatibility",
+    "mbtiTitle": "Open MBTI Compatibility Hub",
+    "mbtiDesc": "Jump into the 256-type compatibility chart and relationship follow-ups.",
     "brainKicker": "Brain Quiz",
     "brainTitle": "Open Brain Type Test",
     "brainDesc": "Send visitors into one of the highest-retention solo quizzes.",

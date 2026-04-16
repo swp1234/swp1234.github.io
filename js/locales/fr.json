@@ -29,7 +29,7 @@
     "desc": "Découvrez tous les jeux, tests de personnalité, quiz, calculateurs et plus encore",
     "button": "Voir Tout le Contenu →",
     "explore": "Découvrir 60+ contenus gratuits →",
-    "primary": "Commencer par MBTI et l'amour",
+    "primary": "Commencer par la compatibilite MBTI",
     "secondary": "Voir tout le contenu"
   },
   "footer": {
@@ -57,9 +57,9 @@
     "label": "Commencez ici",
     "title": "Meilleurs premiers clics",
     "desc": "Allez directement vers les pages sur lesquelles les visiteurs restent vraiment.",
-    "mbtiKicker": "Hub MBTI",
-    "mbtiTitle": "Commencer par MBTI et l'amour",
-    "mbtiDesc": "Ouvrez d'abord le hub relationnel le plus solide.",
+    "mbtiKicker": "Compatibilite MBTI",
+    "mbtiTitle": "Ouvrir le hub compatibilite MBTI",
+    "mbtiDesc": "Accedez directement au tableau des 256 combinaisons et aux tests relationnels suivants.",
     "brainKicker": "Quiz cerveau",
     "brainTitle": "Ouvrir Brain Type Test",
     "brainDesc": "Envoyez les visiteurs vers l'un des quiz solo avec la meilleure retention.",

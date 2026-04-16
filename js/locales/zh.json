@@ -29,7 +29,7 @@
     "desc": "探索全部游戏、性格测试、趣味问答、计算工具等精彩内容",
     "button": "查看全部内容 →",
     "explore": "探索60+免费内容 →",
-    "primary": "从 MBTI 和恋爱开始",
+    "primary": "先看 MBTI 配对",
     "secondary": "查看全部内容"
   },
   "footer": {
@@ -57,9 +57,9 @@
     "label": "从这里开始",
     "title": "最佳首个点击",
     "desc": "直接进入用户最容易停留的页面。",
-    "mbtiKicker": "MBTI 入口",
-    "mbtiTitle": "先看 MBTI 与恋爱",
-    "mbtiDesc": "先打开关系类表现最强的入口页。",
+    "mbtiKicker": "MBTI 配对",
+    "mbtiTitle": "打开 MBTI 配对入口",
+    "mbtiDesc": "直接进入 256 种类型配对表和恋爱后续测试。",
     "brainKicker": "脑型测试",
     "brainTitle": "打开 Brain Type Test",
     "brainDesc": "把用户带到停留表现最强的单人测验之一。",

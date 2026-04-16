@@ -29,7 +29,7 @@
     "desc": "ゲーム、性格診断、クイズ、計算ツールなど全コンテンツをチェック",
     "button": "すべてのコンテンツを見る →",
     "explore": "60以上の無料コンテンツを見る →",
-    "primary": "MBTIと恋愛から始める",
+    "primary": "MBTI相性から始める",
     "secondary": "すべてのコンテンツを見る"
   },
   "footer": {
@@ -57,9 +57,9 @@
     "label": "まずはここから",
     "title": "最初のおすすめクリック",
     "desc": "実際に滞在されやすいページから始めましょう。",
-    "mbtiKicker": "MBTIハブ",
-    "mbtiTitle": "MBTIと恋愛から始める",
-    "mbtiDesc": "恋愛系に強いハブをまず開きます。",
+    "mbtiKicker": "MBTI相性",
+    "mbtiTitle": "MBTI相性ハブを開く",
+    "mbtiDesc": "256タイプ相性表と恋愛の次テストへすぐ進めます。",
     "brainKicker": "脳タイプ診断",
     "brainTitle": "Brain Type Testを開く",
     "brainDesc": "滞在が強い一人向けクイズにすぐつなげます。",
