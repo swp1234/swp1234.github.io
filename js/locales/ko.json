@@ -29,8 +29,8 @@
     "desc": "게임, 심리테스트, 퀴즈, 계산기 등 모든 콘텐츠를 만나보세요",
     "button": "전체 콘텐츠 보기 →",
     "explore": "60+ 무료 콘텐츠 둘러보기 →",
-    "primary": "MBTI & ???? ?? ?",
-    "secondary": "?? ??? ????"
+    "primary": "MBTI & 사랑으로 시작하기",
+    "secondary": "전체 콘텐츠 보기"
   },
   "footer": {
     "copyright": "© 2026 DopaBrain. 모든 콘텐츠는 무료입니다.",
@@ -54,18 +54,18 @@
     "ru": "🇷🇺 Русский"
   },
   "startHere": {
-    "label": "??? ??",
-    "title": "? ?? ??",
-    "desc": "???? ??? ?? ??? ???? ?? ?????.",
-    "mbtiKicker": "MBTI ??",
-    "mbtiTitle": "MBTI & ???? ??",
-    "mbtiDesc": "??? ???? ?? ??? ?? ?????.",
-    "brainKicker": "?? ???",
-    "brainTitle": "Brain Type Test ??",
-    "brainDesc": "??? ?? ?? ???? ?? ????.",
-    "eqKicker": "???? ??",
-    "eqTitle": "EQ Test ??",
-    "eqDesc": "???? ??? ?? ?????.",
-    "cardCta": "?? ??"
+    "label": "바로 시작",
+    "title": "첫 클릭 추천",
+    "desc": "실제로 사람들이 오래 머무는 페이지부터 바로 들어가 보세요.",
+    "mbtiKicker": "MBTI 허브",
+    "mbtiTitle": "MBTI & 사랑부터 시작",
+    "mbtiDesc": "관계형 테스트가 강한 허브부터 열어보세요.",
+    "brainKicker": "브레인 테스트",
+    "brainTitle": "Brain Type Test 열기",
+    "brainDesc": "체류가 강한 솔로 퀴즈로 바로 연결합니다.",
+    "eqKicker": "프리미엄 경로",
+    "eqTitle": "EQ Test 하기",
+    "eqDesc": "감정지능 퍼널로 바로 이동합니다.",
+    "cardCta": "지금 열기"
   }
 }

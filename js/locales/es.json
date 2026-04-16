@@ -29,7 +29,7 @@
     "desc": "Explora todos los juegos, tests de personalidad, quizzes, calculadoras y más",
     "button": "Ver Todo el Contenido →",
     "explore": "Explora 60+ contenidos gratis →",
-    "primary": "Empieza con MBTI y amor ?",
+    "primary": "Empieza con MBTI y amor",
     "secondary": "Ver todo el contenido"
   },
   "footer": {
@@ -54,17 +54,17 @@
     "ru": "🇷🇺 Русский"
   },
   "startHere": {
-    "label": "Empieza aqu?",
+    "label": "Empieza aqui",
     "title": "Mejores primeros clics",
-    "desc": "Ve directo a las p?ginas donde la gente realmente se queda.",
+    "desc": "Ve directo a las paginas donde la gente realmente se queda.",
     "mbtiKicker": "Hub MBTI",
     "mbtiTitle": "Empieza con MBTI y amor",
-    "mbtiDesc": "Abre primero el hub m?s fuerte para tests de relaciones.",
+    "mbtiDesc": "Abre primero el hub mas fuerte para temas de relacion.",
     "brainKicker": "Quiz cerebral",
     "brainTitle": "Abrir Brain Type Test",
-    "brainDesc": "Env?a a los visitantes a uno de los quizzes con mejor retenci?n.",
+    "brainDesc": "Lleva a los visitantes a uno de los quizzes individuales con mejor retencion.",
     "eqKicker": "Ruta premium",
-    "eqTitle": "Hacer EQ Test",
+    "eqTitle": "Haz EQ Test",
     "eqDesc": "Entra directo al funnel de inteligencia emocional.",
     "cardCta": "Abrir ahora"
   }

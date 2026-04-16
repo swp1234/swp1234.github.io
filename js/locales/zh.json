@@ -29,8 +29,8 @@
     "desc": "探索全部游戏、性格测试、趣味问答、计算工具等精彩内容",
     "button": "查看全部内容 →",
     "explore": "探索60+免费内容 →",
-    "primary": "?? MBTI ????? ?",
-    "secondary": "??????"
+    "primary": "从 MBTI 和恋爱开始",
+    "secondary": "查看全部内容"
   },
   "footer": {
     "copyright": "© 2026 DopaBrain. 所有内容均免费。",
@@ -54,18 +54,18 @@
     "ru": "🇷🇺 Русский"
   },
   "startHere": {
-    "label": "?????",
-    "title": "?????",
-    "desc": "????????????????",
-    "mbtiKicker": "MBTI Hub",
-    "mbtiTitle": "?? MBTI ?????",
-    "mbtiDesc": "???????????????",
-    "brainKicker": "????",
-    "brainTitle": "?? Brain Type Test",
-    "brainDesc": "???????????????????",
-    "eqKicker": "????",
-    "eqTitle": "?? EQ Test",
-    "eqDesc": "?????????????",
-    "cardCta": "????"
+    "label": "从这里开始",
+    "title": "最佳首个点击",
+    "desc": "直接进入用户最容易停留的页面。",
+    "mbtiKicker": "MBTI 入口",
+    "mbtiTitle": "先看 MBTI 与恋爱",
+    "mbtiDesc": "先打开关系类表现最强的入口页。",
+    "brainKicker": "脑型测试",
+    "brainTitle": "打开 Brain Type Test",
+    "brainDesc": "把用户带到停留表现最强的单人测验之一。",
+    "eqKicker": "高级路径",
+    "eqTitle": "开始 EQ Test",
+    "eqDesc": "直接进入情商测试转化路径。",
+    "cardCta": "立即打开"
   }
 }

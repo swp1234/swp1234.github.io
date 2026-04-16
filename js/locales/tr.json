@@ -29,8 +29,8 @@
     "desc": "Tüm oyunları, kişilik testlerini, quizleri, hesaplayıcıları ve daha fazlasını keşfedin",
     "button": "Tüm İçerikleri Görüntüle →",
     "explore": "60+ ücretsiz içeriği keşfet →",
-    "primary": "MBTI ve ask ile basla ?",
-    "secondary": "Tum icerigi gor"
+    "primary": "MBTI ve aşk ile başla",
+    "secondary": "Tüm içeriği gör"
   },
   "footer": {
     "copyright": "© 2026 DopaBrain. Tüm içerikler ücretsizdir.",
@@ -54,18 +54,18 @@
     "ru": "🇷🇺 Русский"
   },
   "startHere": {
-    "label": "Buradan basla",
-    "title": "En iyi ilk tiklar",
-    "desc": "Insanlarin gercekten kaldigi sayfalara dogrudan git.",
-    "mbtiKicker": "MBTI merkezi",
-    "mbtiTitle": "MBTI ve ask ile basla",
-    "mbtiDesc": "Ilk olarak iliski testleri icin en guclu merkezi ac.",
+    "label": "Buradan başla",
+    "title": "En iyi ilk tıklar",
+    "desc": "İnsanların gerçekten kaldığı sayfalara doğrudan git.",
+    "mbtiKicker": "MBTI Hub",
+    "mbtiTitle": "MBTI ve aşk ile başla",
+    "mbtiDesc": "Önce ilişki odaklı en güçlü hub'ı aç.",
     "brainKicker": "Beyin testi",
-    "brainTitle": "Brain Type Test ac",
-    "brainDesc": "Ziyaretciyi elde tutmasi en yuksek bireysel testlerden birine gonder.",
+    "brainTitle": "Brain Type Test'i aç",
+    "brainDesc": "Ziyaretçileri elde tutması en güçlü solo quizlerden birine yönlendir.",
     "eqKicker": "Premium yol",
     "eqTitle": "EQ Test yap",
-    "eqDesc": "Dogrudan duygusal zeka hunisine gir.",
-    "cardCta": "Simdi ac"
+    "eqDesc": "Duygusal zeka funnel'ına doğrudan geç.",
+    "cardCta": "Şimdi aç"
   }
 }

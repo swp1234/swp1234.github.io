@@ -29,7 +29,7 @@
     "desc": "Entdecken Sie alle Spiele, Persönlichkeitstests, Quizze, Rechner und mehr",
     "button": "Alle Inhalte ansehen →",
     "explore": "60+ kostenlose Inhalte entdecken →",
-    "primary": "Mit MBTI und Liebe starten ?",
+    "primary": "Mit MBTI und Liebe starten",
     "secondary": "Alle Inhalte ansehen"
   },
   "footer": {
@@ -54,18 +54,18 @@
     "ru": "🇷🇺 Русский"
   },
   "startHere": {
-    "label": "Hier starten",
+    "label": "Hier beginnen",
     "title": "Beste erste Klicks",
-    "desc": "Gehe direkt zu den Seiten, auf denen Nutzer wirklich bleiben.",
+    "desc": "Gehe direkt zu den Seiten, auf denen Besucher wirklich bleiben.",
     "mbtiKicker": "MBTI Hub",
     "mbtiTitle": "Mit MBTI und Liebe starten",
-    "mbtiDesc": "Oeffne zuerst den staerksten Hub fuer Beziehungstests.",
+    "mbtiDesc": "Offne zuerst den starksten Hub fur Beziehungstests.",
     "brainKicker": "Gehirnquiz",
-    "brainTitle": "Brain Type Test oeffnen",
-    "brainDesc": "Leite Besucher direkt zu einem der Tests mit der besten Bindung.",
+    "brainTitle": "Brain Type Test offnen",
+    "brainDesc": "Leite Besucher in eines der Solo-Quizze mit der besten Bindung.",
     "eqKicker": "Premium-Pfad",
-    "eqTitle": "EQ Test starten",
-    "eqDesc": "Gehe direkt in den Funnel fuer emotionale Intelligenz.",
-    "cardCta": "Jetzt oeffnen"
+    "eqTitle": "EQ Test machen",
+    "eqDesc": "Gehe direkt in den Funnel fur emotionale Intelligenz.",
+    "cardCta": "Jetzt offnen"
   }
 }

@@ -29,7 +29,7 @@
     "desc": "सभी गेम्स, व्यक्तित्व परीक्षण, क्विज़, कैलकुलेटर और बहुत कुछ देखें",
     "button": "सारा कंटेंट देखें →",
     "explore": "60+ मुफ़्त कंटेंट देखें →",
-    "primary": "MBTI aur love se shuru karein ?",
+    "primary": "MBTI aur love se shuru karein",
     "secondary": "Saara content dekhein"
   },
   "footer": {
@@ -59,13 +59,13 @@
     "desc": "Seedha un pages par jaiye jahan log waqai rukte hain.",
     "mbtiKicker": "MBTI hub",
     "mbtiTitle": "MBTI aur love se shuru karein",
-    "mbtiDesc": "Relationship tests ke liye sabse strong hub pehle kholiye.",
+    "mbtiDesc": "Sabse strong relationship hub pehle kholiye.",
     "brainKicker": "Brain quiz",
     "brainTitle": "Brain Type Test kholiye",
-    "brainDesc": "Visitors ko un solo quizzes mein bhejiye jahan retention sabse achha hai.",
+    "brainDesc": "Visitors ko high-retention solo quiz tak le jaiye.",
     "eqKicker": "Premium path",
     "eqTitle": "EQ Test lijiye",
-    "eqDesc": "Seedha emotional-intelligence funnel mein jaiye.",
+    "eqDesc": "Seedha emotional intelligence funnel mein jaiye.",
     "cardCta": "Abhi kholiye"
   }
 }
