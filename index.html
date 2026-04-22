@@ -1166,7 +1166,7 @@
             <a href="/portal/tests/" class="quick-cat" data-root-event="root_cta_click" data-root-surface="quick_cat_tests" style="--cat:#a855f7" data-i18n="categories.tests">🔮 심리테스트</a>
             <a href="/portal/games/" class="quick-cat" data-root-event="root_cta_click" data-root-surface="quick_cat_games" style="--cat:#00e5ff" data-i18n="categories.games">🎮 게임</a>
             <a href="/portal/mbti/" class="quick-cat" data-root-event="root_cta_click" data-root-surface="quick_cat_mbti" style="--cat:#ff2d78" data-i18n="categories.mbti">💜 MBTI</a>
-            <a href="/portal/blog/en/" class="quick-cat" data-root-event="root_cta_click" data-root-surface="quick_cat_blog" style="--cat:#ffb800" data-i18n="categories.blog">📖 Blog</a>
+            <a href="/portal/blog/" class="quick-cat" data-root-event="root_cta_click" data-root-surface="quick_cat_blog" style="--cat:#ffb800" data-i18n="categories.blog">📖 Blog</a>
         </div>
 
         <div class="stats-row reveal">
@@ -1374,6 +1374,14 @@
         });
     }
 
+    function updateQuickCategoryLinks() {
+        var blogLink = document.querySelector('.quick-cat[data-root-surface="quick_cat_blog"]');
+        if (!blogLink) return;
+
+        var lang = i18n.getCurrentLanguage();
+        blogLink.href = lang && lang !== 'ko' ? '/portal/blog/' + lang + '/' : '/portal/blog/';
+    }
+
     function emitRootView() {
         if (rootViewTracked) return;
         if (typeof gtag !== 'function') return;
@@ -1426,6 +1434,7 @@
         renderAppGrid();
         renderPickCards();
         renderDirectory();
+        updateQuickCategoryLinks();
         emitRootView();
 
         var langToggle = document.getElementById('lang-toggle');
@@ -1454,6 +1463,7 @@
                 renderAppGrid();
                 renderPickCards();
                 renderDirectory();
+                updateQuickCategoryLinks();
             });
         });
     })();
