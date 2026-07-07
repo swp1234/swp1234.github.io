@@ -1482,6 +1482,49 @@
         gtag('event', name, payload);
     }
 
+    var LINK_LANGS = {
+        ko: true, en: true, ja: true, es: true, pt: true, zh: true,
+        id: true, tr: true, de: true, fr: true, hi: true, ru: true
+    };
+
+    function getActiveLinkLang() {
+        try {
+            if (typeof i18n !== 'undefined' && i18n && typeof i18n.getCurrentLanguage === 'function') {
+                var lang = i18n.getCurrentLanguage();
+                if (LINK_LANGS[lang]) return lang;
+            }
+        } catch (e) {}
+        return 'ko';
+    }
+
+    function localizeHref(href, lang) {
+        if (!href || !LINK_LANGS[lang]) return href;
+        if (/^(#|mailto:|tel:|javascript:)/i.test(href)) return href;
+        try {
+            var isAbsolute = /^[a-z][a-z0-9+.-]*:\/\//i.test(href);
+            var url = new URL(href, window.location.origin);
+            if (url.hostname && url.hostname !== window.location.hostname && url.hostname !== 'dopabrain.com') return href;
+            if (url.pathname.indexOf('/portal/blog/') === 0) return href;
+            url.searchParams.set('lang', lang);
+            return isAbsolute ? url.href : url.pathname + url.search + url.hash;
+        } catch (e) {
+            return href;
+        }
+    }
+
+    function localizeLinkElement(link, lang) {
+        if (!link || !link.getAttribute('href')) return;
+        if (!link.dataset.baseHref) link.dataset.baseHref = link.getAttribute('href');
+        link.setAttribute('href', localizeHref(link.dataset.baseHref, lang));
+    }
+
+    function updateLocalizedLinks() {
+        var lang = getActiveLinkLang();
+        document.querySelectorAll('.start-card, .quick-cat:not([data-root-surface="quick_cat_blog"]), #app-grid .app-card, #dir-grid a[data-app], #cta-link').forEach(function(link) {
+            localizeLinkElement(link, lang);
+        });
+    }
+
     function renderAppGrid() {
         if (typeof APP_DATA === 'undefined' || typeof getAppName !== 'function') return;
 
@@ -1505,7 +1548,7 @@
         items.forEach(function(app, index) {
             var badge = app.isNew ? '<span class="badge-hot">NEW</span>'
                       : app.isPopular ? '<span class="badge-hot">HOT</span>' : '';
-            html += '<a href="' + app.url.replace('https://dopabrain.com', '') + '" class="app-card" data-id="' + app.id + '" data-root-event="root_app_click" data-root-surface="popular_grid" data-root-slot="' + (index + 1) + '" style="--c:' + app.color + '">'
+            html += '<a href="' + localizeHref(app.url.replace('https://dopabrain.com', ''), lang) + '" class="app-card" data-id="' + app.id + '" data-root-event="root_app_click" data-root-surface="popular_grid" data-root-slot="' + (index + 1) + '" style="--c:' + app.color + '">'
                 + '<div class="app-icon" style="background:linear-gradient(135deg,' + app.color + '33,' + app.color + '11)">' + app.icon + '</div>'
                 + '<div><div class="app-name">' + getAppName(app, lang) + ' ' + badge + '</div>'
                 + '<div class="app-desc">' + getAppDesc(app, lang) + '</div></div></a>';
@@ -1542,7 +1585,7 @@
         if (!blogLink) return;
 
         var lang = i18n.getCurrentLanguage();
-        blogLink.href = lang && lang !== 'ko' ? '/portal/blog/' + lang + '/' : '/portal/blog/';
+        blogLink.href = lang && LINK_LANGS[lang] ? '/portal/blog/' + lang + '/' : '/portal/blog/';
     }
 
     function renderCountryRail() {
@@ -1605,6 +1648,7 @@
         renderPickCards();
         renderDirectory();
         updateQuickCategoryLinks();
+        updateLocalizedLinks();
         renderCountryRail();
         emitRootView();
 
@@ -1635,6 +1679,7 @@
                 renderPickCards();
                 renderDirectory();
                 updateQuickCategoryLinks();
+                updateLocalizedLinks();
                 renderCountryRail();
             });
         });
