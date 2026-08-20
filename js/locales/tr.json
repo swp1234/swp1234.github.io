@@ -1,11 +1,11 @@
 {
   "app": {
-    "title": "DopaBrain - Ücretsiz Oyunlar, Kişilik Testleri ve Quizler",
-    "description": "Ücretsiz tarayıcı oyunları, kişilik testleri, beyin quizleri ve kullanışlı araçlar. Kurulum gerektirmez!"
+    "title": "DopaBrain - Ücretsiz Stres, HSP ve Beyin Araçları",
+    "description": "Stres, duyusal hassasiyet ve beyin için seçilmiş ücretsiz araçlar. Özel, anında ve kayıtsız."
   },
   "header": {
-    "tagline": "Games & Tests & Tools",
-    "subtitle": "Bağımlılık yapan oyunlar, kişilik testleri, quizler ve dopamin yüklü içerikler"
+    "tagline": "İhtiyacın olanla başla",
+    "subtitle": "Kayıt veya kurulum gerektirmeyen özel ve yararlı araçlar."
   },
   "brand": {
     "essence": "<strong>Kurulum gerektirmez, hemen oyna</strong> — ücretsiz oyunlar, kişilik testleri & quizler<br>DopaBrain, dopamininizi artıran içerik platformu."
@@ -26,11 +26,11 @@
     "title": "🔥 Popüler"
   },
   "cta": {
-    "desc": "Tüm oyunları, kişilik testlerini, quizleri, hesaplayıcıları ve daha fazlasını keşfedin",
-    "button": "Tüm İçerikleri Görüntüle →",
+    "desc": "Başka bir şey mi arıyorsun? Tam arşiv ayrı olarak erişilebilir.",
+    "button": "Tam arşivi aç →",
     "explore": "60+ ücretsiz içeriği keşfet →",
-    "primary": "MBTI uyumu ile basla",
-    "secondary": "Tüm içeriği gör"
+    "primary": "Stres örüntümü kontrol et →",
+    "secondary": "Duyusal hassasiyeti keşfet"
   },
   "footer": {
     "copyright": "© 2026 DopaBrain. Tüm içerikler ücretsizdir.",
@@ -53,19 +53,23 @@
     "hi": "🇮🇳 हिन्दी",
     "ru": "🇷🇺 Русский"
   },
+  "focus": {
+    "stress": "01 Stres Kontrolü", "hsp": "02 HSP Testi", "coach": "03 2048 Koçu",
+    "brain": "04 Beyin Tipi", "iq": "05 IQ Testi", "kpop": "06 K-pop Rol Listesi"
+  },
   "startHere": {
     "label": "Buradan başla",
     "title": "En iyi ilk tıklar",
     "desc": "İnsanların gerçekten kaldığı sayfalara doğrudan git.",
-    "mbtiKicker": "MBTI uyumu",
-    "mbtiTitle": "MBTI uyum hubini ac",
-    "mbtiDesc": "Dogrudan 256 eslesme tablosuna ve sonraki iliski testlerine gir.",
-    "brainKicker": "Paylasilabilir quiz",
-    "brainTitle": "Animal Personality'i ac",
-    "brainDesc": "Ziyaretcileri bugun elde tutmasi en guclu paylasilabilir kisilik testine yonlendir.",
-    "eqKicker": "Premium yol",
-    "eqTitle": "EQ Test yap",
-    "eqDesc": "Duygusal zeka funnel'ına doğrudan geç.",
+    "mbtiKicker": "Stres ve toparlanma",
+    "mbtiTitle": "Stres kontrolünü başlat",
+    "mbtiDesc": "En güçlü stres örüntünü bul ve pratik bir sonraki adım al.",
+    "brainKicker": "Hassasiyet ve aşırı yük",
+    "brainTitle": "HSP testini yap",
+    "brainDesc": "Duyusal hassasiyeti keşfet ve sıfırlama veya planlama araçlarına geç.",
+    "eqKicker": "Beyin ve strateji",
+    "eqTitle": "2048 koçunu kullan",
+    "eqDesc": "Tahtayı analiz et, hamleleri önizle ve oyuna dön.",
     "cardCta": "Şimdi aç"
   }
 }

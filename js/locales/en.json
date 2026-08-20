@@ -1,11 +1,11 @@
 {
   "app": {
-    "title": "DopaBrain - Free Online Games, Personality Tests & Quizzes",
-    "description": "Play free browser games, personality tests, brain quizzes & handy tools. No install needed!"
+    "title": "DopaBrain - Free Stress, HSP & Brain Tools",
+    "description": "A focused collection of free stress, sensitivity and brain tools. Private, instant and no signup."
   },
   "header": {
-    "tagline": "Games & Tests & Tools",
-    "subtitle": "Addictive games, personality tests, quizzes & dopamine-boosting content"
+    "tagline": "Start with what you need",
+    "subtitle": "A focused collection of private, useful tools — no signup and no install."
   },
   "brand": {
     "essence": "<strong>Play instantly, no install needed</strong> — free games, personality tests & quizzes<br>DopaBrain, your dopamine-boosting content platform."
@@ -26,11 +26,11 @@
     "title": "🔥 Popular"
   },
   "cta": {
-    "desc": "Explore all games, personality tests, quizzes, calculators & more",
-    "button": "View All Content →",
+    "desc": "Looking for something else? The full archive remains available without crowding the main path.",
+    "button": "Open the full archive →",
     "explore": "Explore 60+ Free Content →",
-    "primary": "Start with MBTI Compatibility",
-    "secondary": "Browse all content"
+    "primary": "Check your stress pattern →",
+    "secondary": "Explore sensory sensitivity"
   },
   "footer": {
     "copyright": "© 2026 DopaBrain. All content is free.",
@@ -53,19 +53,27 @@
     "hi": "🇮🇳 हिन्दी",
     "ru": "🇷🇺 Русский"
   },
+  "focus": {
+    "stress": "01 Stress Check",
+    "hsp": "02 HSP Test",
+    "coach": "03 2048 Coach",
+    "brain": "04 Brain Type",
+    "iq": "05 IQ Test",
+    "kpop": "06 K-pop Role Roster"
+  },
   "startHere": {
     "label": "Start Here",
     "title": "Best First Clicks",
     "desc": "Jump straight into the pages people actually stay on.",
-    "mbtiKicker": "MBTI Compatibility",
-    "mbtiTitle": "Open MBTI Compatibility Hub",
-    "mbtiDesc": "Jump into the 256-type compatibility chart and relationship follow-ups.",
-    "brainKicker": "Shareable quiz",
-    "brainTitle": "Open Animal Personality",
-    "brainDesc": "Send visitors into today's strongest shareable personality quiz.",
-    "eqKicker": "Premium Path",
-    "eqTitle": "Take EQ Test",
-    "eqDesc": "Move straight into the emotional-intelligence funnel.",
+    "mbtiKicker": "Stress & recovery",
+    "mbtiTitle": "Start the Stress Check",
+    "mbtiDesc": "Find your strongest stress pattern, then get a practical next step.",
+    "brainKicker": "Sensitivity & overload",
+    "brainTitle": "Take the HSP Test",
+    "brainDesc": "Explore sensory sensitivity and continue to reset or planning tools.",
+    "eqKicker": "Brain & strategy",
+    "eqTitle": "Use the 2048 Coach",
+    "eqDesc": "Analyze a board, preview moves and jump back into the game.",
     "cardCta": "Open now"
   }
 }

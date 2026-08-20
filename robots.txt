@@ -2,9 +2,6 @@ User-agent: *
 Allow: /
 
 Sitemap: https://dopabrain.com/sitemap.xml
-Sitemap: https://dopabrain.com/sitemap-core.xml
-Sitemap: https://dopabrain.com/portal/sitemap.xml
-Sitemap: https://dopabrain.com/portal/blog/sitemap.xml
 
 # AI Crawlers - Welcome
 User-agent: GPTBot

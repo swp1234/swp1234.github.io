@@ -1,11 +1,11 @@
 {
   "app": {
-    "title": "DopaBrain - 免费游戏、性格测试与趣味问答",
-    "description": "免费浏览器游戏、性格测试、脑力问答和实用工具，无需安装，即开即玩！"
+    "title": "DopaBrain - 免费压力、HSP与脑力工具",
+    "description": "精选免费的压力、感官敏感度和脑力工具。无需注册，打开即可使用。"
   },
   "header": {
-    "tagline": "Games & Tests & Tools",
-    "subtitle": "上瘾游戏、性格测试、趣味问答等多巴胺满满的内容"
+    "tagline": "从你现在需要的开始",
+    "subtitle": "只保留实用、私密的工具——无需注册，也无需安装。"
   },
   "brand": {
     "essence": "<strong>无需安装，即刻畅玩</strong>免费游戏、性格测试与趣味问答<br>DopaBrain，你的多巴胺内容平台"
@@ -26,11 +26,11 @@
     "title": "🔥 热门内容"
   },
   "cta": {
-    "desc": "探索全部游戏、性格测试、趣味问答、计算工具等精彩内容",
-    "button": "查看全部内容 →",
+    "desc": "还在找其他工具？完整内容库仍可访问，但不会干扰主要路径。",
+    "button": "打开完整内容库 →",
     "explore": "探索60+免费内容 →",
-    "primary": "先看 MBTI 配对",
-    "secondary": "查看全部内容"
+    "primary": "查看我的压力模式 →",
+    "secondary": "了解感官敏感度"
   },
   "footer": {
     "copyright": "© 2026 DopaBrain. 所有内容均免费。",
@@ -53,19 +53,27 @@
     "hi": "🇮🇳 हिन्दी",
     "ru": "🇷🇺 Русский"
   },
+  "focus": {
+    "stress": "01 压力检查",
+    "hsp": "02 HSP 测试",
+    "coach": "03 2048 教练",
+    "brain": "04 大脑类型",
+    "iq": "05 IQ 测试",
+    "kpop": "06 K-pop 角色阵容"
+  },
   "startHere": {
     "label": "从这里开始",
     "title": "最佳首个点击",
     "desc": "直接进入用户最容易停留的页面。",
-    "mbtiKicker": "MBTI 配对",
-    "mbtiTitle": "打开 MBTI 配对入口",
-    "mbtiDesc": "直接进入 256 种类型配对表和恋爱后续测试。",
-    "brainKicker": "动物性格",
-    "brainTitle": "打开 Animal Personality",
-    "brainDesc": "把用户带到今天停留表现更强的分享型性格测验。",
-    "eqKicker": "高级路径",
-    "eqTitle": "开始 EQ Test",
-    "eqDesc": "直接进入情商测试转化路径。",
+    "mbtiKicker": "压力与恢复",
+    "mbtiTitle": "开始压力检查",
+    "mbtiDesc": "找出最明显的压力模式，并获得一个实用的下一步。",
+    "brainKicker": "敏感度与过载",
+    "brainTitle": "开始 HSP 测试",
+    "brainDesc": "了解感官敏感度，再进入重置或规划工具。",
+    "eqKicker": "脑力与策略",
+    "eqTitle": "使用 2048 教练",
+    "eqDesc": "分析棋盘、预览下一步，然后返回游戏。",
     "cardCta": "立即打开"
   }
 }

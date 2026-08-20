@@ -1,11 +1,11 @@
 {
   "app": {
-    "title": "DopaBrain - Jogos Grátis, Testes de Personalidade e Quizzes",
-    "description": "Jogos de navegador grátis, testes de personalidade, quizzes cerebrais e ferramentas úteis. Sem instalação!"
+    "title": "DopaBrain - Ferramentas Grátis de Estresse, HSP e Cérebro",
+    "description": "Uma seleção focada de ferramentas grátis para estresse, sensibilidade e cérebro. Privadas, instantâneas e sem cadastro."
   },
   "header": {
-    "tagline": "Games & Tests & Tools",
-    "subtitle": "Jogos viciantes, testes de personalidade, quizzes e conteúdo que libera dopamina"
+    "tagline": "Comece pelo que você precisa",
+    "subtitle": "Ferramentas privadas e úteis, sem cadastro nem instalação."
   },
   "brand": {
     "essence": "<strong>Sem instalação, jogue agora</strong> — jogos grátis, testes de personalidade e quizzes<br>DopaBrain, sua plataforma de conteúdo que ativa a dopamina."
@@ -26,11 +26,11 @@
     "title": "🔥 Popular"
   },
   "cta": {
-    "desc": "Explore todos os jogos, testes de personalidade, quizzes, calculadoras e mais",
-    "button": "Ver Todo o Conteúdo →",
+    "desc": "Procurando outra coisa? O arquivo completo continua disponível separadamente.",
+    "button": "Abrir o arquivo completo →",
     "explore": "Explore 60+ conteúdos grátis →",
-    "primary": "Comece por compatibilidade MBTI",
-    "secondary": "Ver todo o conteudo"
+    "primary": "Ver meu padrão de estresse →",
+    "secondary": "Explorar sensibilidade sensorial"
   },
   "footer": {
     "copyright": "© 2026 DopaBrain. Todo o conteúdo é gratuito.",
@@ -53,19 +53,23 @@
     "hi": "🇮🇳 हिन्दी",
     "ru": "🇷🇺 Русский"
   },
+  "focus": {
+    "stress": "01 Check de Estresse", "hsp": "02 Teste HSP", "coach": "03 Coach 2048",
+    "brain": "04 Tipo de Cérebro", "iq": "05 Teste de QI", "kpop": "06 Funções K-pop"
+  },
   "startHere": {
     "label": "Comece aqui",
     "title": "Melhores primeiros cliques",
     "desc": "Va direto para as paginas em que as pessoas realmente ficam.",
-    "mbtiKicker": "Compatibilidade MBTI",
-    "mbtiTitle": "Abrir hub de compatibilidade MBTI",
-    "mbtiDesc": "Entre direto na tabela de 256 combinacoes e nos proximos testes de relacionamento.",
-    "brainKicker": "Quiz compartilhavel",
-    "brainTitle": "Abrir Animal Personality",
-    "brainDesc": "Leve visitantes para o quiz compartilhavel com melhor retencao hoje.",
-    "eqKicker": "Rota premium",
-    "eqTitle": "Fazer EQ Test",
-    "eqDesc": "Entre direto no funil de inteligencia emocional.",
+    "mbtiKicker": "Estresse e recuperação",
+    "mbtiTitle": "Iniciar o check de estresse",
+    "mbtiDesc": "Encontre seu padrão de estresse mais forte e receba um próximo passo prático.",
+    "brainKicker": "Sensibilidade e sobrecarga",
+    "brainTitle": "Fazer o teste HSP",
+    "brainDesc": "Explore a sensibilidade sensorial e continue para ferramentas de pausa ou planejamento.",
+    "eqKicker": "Cérebro e estratégia",
+    "eqTitle": "Usar o coach 2048",
+    "eqDesc": "Analise o tabuleiro, visualize jogadas e volte ao jogo.",
     "cardCta": "Abrir agora"
   }
 }

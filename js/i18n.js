@@ -25,7 +25,7 @@ class I18n {
 
     async loadTranslations(lang) {
         try {
-            const response = await fetch(`js/locales/${lang}.json`);
+            const response = await fetch(`js/locales/${lang}.json?v=20260820-focus`);
             if (!response.ok) throw new Error('Not found');
             this.translations[lang] = await response.json();
             return true;

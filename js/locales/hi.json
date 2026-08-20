@@ -1,11 +1,11 @@
 {
   "app": {
-    "title": "DopaBrain - मुफ्त गेम्स, व्यक्तित्व परीक्षण और क्विज़",
-    "description": "मुफ्त ब्राउज़र गेम्स, व्यक्तित्व परीक्षण, दिमागी क्विज़ और उपयोगी टूल्स। बिना इंस्टॉल किए तुरंत खेलें!"
+    "title": "DopaBrain - मुफ़्त तनाव, HSP और ब्रेन टूल्स",
+    "description": "तनाव, संवेदनशीलता और ब्रेन के लिए चुने हुए मुफ़्त टूल्स। निजी, तुरंत और बिना साइनअप।"
   },
   "header": {
-    "tagline": "Games & Tests & Tools",
-    "subtitle": "मज़ेदार गेम्स, व्यक्तित्व परीक्षण, क्विज़ और डोपामाइन बढ़ाने वाला कंटेंट"
+    "tagline": "जिसकी ज़रूरत है, वहीं से शुरू करें",
+    "subtitle": "निजी और उपयोगी टूल्स — बिना साइनअप और इंस्टॉल के।"
   },
   "brand": {
     "essence": "<strong>बिना इंस्टॉल, तुरंत खेलें</strong> — मुफ्त गेम्स, व्यक्तित्व परीक्षण और क्विज़<br>DopaBrain, आपका डोपामाइन बूस्ट करने वाला कंटेंट प्लेटफ़ॉर्म।"
@@ -26,11 +26,11 @@
     "title": "🔥 लोकप्रिय"
   },
   "cta": {
-    "desc": "सभी गेम्स, व्यक्तित्व परीक्षण, क्विज़, कैलकुलेटर और बहुत कुछ देखें",
-    "button": "सारा कंटेंट देखें →",
+    "desc": "कुछ और चाहिए? पूरा आर्काइव अलग से उपलब्ध है।",
+    "button": "पूरा आर्काइव खोलें →",
     "explore": "60+ मुफ़्त कंटेंट देखें →",
-    "primary": "MBTI compatibility se shuru karein",
-    "secondary": "Saara content dekhein"
+    "primary": "अपना तनाव पैटर्न देखें →",
+    "secondary": "संवेदी संवेदनशीलता समझें"
   },
   "footer": {
     "copyright": "© 2026 DopaBrain. सारा कंटेंट मुफ्त है।",
@@ -53,19 +53,23 @@
     "hi": "🇮🇳 हिन्दी",
     "ru": "🇷🇺 Русский"
   },
+  "focus": {
+    "stress": "01 तनाव जाँच", "hsp": "02 HSP टेस्ट", "coach": "03 2048 कोच",
+    "brain": "04 ब्रेन टाइप", "iq": "05 IQ टेस्ट", "kpop": "06 K-pop रोल रोस्टर"
+  },
   "startHere": {
     "label": "Yahin se shuru karein",
     "title": "Best first clicks",
     "desc": "Seedha un pages par jaiye jahan log waqai rukte hain.",
-    "mbtiKicker": "MBTI compatibility",
-    "mbtiTitle": "MBTI compatibility hub kholiye",
-    "mbtiDesc": "Seedha 256-match chart aur agle relationship tests par jaiye.",
-    "brainKicker": "Shareable quiz",
-    "brainTitle": "Animal Personality kholiye",
-    "brainDesc": "Visitors ko aaj ke strongest shareable personality quiz tak le jaiye.",
-    "eqKicker": "Premium path",
-    "eqTitle": "EQ Test lijiye",
-    "eqDesc": "Seedha emotional intelligence funnel mein jaiye.",
+    "mbtiKicker": "तनाव और रिकवरी",
+    "mbtiTitle": "तनाव जाँच शुरू करें",
+    "mbtiDesc": "अपना सबसे मजबूत तनाव पैटर्न जानें और अगला व्यावहारिक कदम पाएँ।",
+    "brainKicker": "संवेदनशीलता और ओवरलोड",
+    "brainTitle": "HSP टेस्ट लें",
+    "brainDesc": "संवेदी संवेदनशीलता समझें और रीसेट या प्लानिंग टूल पर जाएँ।",
+    "eqKicker": "ब्रेन और रणनीति",
+    "eqTitle": "2048 कोच इस्तेमाल करें",
+    "eqDesc": "बोर्ड का विश्लेषण करें, चालें देखें और गेम पर लौटें।",
     "cardCta": "Abhi kholiye"
   }
 }

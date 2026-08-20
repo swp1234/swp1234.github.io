@@ -1,11 +1,11 @@
 {
   "app": {
-    "title": "DopaBrain - 무료 게임, 심리테스트, 퀴즈",
-    "description": "무료 브라우저 게임, 심리테스트, 두뇌 퀴즈, 편리한 도구. 설치 없이 바로 즐기세요!"
+    "title": "DopaBrain - 무료 스트레스·HSP·두뇌 도구",
+    "description": "스트레스, 감각 민감도, 두뇌 도구를 엄선했습니다. 가입 없이 바로, 개인정보 입력 없이 이용하세요."
   },
   "header": {
-    "tagline": "Games & Tests & Tools",
-    "subtitle": "중독성 게임, 심리테스트, 퀴즈 등 도파민 자극 콘텐츠"
+    "tagline": "지금 필요한 것부터 시작하세요",
+    "subtitle": "가입도 설치도 없이, 실제로 유용한 도구만 간결하게 모았습니다."
   },
   "brand": {
     "essence": "<strong>설치 없이 바로 즐기는</strong> 무료 게임, 심리테스트, 퀴즈<br>도파민 자극 콘텐츠 플랫폼 DopaBrain"
@@ -26,11 +26,11 @@
     "title": "🔥 인기 콘텐츠"
   },
   "cta": {
-    "desc": "게임, 심리테스트, 퀴즈, 계산기 등 모든 콘텐츠를 만나보세요",
-    "button": "전체 콘텐츠 보기 →",
+    "desc": "다른 도구를 찾고 있나요? 메인 경로를 방해하지 않도록 전체 보관함은 따로 열어두었습니다.",
+    "button": "전체 보관함 열기 →",
     "explore": "60+ 무료 콘텐츠 둘러보기 →",
-    "primary": "MBTI 궁합부터 보기",
-    "secondary": "전체 콘텐츠 보기"
+    "primary": "내 스트레스 패턴 확인하기 →",
+    "secondary": "감각 민감도 알아보기"
   },
   "footer": {
     "copyright": "© 2026 DopaBrain. 모든 콘텐츠는 무료입니다.",
@@ -53,19 +53,27 @@
     "hi": "🇮🇳 हिन्दी",
     "ru": "🇷🇺 Русский"
   },
+  "focus": {
+    "stress": "01 스트레스 체크",
+    "hsp": "02 HSP 테스트",
+    "coach": "03 2048 코치",
+    "brain": "04 두뇌 유형",
+    "iq": "05 IQ 테스트",
+    "kpop": "06 K-pop 역할 로스터"
+  },
   "startHere": {
     "label": "바로 시작",
     "title": "첫 클릭 추천",
     "desc": "실제로 사람들이 오래 머무는 페이지부터 바로 들어가 보세요.",
-    "mbtiKicker": "MBTI 궁합",
-    "mbtiTitle": "MBTI 궁합 허브 열기",
-    "mbtiDesc": "256개 유형 궁합표와 연애 후속 테스트로 바로 들어갑니다.",
-    "brainKicker": "동물 성격",
-    "brainTitle": "Animal Personality 열기",
-    "brainDesc": "오늘 체류가 강한 공유형 성격 테스트로 바로 연결합니다.",
-    "eqKicker": "프리미엄 경로",
-    "eqTitle": "EQ Test 하기",
-    "eqDesc": "감정지능 퍼널로 바로 이동합니다.",
+    "mbtiKicker": "스트레스와 회복",
+    "mbtiTitle": "스트레스 체크 시작",
+    "mbtiDesc": "가장 강한 스트레스 패턴을 확인하고 실용적인 다음 행동을 받아보세요.",
+    "brainKicker": "민감도와 과부하",
+    "brainTitle": "HSP 테스트 하기",
+    "brainDesc": "감각 민감도를 살펴보고 리셋 또는 계획 도구로 이어가세요.",
+    "eqKicker": "두뇌와 전략",
+    "eqTitle": "2048 코치 사용하기",
+    "eqDesc": "보드를 분석하고 다음 수를 미리 본 뒤 게임으로 돌아가세요.",
     "cardCta": "지금 열기"
   }
 }

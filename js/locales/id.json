@@ -1,11 +1,11 @@
 {
   "app": {
-    "title": "DopaBrain - Game Gratis, Tes Kepribadian & Kuis",
-    "description": "Game browser gratis, tes kepribadian, kuis otak & alat praktis. Tanpa instalasi, langsung main!"
+    "title": "DopaBrain - Alat Stres, HSP & Otak Gratis",
+    "description": "Koleksi terpilih alat stres, sensitivitas, dan otak gratis. Privat, instan, tanpa pendaftaran."
   },
   "header": {
-    "tagline": "Games & Tests & Tools",
-    "subtitle": "Game seru, tes kepribadian, kuis & konten pemicu dopamin"
+    "tagline": "Mulai dari yang Anda butuhkan",
+    "subtitle": "Alat privat dan berguna, tanpa daftar atau instalasi."
   },
   "brand": {
     "essence": "<strong>Tanpa instal, langsung main</strong> — game gratis, tes kepribadian & kuis<br>DopaBrain, platform konten pemicu dopaminmu."
@@ -26,11 +26,11 @@
     "title": "🔥 Populer"
   },
   "cta": {
-    "desc": "Jelajahi semua game, tes kepribadian, kuis, kalkulator & lainnya",
-    "button": "Lihat Semua Konten →",
+    "desc": "Mencari yang lain? Arsip lengkap tetap tersedia secara terpisah.",
+    "button": "Buka arsip lengkap →",
     "explore": "Jelajahi 60+ konten gratis →",
-    "primary": "Mulai dari kecocokan MBTI",
-    "secondary": "Lihat semua konten"
+    "primary": "Periksa pola stres saya →",
+    "secondary": "Jelajahi sensitivitas sensorik"
   },
   "footer": {
     "copyright": "© 2026 DopaBrain. Semua konten gratis.",
@@ -53,19 +53,23 @@
     "hi": "🇮🇳 हिन्दी",
     "ru": "🇷🇺 Русский"
   },
+  "focus": {
+    "stress": "01 Cek Stres", "hsp": "02 Tes HSP", "coach": "03 Pelatih 2048",
+    "brain": "04 Tipe Otak", "iq": "05 Tes IQ", "kpop": "06 Peran K-pop"
+  },
   "startHere": {
     "label": "Mulai di sini",
     "title": "Klik pertama terbaik",
     "desc": "Langsung masuk ke halaman tempat pengunjung benar-benar bertahan.",
-    "mbtiKicker": "Kecocokan MBTI",
-    "mbtiTitle": "Buka hub kecocokan MBTI",
-    "mbtiDesc": "Langsung masuk ke tabel 256 pasangan dan tes hubungan berikutnya.",
-    "brainKicker": "Kuis berbagi",
-    "brainTitle": "Buka Animal Personality",
-    "brainDesc": "Arahkan pengunjung ke kuis kepribadian berbagi dengan retensi terbaik hari ini.",
-    "eqKicker": "Jalur premium",
-    "eqTitle": "Ikuti EQ Test",
-    "eqDesc": "Masuk langsung ke funnel kecerdasan emosional.",
+    "mbtiKicker": "Stres dan pemulihan",
+    "mbtiTitle": "Mulai cek stres",
+    "mbtiDesc": "Temukan pola stres terkuat dan dapatkan langkah praktis berikutnya.",
+    "brainKicker": "Sensitivitas dan beban berlebih",
+    "brainTitle": "Ikuti tes HSP",
+    "brainDesc": "Jelajahi sensitivitas sensorik lalu lanjutkan ke alat reset atau perencanaan.",
+    "eqKicker": "Otak dan strategi",
+    "eqTitle": "Gunakan pelatih 2048",
+    "eqDesc": "Analisis papan, pratinjau langkah, lalu kembali bermain.",
     "cardCta": "Buka sekarang"
   }
 }

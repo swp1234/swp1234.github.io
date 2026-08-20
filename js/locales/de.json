@@ -1,11 +1,11 @@
 {
   "app": {
-    "title": "DopaBrain - Kostenlose Spiele, Persönlichkeitstests & Quizze",
-    "description": "Kostenlose Browserspiele, Persönlichkeitstests, Gehirnquizze und praktische Tools. Ohne Installation sofort spielbar!"
+    "title": "DopaBrain - Kostenlose Stress-, HSP- & Gehirn-Tools",
+    "description": "Eine fokussierte Auswahl kostenloser Stress-, Sensibilitäts- und Gehirn-Tools. Privat, sofort und ohne Anmeldung."
   },
   "header": {
-    "tagline": "Games & Tests & Tools",
-    "subtitle": "Fesselnde Spiele, Persönlichkeitstests, Quizze und Dopamin-Kick-Inhalte"
+    "tagline": "Beginne mit dem, was du brauchst",
+    "subtitle": "Eine fokussierte Auswahl privater, nützlicher Tools — ohne Anmeldung und Installation."
   },
   "brand": {
     "essence": "<strong>Ohne Installation sofort spielen</strong> — kostenlose Spiele, Persönlichkeitstests & Quizze<br>DopaBrain, Ihre Plattform für Dopamin-Kick-Inhalte."
@@ -26,11 +26,11 @@
     "title": "🔥 Beliebt"
   },
   "cta": {
-    "desc": "Entdecken Sie alle Spiele, Persönlichkeitstests, Quizze, Rechner und mehr",
-    "button": "Alle Inhalte ansehen →",
+    "desc": "Du suchst etwas anderes? Das vollständige Archiv bleibt separat verfügbar.",
+    "button": "Vollständiges Archiv öffnen →",
     "explore": "60+ kostenlose Inhalte entdecken →",
-    "primary": "Mit MBTI-Kompatibilitat starten",
-    "secondary": "Alle Inhalte ansehen"
+    "primary": "Stressmuster prüfen →",
+    "secondary": "Sensorische Sensibilität erkunden"
   },
   "footer": {
     "copyright": "© 2026 DopaBrain. Alle Inhalte sind kostenlos.",
@@ -53,19 +53,23 @@
     "hi": "🇮🇳 हिन्दी",
     "ru": "🇷🇺 Русский"
   },
+  "focus": {
+    "stress": "01 Stress-Check", "hsp": "02 HSP-Test", "coach": "03 2048-Coach",
+    "brain": "04 Gehirntyp", "iq": "05 IQ-Test", "kpop": "06 K-pop-Rollenplan"
+  },
   "startHere": {
     "label": "Hier beginnen",
     "title": "Beste erste Klicks",
     "desc": "Gehe direkt zu den Seiten, auf denen Besucher wirklich bleiben.",
-    "mbtiKicker": "MBTI-Kompatibilitat",
-    "mbtiTitle": "MBTI-Kompatibilitats-Hub offnen",
-    "mbtiDesc": "Direkt zur 256er Kompatibilitatsmatrix und den nachsten Beziehungstests.",
-    "brainKicker": "Teilbares Quiz",
-    "brainTitle": "Animal Personality offnen",
-    "brainDesc": "Leite Besucher in das heute staerkste teilbare Persoenlichkeitsquiz.",
-    "eqKicker": "Premium-Pfad",
-    "eqTitle": "EQ Test machen",
-    "eqDesc": "Gehe direkt in den Funnel fur emotionale Intelligenz.",
+    "mbtiKicker": "Stress & Erholung",
+    "mbtiTitle": "Stress-Check starten",
+    "mbtiDesc": "Erkenne dein stärkstes Stressmuster und erhalte einen praktischen nächsten Schritt.",
+    "brainKicker": "Sensibilität & Überlastung",
+    "brainTitle": "HSP-Test machen",
+    "brainDesc": "Erkunde sensorische Sensibilität und gehe zu Reset- oder Planungstools weiter.",
+    "eqKicker": "Gehirn & Strategie",
+    "eqTitle": "2048-Coach nutzen",
+    "eqDesc": "Analysiere ein Feld, prüfe Züge und kehre ins Spiel zurück.",
     "cardCta": "Jetzt offnen"
   }
 }
