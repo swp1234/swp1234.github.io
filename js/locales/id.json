@@ -54,8 +54,12 @@
     "ru": "🇷🇺 Русский"
   },
   "focus": {
-    "stress": "01 Cek Stres", "hsp": "02 Tes HSP", "coach": "03 Pelatih 2048",
-    "brain": "04 Tipe Otak", "iq": "05 Tes IQ", "kpop": "06 Peran K-pop"
+    "stress": "01 Cek Stres",
+    "hsp": "02 Tes HSP",
+    "coach": "03 Pelatih 2048",
+    "brain": "04 Tipe Otak",
+    "iq": "05 Tes IQ",
+    "kpop": "06 Peran K-pop"
   },
   "startHere": {
     "label": "Mulai di sini",
@@ -71,5 +75,12 @@
     "eqTitle": "Gunakan pelatih 2048",
     "eqDesc": "Analisis papan, pratinjau langkah, lalu kembali bermain.",
     "cardCta": "Buka sekarang"
+  },
+  "signal": {
+    "label": "Sinyal budaya terbaru",
+    "badge": "Edisi Korea",
+    "title": "Mengapa The Odyssey dan Spider-Man menguasai 2026",
+    "desc": "Ulasan tanpa spoiler tentang kepulangan, ingatan, dan reset identitas.",
+    "cta": "Baca sinyal →"
   }
 }

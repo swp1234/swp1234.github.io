@@ -54,8 +54,12 @@
     "ru": "🇷🇺 Русский"
   },
   "focus": {
-    "stress": "01 Stres Kontrolü", "hsp": "02 HSP Testi", "coach": "03 2048 Koçu",
-    "brain": "04 Beyin Tipi", "iq": "05 IQ Testi", "kpop": "06 K-pop Rol Listesi"
+    "stress": "01 Stres Kontrolü",
+    "hsp": "02 HSP Testi",
+    "coach": "03 2048 Koçu",
+    "brain": "04 Beyin Tipi",
+    "iq": "05 IQ Testi",
+    "kpop": "06 K-pop Rol Listesi"
   },
   "startHere": {
     "label": "Buradan başla",
@@ -71,5 +75,12 @@
     "eqTitle": "2048 koçunu kullan",
     "eqDesc": "Tahtayı analiz et, hamleleri önizle ve oyuna dön.",
     "cardCta": "Şimdi aç"
+  },
+  "signal": {
+    "label": "Yeni kültür sinyali",
+    "badge": "Korece sürüm",
+    "title": "The Odyssey ve Spider-Man 2026’ya neden damga vurdu?",
+    "desc": "Dönüş, hafıza ve kimlik sıfırlaması üzerine spoilersız bir okuma.",
+    "cta": "Yazıyı oku →"
   }
 }

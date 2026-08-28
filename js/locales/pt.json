@@ -54,8 +54,12 @@
     "ru": "🇷🇺 Русский"
   },
   "focus": {
-    "stress": "01 Check de Estresse", "hsp": "02 Teste HSP", "coach": "03 Coach 2048",
-    "brain": "04 Tipo de Cérebro", "iq": "05 Teste de QI", "kpop": "06 Funções K-pop"
+    "stress": "01 Check de Estresse",
+    "hsp": "02 Teste HSP",
+    "coach": "03 Coach 2048",
+    "brain": "04 Tipo de Cérebro",
+    "iq": "05 Teste de QI",
+    "kpop": "06 Funções K-pop"
   },
   "startHere": {
     "label": "Comece aqui",
@@ -71,5 +75,12 @@
     "eqTitle": "Usar o coach 2048",
     "eqDesc": "Analise o tabuleiro, visualize jogadas e volte ao jogo.",
     "cardCta": "Abrir agora"
+  },
+  "signal": {
+    "label": "Novo sinal cultural",
+    "badge": "Edição coreana",
+    "title": "Por que The Odyssey e Spider-Man dominaram 2026",
+    "desc": "Uma leitura sem spoilers sobre retorno, memória e reinício de identidade.",
+    "cta": "Ler o sinal →"
   }
 }

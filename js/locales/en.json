@@ -75,5 +75,12 @@
     "eqTitle": "Use the 2048 Coach",
     "eqDesc": "Analyze a board, preview moves and jump back into the game.",
     "cardCta": "Open now"
+  },
+  "signal": {
+    "label": "Fresh culture signal",
+    "badge": "Korean edition",
+    "title": "Why The Odyssey and Spider-Man ruled 2026",
+    "desc": "A spoiler-free look at return, memory and identity reset — then connect the story to your own choice pattern.",
+    "cta": "Read the signal →"
   }
 }
