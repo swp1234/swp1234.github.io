@@ -503,62 +503,62 @@
         .pick-card:active { transform: translateY(-1px) scale(0.97); }
 
         /* ===== CULTURE SIGNAL PILOT ===== */
-        .culture-signal {
-            margin: 0 0 32px;
-            padding: 22px;
-            border: 1px solid rgba(249,115,22,0.28);
-            border-radius: 22px;
-            background: linear-gradient(135deg, rgba(249,115,22,0.12), rgba(94,234,212,0.07));
-            text-align: left;
-        }
-        .culture-signal-label {
+        .culture-signal-compact {
             display: flex;
             align-items: center;
-            gap: 8px;
-            margin-bottom: 10px;
-            color: #fb923c;
-            font-size: 11px;
-            font-weight: 800;
-            letter-spacing: 0.15em;
-            text-transform: uppercase;
-        }
-        .culture-signal-badge {
-            padding: 4px 7px;
-            border: 1px solid rgba(255,255,255,0.14);
-            border-radius: 999px;
-            color: var(--text-dim);
-            font-size: 10px;
-            letter-spacing: 0.08em;
-        }
-        .culture-signal-link {
-            display: grid;
-            grid-template-columns: 1fr auto;
-            gap: 14px;
-            align-items: center;
-            min-height: 72px;
+            justify-content: space-between;
+            gap: 12px;
+            width: 100%;
+            min-height: 56px;
+            margin: 12px 0 20px;
+            padding: 10px 2px;
+            border-top: 1px solid rgba(249,115,22,0.28);
+            border-bottom: 1px solid rgba(249,115,22,0.28);
             color: var(--text);
+            text-align: left;
             text-decoration: none;
         }
-        .culture-signal-title {
+        .culture-signal-compact-copy {
             display: block;
-            margin-bottom: 6px;
-            font-family: 'Syne', sans-serif;
-            font-size: clamp(19px, 4vw, 24px);
-            line-height: 1.3;
+            min-width: 0;
         }
-        .culture-signal-desc {
-            display: block;
-            color: var(--text-dim);
-            font-size: 14px;
-            line-height: 1.55;
+        .culture-signal-compact-meta {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 4px 8px;
+            margin-bottom: 3px;
         }
-        .culture-signal-cta {
-            color: #5eead4;
-            font-size: 13px;
+        .culture-signal-compact-label {
+            color: #fb923c;
+            font-size: 10px;
             font-weight: 800;
-            white-space: nowrap;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
         }
-        .culture-signal-link:hover .culture-signal-title { color: #fed7aa; }
+        .culture-signal-compact-badge {
+            color: var(--text-dim);
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+        }
+        .culture-signal-compact-title {
+            display: block;
+            font-family: 'Syne', sans-serif;
+            font-size: 15px;
+            line-height: 1.35;
+        }
+        .culture-signal-compact-arrow {
+            flex: 0 0 auto;
+            color: #5eead4;
+            font-size: 20px;
+            font-weight: 800;
+        }
+        .culture-signal-compact:hover .culture-signal-compact-title { color: #fed7aa; }
+        .culture-signal-compact:focus-visible {
+            outline: 3px solid var(--neon-cyan);
+            outline-offset: 3px;
+        }
 
         /* ===== CTA SECTION ===== */
         .cta-section {
@@ -683,9 +683,6 @@
             .start-card { min-height: 0; }
             .top-picks { flex-direction: column; gap: 8px; margin-bottom: 28px; }
             .pick-card { width: 100%; justify-content: center; padding: 14px 20px; font-size: 15px; }
-            .culture-signal { padding: 18px; }
-            .culture-signal-link { grid-template-columns: 1fr; }
-            .culture-signal-cta { white-space: normal; }
             .hero-cta { padding: 16px 36px; font-size: 15px; }
             .cta-section { padding: 32px 20px; }
         }
@@ -788,6 +785,17 @@
             <a href="/hsp-test/" class="cta-secondary" id="hero-secondary-cta" data-root-event="root_cta_click" data-root-surface="hero_secondary_hsp" data-i18n="cta.secondary">Explore sensory sensitivity</a>
         </div>
 
+        <a href="/portal/blog/ko/odyssey-spider-man-identity-reset-2026.html" class="culture-signal-link culture-signal-compact" id="culture-signal-link" data-root-event="root_trend_click" data-root-surface="culture_signal" data-app="odyssey-spiderman-2026">
+            <span class="culture-signal-compact-copy">
+                <span class="culture-signal-compact-meta">
+                    <span class="culture-signal-compact-label" data-i18n="signal.label">Fresh culture signal</span>
+                    <span class="culture-signal-compact-badge" data-i18n="signal.badge">Korean edition</span>
+                </span>
+                <strong class="culture-signal-compact-title" id="culture-signal-title" data-i18n="signal.title">Why The Odyssey and Spider-Man ruled 2026</strong>
+            </span>
+            <span class="culture-signal-compact-arrow" aria-hidden="true">&rarr;</span>
+        </a>
+
         <section class="start-here hero-anim" style="--d:5" id="start-here">
             <div class="start-here-copy">
                 <p class="start-here-label" data-i18n="startHere.label">Start Here</p>
@@ -833,19 +841,6 @@
             <a href="/iq-test/" class="pick-card" data-root-event="root_pick_click" data-root-surface="focus_pick" data-app="iq-test" data-emoji="05" style="--accent:#ffb800" data-i18n="focus.iq">05 IQ Test</a>
             <a href="/portal/tools/kpop-role-roster.html" class="pick-card" data-root-event="root_pick_click" data-root-surface="focus_pick" data-app="kpop-role-roster" data-emoji="06" style="--accent:#ff2d78" data-i18n="focus.kpop">06 K-pop Role Roster</a>
         </div>
-        <section class="culture-signal reveal" aria-labelledby="culture-signal-title">
-            <p class="culture-signal-label">
-                <span data-i18n="signal.label">Fresh culture signal</span>
-                <span class="culture-signal-badge" data-i18n="signal.badge">Korean edition</span>
-            </p>
-            <a href="/portal/blog/ko/odyssey-spider-man-identity-reset-2026.html" class="culture-signal-link" id="culture-signal-link" data-root-event="root_trend_click" data-root-surface="culture_signal" data-app="odyssey-spiderman-2026">
-                <span>
-                    <strong class="culture-signal-title" id="culture-signal-title" data-i18n="signal.title">Why The Odyssey and Spider-Man ruled 2026</strong>
-                    <span class="culture-signal-desc" data-i18n="signal.desc">A spoiler-free look at return, memory and identity reset — then connect the story to your own choice pattern.</span>
-                </span>
-                <span class="culture-signal-cta" data-i18n="signal.cta">Read the signal →</span>
-            </a>
-        </section>
         <div class="cta-section reveal">
             <p class="cta-desc" data-i18n="cta.desc">Looking for something else? The full archive remains available without crowding the main path.</p>
             <a href="/portal/" class="cta-secondary" id="cta-link" data-root-event="root_cta_click" data-root-surface="archive_portal" data-i18n="cta.button">Open the full archive →</a>
