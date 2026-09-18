@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Focused root/app queue: only verified search, engagement, or revenue paths. -->
-  <url><loc>https://dopabrain.com/</loc><lastmod>2026-08-28</lastmod></url>
+  <url><loc>https://dopabrain.com/</loc><lastmod>2026-09-18</lastmod></url>
   <url><loc>https://dopabrain.com/stress-check/</loc></url>
   <url><loc>https://dopabrain.com/stress-check/plan.html</loc></url>
   <url><loc>https://dopabrain.com/stress-check/script.html</loc></url>
   <url><loc>https://dopabrain.com/stress-check/library.html</loc></url>
+  <url><loc>https://dopabrain.com/future-self/</loc></url>
+  <url><loc>https://dopabrain.com/stress-response/</loc></url>
+  <url><loc>https://dopabrain.com/burnout-test/</loc></url>
   <url><loc>https://dopabrain.com/hsp-test/</loc></url>
   <url><loc>https://dopabrain.com/hsp-test/reset.html</loc></url>
   <url><loc>https://dopabrain.com/hsp-test/map.html</loc></url>
