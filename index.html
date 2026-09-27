@@ -133,6 +133,10 @@
             --ease: cubic-bezier(0.16, 1, 0.3, 1);
         }
 
+        html {
+            overflow-x: hidden;
+        }
+
         body {
             font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
             background: var(--bg);
@@ -241,7 +245,7 @@
 
         h1 {
             font-family: 'Syne', sans-serif;
-            font-size: clamp(48px, 12vw, 72px);
+            font-size: clamp(36px, 10vw, 72px);
             font-weight: 800;
             background: linear-gradient(135deg,
                 var(--neon-cyan) 0%,
@@ -502,6 +506,58 @@
         }
         .pick-card:active { transform: translateY(-1px) scale(0.97); }
 
+        /* ===== CONTENT SORT CONTROL ===== */
+        .content-sort-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+            margin: 28px 0 16px;
+            width: 100%;
+        }
+        .sort-tab-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            min-height: 44px;
+            padding: 10px 24px;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid var(--glass-border);
+            border-radius: 999px;
+            color: var(--text-dim);
+            font-family: 'Outfit', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.25s var(--ease);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+        .sort-tab-btn:hover {
+            color: var(--text);
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(255, 255, 255, 0.16);
+            transform: translateY(-1px);
+        }
+        .sort-tab-btn.active {
+            color: #060612;
+            background: var(--neon-cyan);
+            border-color: var(--neon-cyan);
+            box-shadow: 0 0 20px rgba(0, 229, 255, 0.4);
+            font-weight: 700;
+        }
+        .sort-tab-btn:focus-visible {
+            outline: 3px solid var(--neon-cyan);
+            outline-offset: 3px;
+        }
+        .content-panel {
+            transition: opacity 0.25s ease, transform 0.25s ease;
+        }
+        .content-panel.hidden {
+            display: none !important;
+        }
+
         /* ===== CULTURE SIGNAL PILOT ===== */
         .culture-signal-compact {
             display: flex;
@@ -712,6 +768,17 @@
         [data-theme="light"] .tagline { color: #0891b2; }
         [data-theme="light"] .subtitle { color: var(--text-dim); }
         [data-theme="light"] .pick-card { color: var(--text); }
+        [data-theme="light"] .sort-tab-btn {
+            background: rgba(0, 0, 0, 0.04);
+            border-color: rgba(0, 0, 0, 0.08);
+            color: var(--text-dim);
+        }
+        [data-theme="light"] .sort-tab-btn.active {
+            background: #0891b2;
+            border-color: #0891b2;
+            color: #ffffff;
+            box-shadow: 0 4px 14px rgba(8, 145, 178, 0.3);
+        }
         [data-theme="light"] .cta-desc { color: var(--text-dim); }
         [data-theme="light"] .cta-link { color: #1a1028; }
         [data-theme="light"] .cta-secondary { background: rgba(0,0,0,0.03); border-color: rgba(0,0,0,0.08); color: var(--text); }
@@ -833,13 +900,37 @@
             </div>
         </section>
 
-        <div class="top-picks hero-anim" style="--d:6" id="top-picks">
+        <div class="content-sort-wrapper hero-anim" style="--d:6" role="tablist" aria-label="Content sort options">
+            <button class="sort-tab-btn active" id="sort-popular-btn" role="tab" aria-selected="true" data-sort="popular">
+                <span class="sort-tab-icon">🔥</span>
+                <span class="sort-tab-text" data-i18n="sort.popular">인기순</span>
+            </button>
+            <button class="sort-tab-btn" id="sort-latest-btn" role="tab" aria-selected="false" data-sort="latest">
+                <span class="sort-tab-icon">✨</span>
+                <span class="sort-tab-text" data-i18n="sort.latest">최신순</span>
+            </button>
+        </div>
+
+        <div class="top-picks content-panel hero-anim" style="--d:6" id="panel-popular" role="tabpanel" aria-labelledby="sort-popular-btn">
             <a href="/stress-check/" class="pick-card" data-root-event="root_pick_click" data-root-surface="focus_pick" data-app="stress-check" data-emoji="01" style="--accent:#22c55e" data-i18n="focus.stress">01 Stress Check</a>
             <a href="/hsp-test/" class="pick-card" data-root-event="root_pick_click" data-root-surface="focus_pick" data-app="hsp-test" data-emoji="02" style="--accent:#7c3aed" data-i18n="focus.hsp">02 HSP Test</a>
             <a href="/puzzle-2048/coach.html" class="pick-card" data-root-event="root_pick_click" data-root-surface="focus_pick" data-app="puzzle-2048" data-emoji="03" style="--accent:#00e5ff" data-i18n="focus.coach">03 2048 Coach</a>
             <a href="/brain-type/" class="pick-card" data-root-event="root_pick_click" data-root-surface="focus_pick" data-app="brain-type" data-emoji="04" style="--accent:#6366f1" data-i18n="focus.brain">04 Brain Type</a>
-            <a href="/iq-test/" class="pick-card" data-root-event="root_pick_click" data-root-surface="focus_pick" data-app="iq-test" data-emoji="05" style="--accent:#ffb800" data-i18n="focus.iq">05 IQ Test</a>
-            <a href="/portal/tools/kpop-role-roster.html" class="pick-card" data-root-event="root_pick_click" data-root-surface="focus_pick" data-app="kpop-role-roster" data-emoji="06" style="--accent:#ff2d78" data-i18n="focus.kpop">06 K-pop Role Roster</a>
+            <a href="/future-self/" class="pick-card" data-root-event="root_pick_click" data-root-surface="focus_pick" data-app="future-self" data-emoji="05" style="--accent:#ec4899">05 Future Self</a>
+            <a href="/burnout-test/" class="pick-card" data-root-event="root_pick_click" data-root-surface="focus_pick" data-app="burnout-test" data-emoji="06" style="--accent:#f97316">06 Burnout Test</a>
+            <a href="/iq-test/" class="pick-card" data-root-event="root_pick_click" data-root-surface="focus_pick" data-app="iq-test" data-emoji="07" style="--accent:#ffb800" data-i18n="focus.iq">07 IQ Test</a>
+            <a href="/reaction-test/" class="pick-card" data-root-event="root_pick_click" data-root-surface="focus_pick" data-app="reaction-test" data-emoji="08" style="--accent:#10b981">08 Reaction Test</a>
+        </div>
+
+        <div class="top-picks content-panel hero-anim hidden" style="--d:6" id="panel-latest" role="tabpanel" aria-labelledby="sort-latest-btn">
+            <a href="/portal/blog/en/roblox-datastore-profileservice-persistence-guide.html" class="pick-card js-latest-link" data-slug="roblox-datastore-profileservice-persistence-guide.html" data-root-event="root_pick_click" data-root-surface="latest_pick" data-app="roblox-datastore" data-emoji="NEW" style="--accent:#10b981">NEW Roblox DataStores</a>
+            <a href="/portal/blog/en/fantasy-fiction-psychology-worldbuilding-escapism.html" class="pick-card js-latest-link" data-slug="fantasy-fiction-psychology-worldbuilding-escapism.html" data-root-event="root_pick_click" data-root-surface="latest_pick" data-app="fantasy-psychology" data-emoji="NEW" style="--accent:#8b5cf6">NEW Fantasy Psychology</a>
+            <a href="/portal/blog/en/roblox-studio-plugin-development-guide.html" class="pick-card js-latest-link" data-slug="roblox-studio-plugin-development-guide.html" data-root-event="root_pick_click" data-root-surface="latest_pick" data-app="roblox-plugin" data-emoji="NEW" style="--accent:#06b6d4">NEW Roblox Plugin Dev</a>
+            <a href="/portal/blog/en/romance-fiction-psychology-slow-burn-tropes.html" class="pick-card js-latest-link" data-slug="romance-fiction-psychology-slow-burn-tropes.html" data-root-event="root_pick_click" data-root-surface="latest_pick" data-app="romance-psychology" data-emoji="NEW" style="--accent:#f43f5e">NEW Romance Psychology</a>
+            <a href="/portal/blog/en/roblox-optimization-anti-lag-microprofiler-guide.html" class="pick-card js-latest-link" data-slug="roblox-optimization-anti-lag-microprofiler-guide.html" data-root-event="root_pick_click" data-root-surface="latest_pick" data-app="roblox-opt" data-emoji="NEW" style="--accent:#eab308">NEW Roblox Optimization</a>
+            <a href="/portal/blog/en/comedy-humor-psychology-laughter-relief.html" class="pick-card js-latest-link" data-slug="comedy-humor-psychology-laughter-relief.html" data-root-event="root_pick_click" data-root-surface="latest_pick" data-app="comedy-psychology" data-emoji="NEW" style="--accent:#f59e0b">NEW Comedy Psychology</a>
+            <a href="/portal/blog/en/horror-cinema-psychology-fear-catharsis.html" class="pick-card js-latest-link" data-slug="horror-cinema-psychology-fear-catharsis.html" data-root-event="root_pick_click" data-root-surface="latest_pick" data-app="horror-psychology" data-emoji="NEW" style="--accent:#ef4444">NEW Horror Psychology</a>
+            <a href="/portal/tools/kpop-role-roster.html" class="pick-card" data-root-event="root_pick_click" data-root-surface="latest_pick" data-app="kpop-role-roster" data-emoji="NEW" style="--accent:#ff2d78" data-i18n="focus.kpop">NEW K-pop Role Roster</a>
         </div>
         <div class="cta-section reveal">
             <p class="cta-desc" data-i18n="cta.desc">Looking for something else? The full archive remains available without crowding the main path.</p>
@@ -906,6 +997,50 @@
         document.querySelectorAll('.start-card, .pick-card, #hero-primary-cta, #hero-secondary-cta, #culture-signal-link, #cta-link').forEach(function(link) {
             localizeLinkElement(link, lang);
         });
+        document.querySelectorAll('.js-latest-link').forEach(function(link) {
+            var slug = link.dataset.slug;
+            if (slug) {
+                link.setAttribute('href', '/portal/blog/' + lang + '/' + slug);
+            }
+        });
+    }
+
+    var sortPopularBtn = document.getElementById('sort-popular-btn');
+    var sortLatestBtn = document.getElementById('sort-latest-btn');
+    var panelPopular = document.getElementById('panel-popular');
+    var panelLatest = document.getElementById('panel-latest');
+
+    function setContentSort(mode) {
+        if (!panelPopular || !panelLatest) return;
+        if (mode === 'latest') {
+            if (sortPopularBtn) {
+                sortPopularBtn.classList.remove('active');
+                sortPopularBtn.setAttribute('aria-selected', 'false');
+            }
+            if (sortLatestBtn) {
+                sortLatestBtn.classList.add('active');
+                sortLatestBtn.setAttribute('aria-selected', 'true');
+            }
+            panelPopular.classList.add('hidden');
+            panelLatest.classList.remove('hidden');
+        } else {
+            if (sortLatestBtn) {
+                sortLatestBtn.classList.remove('active');
+                sortLatestBtn.setAttribute('aria-selected', 'false');
+            }
+            if (sortPopularBtn) {
+                sortPopularBtn.classList.add('active');
+                sortPopularBtn.setAttribute('aria-selected', 'true');
+            }
+            panelLatest.classList.add('hidden');
+            panelPopular.classList.remove('hidden');
+        }
+        trackRootEvent('root_sort_toggle', { sort: mode });
+    }
+
+    if (sortPopularBtn && sortLatestBtn) {
+        sortPopularBtn.addEventListener('click', function() { setContentSort('popular'); });
+        sortLatestBtn.addEventListener('click', function() { setContentSort('latest'); });
     }
 
     function emitRootView() {

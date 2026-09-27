@@ -82,5 +82,9 @@
     "title": "Pourquoi The Odyssey et Spider-Man ont dominé 2026",
     "desc": "Une lecture sans spoilers du retour, de la mémoire et du renouveau identitaire.",
     "cta": "Lire le signal →"
+  },
+  "sort": {
+    "popular": "🔥 Les plus populaires",
+    "latest": "✨ Les plus récents"
   }
 }
