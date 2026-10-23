@@ -1,147 +1,131 @@
-# DopaBrain - Complete Content Directory
+# DopaBrain - Extended Scientific & Application Directory
 
-> DopaBrain (https://dopabrain.com) is a free online platform offering 24+ browser-based games, personality tests, quizzes, and utility tools. All content is free, requires no installation, and works on mobile and desktop.
-
-## About
-- Website: https://dopabrain.com
-- Portal: https://dopabrain.com/portal/
-- Language: Korean (primary), some content in English
-- Platform: Progressive Web Apps (PWA), works offline
-- Cost: Free
+> DopaBrain (https://dopabrain.com) is an interactive mental wellness, cognitive training, and psychological self-discovery platform. All tools are browser-based, instant, privacy-first (all computation runs locally client-side), and fully localized across 12 languages: English, Korean, Japanese, Simplified Chinese, Spanish, Portuguese, German, French, Russian, Hindi, Indonesian, and Turkish.
 
 ---
 
-## Games (5)
+## Technical & Architectural Overview
 
-### Emoji Merge
-- URL: https://dopabrain.com/emoji-merge/
-- Type: Puzzle game (2048-style)
-- Description: Merge matching emojis to evolve them into new combinations. Strategic puzzle gameplay with progressive difficulty.
-
-### Stack Tower
-- URL: https://dopabrain.com/stack-tower/
-- Type: Arcade game
-- Description: Stack blocks with precise timing. Each level requires more accuracy. How high can you build?
-
-### Sky Runner
-- URL: https://dopabrain.com/sky-runner/
-- Type: Endless runner
-- Description: Navigate through space obstacles in this fast-paced endless runner arcade game.
-
-### Zigzag Runner
-- URL: https://dopabrain.com/zigzag-runner/
-- Type: Arcade game
-- Description: Change direction at the right moment to stay on the path. Simple controls, challenging gameplay.
-
-### Dungeon Clicker
-- URL: https://dopabrain.com/idle-clicker/
-- Type: Idle/Clicker RPG
-- Description: Click to defeat dungeon monsters, collect equipment upgrades from wooden sword to hero's blade. 10 equipment tiers.
+- **Canonical Origin**: `https://dopabrain.com/`
+- **Supported Languages (12)**: `en` (English), `ko` (Korean), `ja` (Japanese), `zh` (Simplified Chinese), `es` (Spanish), `pt` (Portuguese), `de` (German), `fr` (French), `ru` (Russian), `hi` (Hindi), `id` (Indonesian), `tr` (Turkish).
+- **Execution Model**: Client-side execution (vanilla JavaScript / HTML5 / CSS3 / Web Audio API). User responses are never transmitted to external servers or logged.
+- **Accessibility & Compliance**: Minimum touch target >= 44x44px, 0px horizontal overflow across all mobile viewports (390x844 standard), WCAG 2.1 AA compliant color contrast.
+- **Monetization & Ad Quality**: Pure AdSense Auto Ads with zero reward gates, zero forced interstitial locks, and strict invalid traffic protection.
 
 ---
 
-## Personality & Compatibility Tests (7)
+## 1. Flagship Psychological & Cognitive Tools
 
-### Valentine Compatibility Test
-- URL: https://dopabrain.com/valentine/
-- Type: Compatibility quiz
-- Description: Enter names and birthdays for two people, answer 5 love-style questions each. Analyzes name stroke compatibility, zodiac compatibility, and love type matching. Generates shareable result image.
-- Seasonal: Valentine's Day (February 14)
+### Stress Check & Decompression Suite
+- **Primary URL**: `https://dopabrain.com/stress-check/`
+- **Sub-pages**:
+  - `https://dopabrain.com/stress-check/plan.html` (Personalized Recovery Plan)
+  - `https://dopabrain.com/stress-check/script.html` (Boundary Setting Scripts)
+  - `https://dopabrain.com/stress-check/library.html` (Somatic Exercise Library)
+- **Scientific Framework**: Grounded in Cohen's Perceived Stress Scale (PSS-10; Cohen, Kamarck, & Mermelstein, 1983) and Selye's General Adaptation Syndrome (GAS).
+- **Assessment Dimensions**:
+  1. *Physical Stress*: Somatic manifestations including muscle tension, cardiovascular reactivity, fatigue, and autonomic arousal.
+  2. *Emotional Stress*: Irritability, emotional lability, anxiety, and feelings of being overwhelmed.
+  3. *Cognitive Stress*: Mental fog, indecision, intrusive worries, and working memory fatigue.
+- **Output & Decompression Tools**: Categorizes users into Mild, Moderate, or Severe stress levels, delivering evidence-based interventions including Andrew Huberman's cyclic physiological sigh, Jacobson's progressive muscle relaxation, and contextual workplace/interpersonal boundary scripts.
 
-### MBTI Love Compatibility
-- URL: https://dopabrain.com/mbti-love/
-- Type: Personality test
-- Description: Discover your MBTI-based romantic compatibility and love style.
+### HSP Sensitivity Test & Sensory Recovery
+- **Primary URL**: `https://dopabrain.com/hsp-test/`
+- **Sub-pages**:
+  - `https://dopabrain.com/hsp-test/reset.html` (Sensory Reset Protocol)
+  - `https://dopabrain.com/hsp-test/map.html` (Sensitivity Dimension Mapping)
+- **Scientific Framework**: Dr. Elaine N. Aron's Sensory Processing Sensitivity (SPS) model and the Highly Sensitive Person Scale (HSPS; Aron & Aron, 1997).
+- **Assessment Dimensions (The DOES Model)**:
+  1. *Depth of Processing (D)*: Thorough subconscious evaluation of environmental nuances, deep reflective contemplation.
+  2. *Overstimulation (O)*: Susceptibility to sensory overload from bright lights, loud noise, chaotic crowds, or high-intensity schedules.
+  3. *Emotional Reactivity & Empathy (E)*: Heightened mirror neuron activity, intense emotional empathy, and deep resonance with others' emotional states.
+  4. *Sensing the Subtle (S)*: Sensitivity to minor stimuli such as subtle scents, textures, tonal shifts, and micro-expressions.
+- **Output & Tools**: Scores sensitivity across Low, Moderate, High, and Orchids (Extreme). Provides the Sensory Reset Protocol with low-contrast visual themes, brown noise frequencies, and vagus nerve stimulation exercises.
 
-### Love Frequency Test
-- URL: https://dopabrain.com/love-frequency/
-- Type: Personality test
-- Description: Find your unique love frequency in Hz through personality questions. Includes audio frequency playback.
+### Future Self Continuity & Temporal Discounting
+- **Primary URL**: `https://dopabrain.com/future-self/`
+- **Scientific Framework**: Hal E. Hershfield's Future Self Continuity paradigm (Hershfield et al., 2011; Journal of Marketing Research / Social Psychological and Personality Science).
+- **Assessment Dimensions**:
+  - *Future Vividness*: Clarity with which a person imagines their life 10 years in the future.
+  - *Temporal Connectedness*: Degree of emotional alignment and obligation felt toward the future self.
+  - *Temporal Discounting*: Propensity to value short-term gratification over long-term compound outcomes.
+- **Output**: Generates a future self continuity score, identifying psychological barriers to savings, health habits, and career resilience with personalized visualization exercises.
 
-### Emotion Temperature Test
-- URL: https://dopabrain.com/emotion-temp/
-- Type: Psychological test
-- Description: Measure your current emotional temperature through 10 questions. Visual thermometer result.
+### 2048 Strategy Coach & Tactical Trainer
+- **Primary URL**: `https://dopabrain.com/puzzle-2048/coach.html`
+- **Interactive Methodology**:
+  - Dynamic game state analysis identifying board corner-locking (keeping the maximum tile anchored in a designated corner).
+  - Monotonic row/column formation (ensuring decreasing numerical values along edges to avoid trapping tiles).
+  - Snake pattern building (maintaining serpentine chains from 2048 to 1024, 512, 256, 128).
+  - Undo analysis detecting tactical blunders and explaining optimal move directions (Up, Down, Left, Right).
 
-### HSP Sensitivity Test
-- URL: https://dopabrain.com/hsp-test/
-- Type: Self-diagnosis test
-- Description: Highly Sensitive Person assessment. Discover your sensitivity level and get personalized tips.
+### Brain Type Quiz (5-Dimension Cognitive Profile)
+- **Primary URL**: `https://dopabrain.com/brain-type/`
+- **Scientific Grounding**: Cognitive psychology paradigms combining Sternberg's triarchic theory of intelligence and contemporary cognitive preference models.
+- **Dimensions Measured**:
+  1. *Analytical*: Systematic, logical problem decomposition.
+  2. *Creative*: Divergent thinking and novel association generation.
+  3. *Strategic*: Long-horizon planning, risk assessment, and game-theoretic navigation.
+  4. *Intuitive*: Rapid pattern recognition and subconscious synthesis.
+  5. *Empathetic*: Social cognition, interpersonal resonance, and collaborative alignment.
 
-### K-POP Position Test
-- URL: https://dopabrain.com/kpop-position/
-- Type: Fun personality test
-- Description: Find out which K-POP idol position suits you - main vocalist, rapper, dancer, or visual.
-
-### Past Life Job Test
-- URL: https://dopabrain.com/past-life/
-- Type: Fun personality test
-- Description: Discover your past life occupation through 10 questions. 8 possible past life types with compatibility analysis.
+### IQ & Abstract Matrix Reasoning Challenge
+- **Primary URL**: `https://dopabrain.com/iq-test/`
+- **Scientific Framework**: Non-verbal matrix reasoning inspired by Raven's Progressive Matrices (Raven, 1938) and Cattell's concept of fluid intelligence ($G_f$).
+- **Features**: Culture-fair, language-independent 3x3 visual grid puzzles requiring geometric transformation deduction, topological rotation, and logical set operations.
 
 ---
 
-## Quizzes (2)
+## 2. Personality, Relationship & Self-Discovery Suite
 
-### General Knowledge Quiz
-- URL: https://dopabrain.com/quiz-app/
-- Type: Trivia quiz
-- Description: 100 adult-level general knowledge questions covering science, history, geography, culture, and more.
+### Dark Core Test (D-Factor)
+- **URL**: `https://dopabrain.com/dark-core/`
+- **Scientific Basis**: Moshagen, Hilbig, & Zettler (2018) Dark Factor of Personality ($D$). Measures shared variance across Machiavellianism, narcissism, moral disengagement, and psychological entitlement while maintaining constructive, non-judgmental self-reflection.
 
-### Developer Quiz
-- URL: https://dopabrain.com/dev-quiz/
-- Type: Technical quiz
-- Description: Test your IT and coding knowledge with programming-related questions.
+### Emotional Age Assessment
+- **URL**: `https://dopabrain.com/emotional-age/`
+- **Assessment**: Evaluates emotional maturity, self-regulation, impulse control, and perspective-taking relative to chronological age.
+
+### Love Language Test
+- **URL**: `https://dopabrain.com/love-language/`
+- **Framework**: Gary Chapman's 5 Love Languages (Words of Affirmation, Quality Time, Receiving Gifts, Acts of Service, Physical Touch).
+
+### Red / Green Flag Relationship Test
+- **URL**: `https://dopabrain.com/red-green-flag/`
+- **Assessment**: Evaluates interpersonal boundary health, communication patterns, emotional safety markers, and gaslighting/stonewalling red flags.
+
+### Animal Personality Test
+- **URL**: `https://dopabrain.com/animal-personality/`
+- **Methodology**: Archetypal behavior profiling assessing social drive, stress coping, leadership inclination, and conflict styles through intuitive animal metaphors.
+
+### Toxic Trait Self-Audit
+- **URL**: `https://dopabrain.com/toxic-trait/`
+- **Methodology**: Cognitive-behavioral self-awareness screener identifying passive-aggressive tendencies, defensive projection, people-pleasing, and emotional avoidance.
+
+### K-POP Role Roster
+- **URL**: `https://dopabrain.com/kpop-position/`
+- **Sub-pages**: `https://dopabrain.com/portal/tools/kpop-role-roster.html`
+- **Methodology**: Interactive group dynamics tool evaluating leadership, visual creative flair, harmonic support, and center stage performance drive.
+
+### Burnout Risk Screener
+- **URL**: `https://dopabrain.com/burnout-test/`
+- **Scientific Framework**: Maslach Burnout Inventory (MBI; Maslach & Jackson, 1981) measuring emotional exhaustion, depersonalization/cynicism, and reduced personal accomplishment.
+
+### Cognitive Distortions Identifier
+- **URL**: `https://dopabrain.com/cognitive-distortions/`
+- **Framework**: Aaron Beck & David Burns Cognitive Behavioral Therapy (CBT) distortion taxonomy (catastrophizing, all-or-nothing thinking, emotional reasoning, overgeneralization).
+
+### Emotion Iceberg Explorer
+- **URL**: `https://dopabrain.com/emotion-iceberg/`
+- **Methodology**: Emotional granularity framework separating secondary emotional reactions (surface level) from primary emotional roots (submerged level).
 
 ---
 
-## Utility Tools (10)
+## 3. Wellness Utilities & Cognitive Games
 
-### Dream Fortune & Daily Horoscope
-- URL: https://dopabrain.com/dream-fortune/
-- Type: Fortune/Entertainment
-- Description: AI-powered dream interpretation and daily fortune reading.
-
-### Lottery Number Generator
-- URL: https://dopabrain.com/lottery/
-- Type: Entertainment tool
-- Description: Korean Lotto (6/45) and pension lottery number generator with statistical analysis.
-
-### D-Day Counter
-- URL: https://dopabrain.com/dday-counter/
-- Type: Utility
-- Description: Track important dates with countdown/countup. Supports recurring events and categories.
-
-### Tax Refund Calculator
-- URL: https://dopabrain.com/tax-refund-preview/
-- Type: Financial calculator
-- Description: Korean year-end tax settlement simulator. Estimate your tax refund based on income and deductions.
-
-### Unit Converter Pro
-- URL: https://dopabrain.com/unit-converter/
-- Type: Utility
-- Description: Convert between units of area (pyeong), weight, temperature, volume, and more.
-
-### Global Shopping Calculator
-- URL: https://dopabrain.com/shopping-calc/
-- Type: Financial calculator
-- Description: Calculate total cost of overseas purchases including exchange rate, customs duty, and tips.
-
-### Digital Detox Timer
-- URL: https://dopabrain.com/detox-timer/
-- Type: Wellness tool
-- Description: Set smartphone usage goals and track your digital detox progress.
-
-### Daily Affirmation Cards
-- URL: https://dopabrain.com/affirmation/
-- Type: Wellness
-- Description: Receive daily positive affirmation messages for motivation and mental wellness.
-
-### MBTI Personality Tips
-- URL: https://dopabrain.com/mbti-tips/
-- Type: Reference
-- Description: Comprehensive MBTI personality type guide with compatibility information.
-
-### White Noise Player
-- URL: https://dopabrain.com/white-noise/
-- Type: Audio tool
-- Description: Ambient sound player for focus, study, and sleep. Multiple nature and white noise tracks.
+- **Digital Detox Timer**: `https://dopabrain.com/detox-timer/`
+- **Daily Tarot Mindful Reflection**: `https://dopabrain.com/daily-tarot/`
+- **Dream Fortune & Subconscious Journaling**: `https://dopabrain.com/dream-fortune/`
+- **Classic 2048**: `https://dopabrain.com/puzzle-2048/`
+- **Daily Affirmation Cards**: `https://dopabrain.com/affirmation/`
+- **White Noise Ambient Player**: `https://dopabrain.com/white-noise/`

@@ -1,46 +1,44 @@
 # DopaBrain
 
-> Free online games, quizzes, psychological tests, and utility tools. No installation required.
+> Evidence-based psychological self-assessments, cognitive training coaches, and emotional wellness tools available in 12 languages. Instant, private, client-side, with zero mandatory signup.
 
-DopaBrain (dopabrain.com) provides 24+ free browser-based interactive content including casual games, personality tests, compatibility quizzes, and calculators.
+DopaBrain (https://dopabrain.com) is an interactive mental health, cognitive fitness, and self-discovery platform. It supports 12 languages: English, Korean, Japanese, Simplified Chinese, Spanish, Portuguese, German, French, Russian, Hindi, Indonesian, and Turkish. All assessments operate entirely client-side, ensuring user privacy and confidentiality.
 
-## Games
-- [Emoji Merge](https://dopabrain.com/emoji-merge/): 2048-style emoji evolution puzzle game
-- [Stack Tower](https://dopabrain.com/stack-tower/): Timing-based block stacking arcade game
-- [Sky Runner](https://dopabrain.com/sky-runner/): Endless space runner arcade game
-- [Zigzag Runner](https://dopabrain.com/zigzag-runner/): Direction-change arcade game
-- [Dungeon Clicker](https://dopabrain.com/idle-clicker/): Idle RPG dungeon clicker game
+## Core Psychological & Cognitive Tools
 
-## Personality & Compatibility Tests
-- [Valentine Compatibility Test](https://dopabrain.com/valentine/): Name stroke + zodiac + love type compatibility analysis
-- [MBTI Love Compatibility](https://dopabrain.com/mbti-love/): MBTI-based romantic compatibility test
-- [Love Frequency Test](https://dopabrain.com/love-frequency/): Discover your love frequency in Hz
-- [Emotion Temperature Test](https://dopabrain.com/emotion-temp/): Measure your emotional temperature
-- [HSP Sensitivity Test](https://dopabrain.com/hsp-test/): Highly Sensitive Person self-diagnosis
-- [K-POP Position Test](https://dopabrain.com/kpop-position/): Find your K-POP idol position
-- [Past Life Job Test](https://dopabrain.com/past-life/): Discover your past life occupation
+- [Stress Check](https://dopabrain.com/stress-check/): Perceived stress assessment grounded in Cohen's Perceived Stress Scale (PSS-10) measuring physical, emotional, and cognitive stress dimensions with tailored recovery protocols.
+- [Stress Decompression Plan](https://dopabrain.com/stress-check/plan.html): Personalized multi-tier recovery plans based on perceived stress severity.
+- [Stress Boundary Script Builder](https://dopabrain.com/stress-check/script.html): Assertive communication scripts and professional boundary-setting templates.
+- [Stress Relief Library](https://dopabrain.com/stress-check/library.html): Somatic decompression exercises, physiological sigh guides, and guided progressive muscle relaxation.
+- [HSP Sensitivity Test](https://dopabrain.com/hsp-test/): Highly Sensitive Person self-assessment based on Dr. Elaine Aron's Sensory Processing Sensitivity (SPS) DOES model (Depth of processing, Overstimulation, Emotional reactivity, Sensing the subtle).
+- [HSP Sensory Reset](https://dopabrain.com/hsp-test/reset.html): Low-stimulation sensory regulation protocol designed for quick recovery from sensory overload.
+- [Future Self Continuity](https://dopabrain.com/future-self/): Longitudinal self-continuity simulation and temporal discounting exercise based on Dr. Hal Hershfield's behavioral psychology framework.
+- [2048 Strategy Coach](https://dopabrain.com/puzzle-2048/coach.html): Interactive tactical trainer teaching corner-locking, monotonic snake builds, and blunder-recovery techniques for mathematical tile puzzles.
+- [Brain Type Quiz](https://dopabrain.com/brain-type/): Five-dimensional cognitive profile evaluating analytical, creative, strategic, intuitive, and empathetic thinking styles.
+- [IQ & Abstract Reasoning Test](https://dopabrain.com/iq-test/): Progressive matrix reasoning assessment (Raven SPM methodology) measuring fluid intelligence and non-verbal pattern deduction.
 
-## Quizzes
-- [General Knowledge Quiz](https://dopabrain.com/quiz-app/): 100 adult-level trivia questions
-- [Developer Quiz](https://dopabrain.com/dev-quiz/): IT and coding knowledge quiz
+## Self-Discovery & Personality Assessments
 
-## Utility Tools
-- [Dream Fortune](https://dopabrain.com/dream-fortune/): AI dream interpretation and daily fortune
-- [Lottery Generator](https://dopabrain.com/lottery/): Korean Lotto number generator with analysis
-- [D-Day Counter](https://dopabrain.com/dday-counter/): Event countdown tracker
-- [Tax Refund Calculator](https://dopabrain.com/tax-refund-preview/): Korean year-end tax refund simulator
-- [Unit Converter](https://dopabrain.com/unit-converter/): Area, weight, temperature, volume converter
-- [Shopping Calculator](https://dopabrain.com/shopping-calc/): Global shopping with exchange rate and customs
-- [Digital Detox Timer](https://dopabrain.com/detox-timer/): Smartphone usage timer
-- [Daily Affirmation](https://dopabrain.com/affirmation/): Positive affirmation cards
-- [MBTI Tips](https://dopabrain.com/mbti-tips/): MBTI personality type guide
-- [White Noise Player](https://dopabrain.com/white-noise/): Ambient sounds for focus and sleep
+- [Dark Core Test](https://dopabrain.com/dark-core/): Assessment of the Dark Factor of Personality (D-factor, Moshagen et al.) measuring Machiavellianism, narcissism, and moral disengagement.
+- [Emotional Age Assessment](https://dopabrain.com/emotional-age/): Psychometric evaluation of emotional regulation, self-soothing, and social maturity.
+- [Love Language Test](https://dopabrain.com/love-language/): Discover primary relationship communication channels across Chapman's 5 Love Languages.
+- [Red / Green Flag Relationship Test](https://dopabrain.com/red-green-flag/): Self-audit tool measuring relationship boundaries, mutual respect, and emotional safety.
+- [Animal Personality Test](https://dopabrain.com/animal-personality/): Behavioral archetype profiling tool analyzing conflict resolution and workplace communication styles.
+- [Toxic Trait Self-Audit](https://dopabrain.com/toxic-trait/): Introspective tool for identifying defensive habits, avoidance triggers, and emotional coping mechanisms.
+- [K-POP Role Roster](https://dopabrain.com/kpop-position/): Team role and group dynamics profile based on creative expression, performance focus, and communication styles.
+- [Burnout Risk Screener](https://dopabrain.com/burnout-test/): Occupational burnout assessment measuring emotional exhaustion, depersonalization, and personal achievement.
+- [Cognitive Distortions Identifier](https://dopabrain.com/cognitive-distortions/): CBT-based cognitive distortion finder identifying catastrophizing, mind-reading, and dichotomous thinking.
+- [Emotion Iceberg Explorer](https://dopabrain.com/emotion-iceberg/): Emotional granularity tool identifying primary root feelings underneath secondary reactions.
+- [Attachment Style Test](https://dopabrain.com/attachment-style/): Relationship attachment assessment based on Bowlby & Ainsworth attachment theory (secure, anxious, avoidant, disorganized).
+- [MBTI Love Compatibility](https://dopabrain.com/mbti-love/): Romantic synergy and communication dynamics analysis based on MBTI personality archetypes.
 
-## Blog (Korean)
-- [Valentine Compatibility Guide](https://dopabrain.com/portal/blog/valentine-compatibility-guide.html)
-- [Lunar New Year Fortune 2026](https://dopabrain.com/portal/blog/lunar-new-year-fortune.html)
-- [Tax Refund Guide](https://dopabrain.com/portal/blog/tax-refund-guide.html)
-- [MBTI Compatibility Guide](https://dopabrain.com/portal/blog/mbti-compatibility.html)
-- [Lotto Strategy Guide](https://dopabrain.com/portal/blog/lotto-strategy.html)
-- [HSP Guide](https://dopabrain.com/portal/blog/hsp-guide.html)
-- [Pyeongsu Calculator](https://dopabrain.com/portal/blog/pyeongsu-calculator.html)
+## Wellness Utilities & Brain Games
+
+- [Digital Detox Timer](https://dopabrain.com/detox-timer/): Focus timer with soothing ambient soundscapes and usage accountability.
+- [Daily Tarot & Reflection](https://dopabrain.com/daily-tarot/): Archetypal card reflection for mindful introspection and journaling prompts.
+- [Dream Fortune & Symbolism](https://dopabrain.com/dream-fortune/): Symbolic dream analysis and subconscious emotional reflection.
+- [Puzzle 2048](https://dopabrain.com/puzzle-2048/): Browser-based sliding tile puzzle.
+
+## Comprehensive Directory & Documentation
+
+- [Full LLMs Directory](https://dopabrain.com/llms-full.txt): Detailed breakdown with methodology citations, scoring rubrics, sub-paths, and API details.
