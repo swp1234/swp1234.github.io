@@ -51,6 +51,25 @@
   - *Temporal Discounting*: Propensity to value short-term gratification over long-term compound outcomes.
 - **Output**: Generates a future self continuity score, identifying psychological barriers to savings, health habits, and career resilience with personalized visualization exercises.
 
+### Dilemma Decision Matrix (Pugh Matrix Multi-Criteria Analysis)
+- **Primary URL**: `https://dopabrain.com/portal/tools/decision-matrix.html`
+- **Methodology**: Stuart Pugh's Controlled Convergence method and Multi-Criteria Decision Analysis (MCDA).
+- **Core Functionality**:
+  - Evaluates two competing choices against multi-weighted criteria (Financial & Career Upside, Mental Wellbeing & Low Stress, Long-Term Alignment, Daily Energy & Feasibility).
+  - Normalizes subjective anxiety into objective 1–5 weighting tiers and 1–10 criterion rating sliders.
+  - Generates transparent, mathematical margin breakdowns, eliminating choice fatigue and cognitive paralysis with private local client execution.
+  - Deep cross-funnel bridges to Stress Check, Future Self Continuity, and Emotion Regulation Planner.
+
+### Emotion Regulation Planner (Gross Process Model)
+- **Primary URL**: `https://dopabrain.com/portal/tools/emotion-regulation-planner.html`
+- **Scientific Framework**: Dr. James J. Gross's Extended Process Model of Emotion Regulation (Gross, 1998, 2015; Review of General Psychology).
+- **5-Stage Sequential Interventions**:
+  1. *Situation Selection*: Proactive avoidance or intentional approach toward emotionally charged contexts.
+  2. *Situation Modification*: Modifying external physical or social surroundings to diminish emotional friction.
+  3. *Attentional Deployment*: Redirection of cognitive focus via distraction, physiological anchoring, or mindful focus.
+  4. *Cognitive Reappraisal*: Re-evaluating the meaning or significance of an event to transform subjective emotional load.
+  5. *Response Modulation*: Regulating physiological and expressive output (cyclic sighing, progressive muscle relaxation).
+
 ### 2048 Strategy Coach & Tactical Trainer
 - **Primary URL**: `https://dopabrain.com/puzzle-2048/coach.html`
 - **Interactive Methodology**:
