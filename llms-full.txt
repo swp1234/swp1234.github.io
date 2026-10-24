@@ -70,6 +70,14 @@
   4. *Cognitive Reappraisal*: Re-evaluating the meaning or significance of an event to transform subjective emotional load.
   5. *Response Modulation*: Regulating physiological and expressive output (cyclic sighing, progressive muscle relaxation).
 
+### Burnout vs Stress Differential Matrix
+- **Primary URL**: `https://dopabrain.com/portal/tools/burnout-stress-differential.html`
+- **Scientific Framework**: Differential assessment separating acute sympathetic nervous system tension (Perceived Stress Scale, Cohen et al.) from chronic occupational exhaustion & cynicism (Maslach Burnout Inventory, MBI).
+- **Core Functionality**:
+  - 6-question differential diagnostic matrix mapping user friction onto a 2D coordinate grid (Crisis Overload, Acute Stress, Chronic Burnout, Balanced Adaptation).
+  - Calculates situational tension vs. systemic depletion percentages with localized tactical recovery steps.
+  - Native Web Share API integration and cross-funnel bridges to Stress Check and Burnout Stage Test.
+
 ### 2048 Strategy Coach & Tactical Trainer
 - **Primary URL**: `https://dopabrain.com/puzzle-2048/coach.html`
 - **Interactive Methodology**:
