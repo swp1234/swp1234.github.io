@@ -88,6 +88,15 @@
   - Provides an ADHD-friendly 3-tier 'Dopamine Menu' (Appetizers, Entrees, Desserts) for low-friction behavioral substitution.
   - Native Web Share API integration and cross-funnel bridges to Stress Check and Future Self Continuity.
 
+### 5-4-3-2-1 Sensory Grounding & Panic Reset Tool
+- **Primary URL**: `https://dopabrain.com/portal/tools/grounding-exercise.html`
+- **Neurobiological Framework**: Polyvagal theory and somatic de-escalation targeting acute sympathetic autonomic arousal (panic, sensory flooding, dissociation) via sensory anchoring and parasympathetic vagal stimulation.
+- **Core Functionality**:
+  - Interactive 5-checkpoint progressive sensory walk-through: 5 Visual, 4 Tactile, 3 Auditory, 2 Olfactory, 1 Gustatory.
+  - Somatic Checkpoint Runner: User logs tangible real-world anchors to shift cognitive focus from amygdala threat loops back to prefrontal somatic processing.
+  - Integrated Physiological Cyclic Sigh: Guided 2-inhale, 1-exhale breathwork widget based on Huberman neurobiology protocols to rapidly reduce autonomic heart rate and restore calm.
+  - Native Web Share API integration and cross-funnel bridges to Stress Check and HSP Sensory Profile.
+
 ### 2048 Strategy Coach & Tactical Trainer
 - **Primary URL**: `https://dopabrain.com/puzzle-2048/coach.html`
 - **Interactive Methodology**:
