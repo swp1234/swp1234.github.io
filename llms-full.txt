@@ -97,6 +97,16 @@
   - Integrated Physiological Cyclic Sigh: Guided 2-inhale, 1-exhale breathwork widget based on Huberman neurobiology protocols to rapidly reduce autonomic heart rate and restore calm.
   - Native Web Share API integration and cross-funnel bridges to Stress Check and HSP Sensory Profile.
 
+### Cognitive Load & Brain Fog Calculator
+- **Primary URL**: `https://dopabrain.com/portal/tools/cognitive-load-calculator.html`
+- **Cognitive Framework**: Sweller's Cognitive Load Theory (Intrinsic, Extraneous, and Germane Load) and Baddeley's Model of Working Memory (Central Executive, Phonological Loop, Visuospatial Sketchpad).
+- **Core Functionality**:
+  - 8-metric executive function audit measuring working memory saturation, open loop anxiety, sensory noise friction, and decision fatigue.
+  - Dynamically calculates Mental RAM Utilization (%), Available Cognitive Headroom, and Working Memory Drain.
+  - Real-time client-side device telemetry integrating memory heuristics and hardware concurrency context.
+  - Generates tailored executive decompression protocols (Working Memory Dump, Sensory Defiltration, Decision Batching) with quick-action checklists.
+  - Native Web Share API integration and cross-funnel bridges to Stress Check, HSP Test, and Dopamine Reset Protocol.
+
 ### 2048 Strategy Coach & Tactical Trainer
 - **Primary URL**: `https://dopabrain.com/puzzle-2048/coach.html`
 - **Interactive Methodology**:
