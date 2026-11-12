@@ -973,13 +973,9 @@
 
     function updateLocalizedLinks() {
         var lang = getActiveLinkLang();
-        document.querySelectorAll('.start-card, .pick-card, #hero-primary-cta, #hero-secondary-cta, #cta-link').forEach(function(link) {
+        document.querySelectorAll('.start-card, .pick-card, #hero-primary-cta, #hero-secondary-cta, #culture-signal-link, #cta-link').forEach(function(link) {
             localizeLinkElement(link, lang);
         });
-        var cultureSignal = document.getElementById('culture-signal-link');
-        if (cultureSignal) {
-            cultureSignal.setAttribute('href', '/portal/blog/' + lang + '/dopamine-detox-guide-reset-brain.html');
-        }
     }
 
     function emitRootView() {
