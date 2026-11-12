@@ -27,7 +27,7 @@
   1. *Physical Stress*: Somatic manifestations including muscle tension, cardiovascular reactivity, fatigue, and autonomic arousal.
   2. *Emotional Stress*: Irritability, emotional lability, anxiety, and feelings of being overwhelmed.
   3. *Cognitive Stress*: Mental fog, indecision, intrusive worries, and working memory fatigue.
-- **Output & Decompression Tools**: Categorizes users into Mild, Moderate, or Severe stress levels, delivering evidence-based interventions including Andrew Huberman's cyclic physiological sigh, Jacobson's progressive muscle relaxation, and contextual workplace/interpersonal boundary scripts.
+- **Output & Decompression Tools**: Categorizes users into Mild, Moderate, or Severe stress levels, delivering evidence-based interventions including Andrew Huberman's cyclic physiological sigh, Jacobson's progressive muscle relaxation, contextual workplace/interpersonal boundary scripts, instant client-side 1080x1920 Instagram/SNS Story Card export, and curated evidence-based recovery literature (Emily Nagoski, Elaine Aron).
 
 ### HSP Sensitivity Test & Sensory Recovery
 - **Primary URL**: `https://dopabrain.com/hsp-test/`
@@ -38,6 +38,18 @@
 - **Assessment Dimensions (The DOES Model)**:
   1. *Depth of Processing (D)*: Thorough subconscious evaluation of environmental nuances, deep reflective contemplation.
   2. *Overstimulation (O)*: Susceptibility to sensory overload from bright lights, loud noise, chaotic crowds, or high-intensity schedules.
+  3. *Emotional Reactivity / Empathy (E)*: Heightened emotional response to positive and negative stimuli, elevated mirror neuron activity.
+  4. *Sensing the Subtle (S)*: Perception of minor details in sensory input (sound pitch, texture, subtle atmospheric shifts).
+- **Output & Interactive Features**: Delivers local sensory profile breakdown across 5 channels (auditory, visual, tactile, emotional, social), instant 1080x1920 Sensory Profile Story Card generator for mobile/social sharing, interactive 5-minute quiet-zone sensory reset protocol, and curated sensitivity literature (Elaine Aron, Jenn Granneman).
+
+### Future Self Continuity & Temporal Discounting
+- **Primary URL**: `https://dopabrain.com/future-self/`
+- **Scientific Framework**: Hal E. Hershfield's Future Self Continuity paradigm (Hershfield et al., 2011; Journal of Marketing Research / Social Psychological and Personality Science).
+- **Assessment Dimensions**:
+  - *Future Vividness*: Clarity with which a person imagines their life 10 years in the future.
+  - *Temporal Connectedness*: Degree of emotional alignment and obligation felt toward the future self.
+  - *Temporal Discounting*: Propensity to value short-term gratification over long-term compound outcomes.
+- **Output & Interactive Features**: Evaluates longitudinal self-continuity, maps users to one of 8 psychological archetypes, and renders an instant 1080x1920 high-resolution Instagram Story Card canvas with custom neon glow orb, archetype badges, and quote card for mobile photo saving.
   3. *Emotional Reactivity & Empathy (E)*: Heightened mirror neuron activity, intense emotional empathy, and deep resonance with others' emotional states.
   4. *Sensing the Subtle (S)*: Sensitivity to minor stimuli such as subtle scents, textures, tonal shifts, and micro-expressions.
 - **Output & Tools**: Scores sensitivity across Low, Moderate, High, and Orchids (Extreme). Provides the Sensory Reset Protocol with low-contrast visual themes, brown noise frequencies, and vagus nerve stimulation exercises.
