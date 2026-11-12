@@ -11,7 +11,7 @@
     <!-- SEO Meta Tags -->
     <title>DopaBrain - Free Stress, HSP & Brain Tools</title>
     <meta name="description" content="Start with DopaBrain's most useful free experiences: stress check, HSP test, brain quizzes and 2048 strategy. Private, instant and no signup.">
-    <meta name="dateModified" content="2026-11-07">
+    <meta name="dateModified" content="2026-11-12">
     <meta name="author" content="DopaBrain">
     <link rel="canonical" href="https://dopabrain.com/">
 
@@ -88,7 +88,7 @@
           "name": "DopaBrain - Focused Stress, HSP and Brain Tools",
           "url": "https://dopabrain.com/",
           "datePublished": "2024-01-01",
-          "dateModified": "2026-11-07",
+          "dateModified": "2026-11-12",
           "isPartOf": { "@id": "https://dopabrain.com/#website" },
           "mainEntity": { "@id": "https://dopabrain.com/#focus-list" }
         },
@@ -973,9 +973,13 @@
 
     function updateLocalizedLinks() {
         var lang = getActiveLinkLang();
-        document.querySelectorAll('.start-card, .pick-card, #hero-primary-cta, #hero-secondary-cta, #culture-signal-link, #cta-link').forEach(function(link) {
+        document.querySelectorAll('.start-card, .pick-card, #hero-primary-cta, #hero-secondary-cta, #cta-link').forEach(function(link) {
             localizeLinkElement(link, lang);
         });
+        var cultureSignal = document.getElementById('culture-signal-link');
+        if (cultureSignal) {
+            cultureSignal.setAttribute('href', '/portal/blog/' + lang + '/dopamine-detox-guide-reset-brain.html');
+        }
     }
 
     function emitRootView() {
