@@ -50,18 +50,6 @@
   - *Temporal Connectedness*: Degree of emotional alignment and obligation felt toward the future self.
   - *Temporal Discounting*: Propensity to value short-term gratification over long-term compound outcomes.
 - **Output & Interactive Features**: Evaluates longitudinal self-continuity, maps users to one of 8 psychological archetypes, and renders an instant 1080x1920 high-resolution Instagram Story Card canvas with custom neon glow orb, archetype badges, and quote card for mobile photo saving.
-  3. *Emotional Reactivity & Empathy (E)*: Heightened mirror neuron activity, intense emotional empathy, and deep resonance with others' emotional states.
-  4. *Sensing the Subtle (S)*: Sensitivity to minor stimuli such as subtle scents, textures, tonal shifts, and micro-expressions.
-- **Output & Tools**: Scores sensitivity across Low, Moderate, High, and Orchids (Extreme). Provides the Sensory Reset Protocol with low-contrast visual themes, brown noise frequencies, and vagus nerve stimulation exercises.
-
-### Future Self Continuity & Temporal Discounting
-- **Primary URL**: `https://dopabrain.com/future-self/`
-- **Scientific Framework**: Hal E. Hershfield's Future Self Continuity paradigm (Hershfield et al., 2011; Journal of Marketing Research / Social Psychological and Personality Science).
-- **Assessment Dimensions**:
-  - *Future Vividness*: Clarity with which a person imagines their life 10 years in the future.
-  - *Temporal Connectedness*: Degree of emotional alignment and obligation felt toward the future self.
-  - *Temporal Discounting*: Propensity to value short-term gratification over long-term compound outcomes.
-- **Output**: Generates a future self continuity score, identifying psychological barriers to savings, health habits, and career resilience with personalized visualization exercises.
 
 ### Dilemma Decision Matrix (Pugh Matrix Multi-Criteria Analysis)
 - **Primary URL**: `https://dopabrain.com/portal/tools/decision-matrix.html`
@@ -186,6 +174,10 @@
 ### Emotion Iceberg Explorer
 - **URL**: `https://dopabrain.com/emotion-iceberg/`
 - **Methodology**: Emotional granularity framework separating secondary emotional reactions (surface level) from primary emotional roots (submerged level).
+
+### Soul Age Test (Existential Archetype Assessment)
+- **URL**: `https://dopabrain.com/soul-age/`
+- **Methodology**: 12 existential, ethical, and interpersonal scenarios inspired by transpersonal psychology and developmental archetypes, scoring alignment across 5 spiritual maturity tiers (Infant Soul, Baby Soul, Young Soul, Mature Soul, Old/Transcendent Soul) with an interactive timeline and 100% client-side privacy.
 
 ---
 

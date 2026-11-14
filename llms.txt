@@ -35,6 +35,7 @@ DopaBrain (https://dopabrain.com) is an interactive mental health, cognitive fit
 - [Burnout Risk Screener](https://dopabrain.com/burnout-test/): Occupational burnout assessment measuring emotional exhaustion, depersonalization, and personal achievement.
 - [Cognitive Distortions Identifier](https://dopabrain.com/cognitive-distortions/): CBT-based cognitive distortion finder identifying catastrophizing, mind-reading, and dichotomous thinking.
 - [Emotion Iceberg Explorer](https://dopabrain.com/emotion-iceberg/): Emotional granularity tool identifying primary root feelings underneath secondary reactions.
+- [Soul Age Test](https://dopabrain.com/soul-age/): 12-scenario existential and transpersonal archetype quiz mapping intuitive values across 5 soul maturity tiers (Infant, Baby, Young, Mature, Old/Transcendent) with timeline visualization.
 - [Attachment Style Test](https://dopabrain.com/attachment-style/): Relationship attachment assessment based on Bowlby & Ainsworth attachment theory (secure, anxious, avoidant, disorganized).
 - [MBTI Love Compatibility](https://dopabrain.com/mbti-love/): Romantic synergy and communication dynamics analysis based on MBTI personality archetypes.
 
