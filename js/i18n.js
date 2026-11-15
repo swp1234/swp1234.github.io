@@ -3,7 +3,6 @@ class I18n {
         this.translations = {};
         this.supportedLanguages = ['ko', 'en', 'ja', 'es', 'pt', 'zh', 'id', 'tr', 'de', 'fr', 'hi', 'ru'];
         this.currentLang = this.detectLanguage();
-        document.documentElement.lang = this.currentLang;
     }
 
     detectLanguage() {
@@ -25,7 +24,7 @@ class I18n {
 
     async loadTranslations(lang) {
         try {
-            const response = await fetch(`js/locales/${lang}.json?v=20260820-focus`);
+            const response = await fetch(`js/locales/${lang}.json?v=20261115-focus`);
             if (!response.ok) throw new Error('Not found');
             this.translations[lang] = await response.json();
             return true;
@@ -55,13 +54,11 @@ class I18n {
         try {
             localStorage.setItem('app_language', lang);
         } catch (e) {}
-        document.documentElement.lang = lang;
         this.updateUI();
         return true;
     }
 
     updateUI() {
-        document.documentElement.lang = this.currentLang;
         document.querySelectorAll('[data-i18n]').forEach(el => {
             const val = this.t(el.getAttribute('data-i18n'));
             if (val !== el.getAttribute('data-i18n')) el.textContent = val;
@@ -73,9 +70,12 @@ class I18n {
         document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
             el.placeholder = this.t(el.getAttribute('data-i18n-placeholder'));
         });
-        document.title = this.t('app.title');
+        const title = this.t('app.title');
+        if (title !== 'app.title') document.title = title;
         const meta = document.querySelector('meta[name="description"]');
-        if (meta) meta.content = this.t('app.description');
+        const desc = this.t('app.description');
+        if (meta && desc !== 'app.description') meta.content = desc;
+        document.documentElement.lang = this.currentLang;
     }
 
     getCurrentLanguage() {

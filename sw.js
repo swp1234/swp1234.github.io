@@ -1,5 +1,5 @@
 // 루트 도메인 - Service Worker
-const CACHE_NAME = 'root-domain-v4-focus';
+const CACHE_NAME = 'root-domain-v5-focus';
 const urlsToCache = [
     './',
     './index.html',
