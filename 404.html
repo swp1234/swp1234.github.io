@@ -9,6 +9,7 @@
     <link rel="icon" href="/icon-192.svg" type="image/svg+xml">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { overflow-x: hidden; max-width: 100%; }
         body {
             min-height: 100vh;
             display: flex;
@@ -105,12 +106,18 @@
             justify-content: center;
         }
         .chip {
-            padding: 6px 14px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 44px;
+            min-width: 44px;
+            padding: 10px 16px;
             border-radius: 20px;
             background: rgba(255, 255, 255, 0.05);
-            color: rgba(255, 255, 255, 0.6);
+            color: rgba(255, 255, 255, 0.72);
             font-size: 13px;
             text-decoration: none;
+            touch-action: manipulation;
             transition: background 0.2s;
         }
         .chip:hover {
@@ -168,31 +175,6 @@
             </div>
         </div>
     </div>
-    <script>
-        // Simple language detection for 404 page
-        const lang = (navigator.language || '').slice(0, 2);
-        const t = {
-            ko: { title: '페이지를 찾을 수 없습니다', desc: '요청하신 페이지가 존재하지 않거나 이동되었습니다.', home: '홈', portal: '앱 둘러보기', popular: '인기 앱' },
-            ja: { title: 'ページが見つかりません', desc: 'お探しのページは存在しないか、移動された可能性があります。', home: 'ホーム', portal: 'アプリ一覧', popular: '人気' },
-            zh: { title: '页面未找到', desc: '您访问的页面不存在或已被移动。', home: '首页', portal: '浏览应用', popular: '热门' },
-            es: { title: 'Pagina no encontrada', desc: 'La pagina que buscas no existe o ha sido movida.', home: 'Inicio', portal: 'Ver apps', popular: 'Popular' },
-            de: { title: 'Seite nicht gefunden', desc: 'Die gesuchte Seite existiert nicht oder wurde verschoben.', home: 'Start', portal: 'Alle Apps', popular: 'Beliebt' },
-            fr: { title: 'Page introuvable', desc: 'La page que vous recherchez n\'existe pas ou a ete deplacee.', home: 'Accueil', portal: 'Voir les apps', popular: 'Populaire' },
-            pt: { title: 'Pagina nao encontrada', desc: 'A pagina que voce procura nao existe ou foi movida.', home: 'Inicio', portal: 'Ver apps', popular: 'Popular' },
-            ru: { title: 'Страница не найдена', desc: 'Запрашиваемая страница не существует или была перемещена.', home: 'Главная', portal: 'Все приложения', popular: 'Популярное' },
-            hi: { title: 'पेज नहीं मिला', desc: 'आप जिस पेज की तलाश कर रहे हैं वह मौजूद नहीं है।', home: 'होम', portal: 'ऐप्स देखें', popular: 'लोकप्रिय' },
-            id: { title: 'Halaman tidak ditemukan', desc: 'Halaman yang Anda cari tidak ada atau telah dipindahkan.', home: 'Beranda', portal: 'Lihat Aplikasi', popular: 'Populer' },
-            tr: { title: 'Sayfa bulunamadi', desc: 'Aradiginiz sayfa mevcut degil veya tasindi.', home: 'Ana Sayfa', portal: 'Uygulamalar', popular: 'Populer' }
-        };
-        if (t[lang]) {
-            document.getElementById('title').textContent = t[lang].title;
-            document.getElementById('desc').textContent = t[lang].desc;
-            document.getElementById('home-btn').textContent = t[lang].home;
-            document.getElementById('portal-btn').textContent = t[lang].portal;
-            document.getElementById('popular-label').textContent = t[lang].popular;
-            document.documentElement.lang = lang;
-        }
-    </script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-J8GSWM40TV"></script>
     <script>
@@ -200,7 +182,131 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-J8GSWM40TV');
-        gtag('event', 'page_not_found', { page_path: window.location.pathname });
+    </script>
+    <script>
+        (function() {
+            // Language detection (?lang= prioritized over navigator.language)
+            var params = new URLSearchParams(window.location.search || '');
+            var qLang = (params.get('lang') || '').toLowerCase().slice(0, 2);
+            var lang = qLang || (navigator.language || '').slice(0, 2).toLowerCase();
+            var t = {
+                ko: { title: '페이지를 찾을 수 없습니다', desc: '요청하신 페이지가 존재하지 않거나 이동되었습니다.', home: '홈', portal: '앱 둘러보기', popular: '인기 앱' },
+                ja: { title: 'ページが見つかりません', desc: 'お探しのページは存在しないか、移動された可能性があります。', home: 'ホーム', portal: 'アプリ一覧', popular: '人気' },
+                zh: { title: '页面未找到', desc: '您访问的页面不存在或已被移动。', home: '首页', portal: '浏览应用', popular: '热门' },
+                es: { title: 'Página no encontrada', desc: 'La página que buscas no existe o ha sido movida.', home: 'Inicio', portal: 'Ver apps', popular: 'Popular' },
+                de: { title: 'Seite nicht gefunden', desc: 'Die gesuchte Seite existiert nicht oder wurde verschoben.', home: 'Start', portal: 'Alle Apps', popular: 'Beliebt' },
+                fr: { title: 'Page introuvable', desc: 'La page que vous recherchez n\'existe pas ou a été déplacée.', home: 'Accueil', portal: 'Voir les apps', popular: 'Populaire' },
+                pt: { title: 'Página não encontrada', desc: 'A página que você procura não existe ou foi movida.', home: 'Início', portal: 'Ver apps', popular: 'Popular' },
+                ru: { title: 'Страница не найдена', desc: 'Запрашиваемая страница не существует или была перемещена.', home: 'Главная', portal: 'Все приложения', popular: 'Популярное' },
+                hi: { title: 'पेज नहीं मिला', desc: 'आप जिस पेज की तलाश कर रहे हैं वह मौजूद नहीं है।', home: 'होम', portal: 'ऐप्स देखें', popular: 'लोकप्रिय' },
+                id: { title: 'Halaman tidak ditemukan', desc: 'Halaman yang Anda cari tidak ada atau telah dipindahkan.', home: 'Beranda', portal: 'Lihat Aplikasi', popular: 'Populer' },
+                tr: { title: 'Sayfa bulunamadı', desc: 'Aradığınız sayfa mevcut değil veya taşındı.', home: 'Ana Sayfa', portal: 'Uygulamalar', popular: 'Popüler' }
+            };
+            if (t[lang]) {
+                document.getElementById('title').textContent = t[lang].title;
+                document.getElementById('desc').textContent = t[lang].desc;
+                document.getElementById('home-btn').textContent = t[lang].home;
+                document.getElementById('portal-btn').textContent = t[lang].portal;
+                document.getElementById('popular-label').textContent = t[lang].popular;
+                document.documentElement.lang = lang;
+            }
+
+            // Smart 404 organic/AI path recovery with HEAD verification to prevent loops
+            var pathname = window.location.pathname || '/';
+            var search = window.location.search || '';
+            var ACTIVE_APPS = {
+                'stress-check': true, 'hsp-test': true, 'future-self': true,
+                'iq-test': true, 'brain-type': true, 'color-blindness': true,
+                'kpop-position': true, 'attachment-style': true, 'animal-personality': true,
+                'stress-type': true, 'emotional-age': true, 'soul-age': true,
+                'love-language': true, 'white-noise': true, 'pomodoro-timer': true
+            };
+            var LANG_MAP = { cn: 'zh', tw: 'zh', hk: 'zh', kr: 'ko', jp: 'ja', br: 'pt' };
+            var VALID_LANGS = { ko:1, en:1, zh:1, hi:1, ru:1, ja:1, es:1, pt:1, id:1, tr:1, de:1, fr:1 };
+
+            function resolveCandidate(p) {
+                var clean = p.replace(/\/+$/, '') || '/';
+                // Direct semantic aliases observed in organic/AI 404 logs
+                if (clean === '/polyvagal-quiz' || clean === '/stress-test' || clean === '/burnout-quiz') {
+                    return { url: '/stress-check/' + search, verify: false };
+                }
+                if (clean === '/hsp-quiz') {
+                    return { url: '/hsp-test/' + search, verify: false };
+                }
+                if (/^\/quiz\/programacion/i.test(clean)) {
+                    return { url: '/iq-test/?lang=es', verify: false };
+                }
+                // /quiz/<app>/<lang> -> /<app>/?lang=<mapped>
+                var quizMatch = /^\/quiz\/([a-z0-9-]+)(?:\/([a-z]{2,5}))?$/i.exec(clean);
+                if (quizMatch && ACTIVE_APPS[quizMatch[1].toLowerCase()]) {
+                    var rawL = (quizMatch[2] || '').toLowerCase();
+                    var mapped = LANG_MAP[rawL] || rawL;
+                    var qs = VALID_LANGS[mapped] ? ('?lang=' + mapped) : search;
+                    return { url: '/' + quizMatch[1].toLowerCase() + '/' + qs, verify: false };
+                }
+                // /blog/<lang>/<slug>.html -> /portal/blog/<lang>/<slug>.html (HEAD verified)
+                var blogMatch = /^\/blog\/(ko|en|zh|hi|ru|ja|es|pt|id|tr|de|fr)\/([a-z0-9_-]+\.html)$/i.exec(clean);
+                if (blogMatch) {
+                    return {
+                        url: '/portal/blog/' + blogMatch[1].toLowerCase() + '/' + blogMatch[2] + search,
+                        fallback: '/portal/blog/' + blogMatch[1].toLowerCase() + '/',
+                        verify: true
+                    };
+                }
+                // /<blog-slug>.html -> /portal/blog/en/<blog-slug>.html (HEAD verified)
+                var rootSlugMatch = /^\/([a-z0-9][a-z0-9-]{4,}\.html)$/i.exec(clean);
+                if (rootSlugMatch && rootSlugMatch[1].toLowerCase() !== '404.html') {
+                    return {
+                        url: '/portal/blog/en/' + rootSlugMatch[1] + search,
+                        verify: true
+                    };
+                }
+                return null;
+            }
+
+            function emitNotFound() {
+                gtag('event', 'page_not_found', { page_path: pathname });
+            }
+
+            function recoverTo(target) {
+                gtag('event', 'page_not_found_recovered', {
+                    from_path: pathname,
+                    to_path: target,
+                    transport_type: 'beacon'
+                });
+                window.location.replace(target);
+            }
+
+            window.__dopabrainResolve404Candidate = resolveCandidate;
+
+            if (params.get('no_redirect') === '1') {
+                emitNotFound();
+                return;
+            }
+
+            var candidate = resolveCandidate(pathname);
+            if (!candidate) {
+                emitNotFound();
+                return;
+            }
+
+            if (!candidate.verify || typeof window.fetch !== 'function') {
+                recoverTo(candidate.url);
+                return;
+            }
+
+            window.fetch(candidate.url, { method: 'HEAD' }).then(function(res) {
+                if (res && res.ok) {
+                    recoverTo(candidate.url);
+                } else if (candidate.fallback) {
+                    recoverTo(candidate.fallback);
+                } else {
+                    emitNotFound();
+                }
+            }).catch(function() {
+                emitNotFound();
+            });
+        })();
     </script>
 </body>
 </html>
