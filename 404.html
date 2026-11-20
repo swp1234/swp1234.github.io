@@ -254,6 +254,15 @@
                 if (clean === '/imposter-syndrome' || clean === '/imposter-test' || clean === '/imposter-audit') {
                     return { url: '/portal/tools/imposter-syndrome-audit.html' + search, verify: false };
                 }
+                if (clean === '/boundary-scripts' || clean === '/boundaries' || clean === '/say-no' || clean === '/people-pleasing') {
+                    return { url: '/portal/tools/boundary-script-builder.html' + search, verify: false };
+                }
+                if (clean === '/window-of-tolerance' || clean === '/nervous-system' || clean === '/emotional-numbness' || clean === '/functional-freeze') {
+                    return { url: '/portal/tools/window-of-tolerance-check.html' + search, verify: false };
+                }
+                if (clean === '/adhd-test' || clean === '/executive-dysfunction' || clean === '/task-paralysis' || clean === '/body-doubling' || clean === '/focus-audit') {
+                    return { url: '/portal/tools/adhd-focus-friction-audit.html' + search, verify: false };
+                }
                 if (/^\/quiz\/programacion/i.test(clean)) {
                     return { url: '/iq-test/?lang=es', verify: false };
                 }

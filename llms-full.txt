@@ -217,6 +217,24 @@
 - **Core Functionality**:
   - Maps primary imposter competence rules with grounded reframes and a private local Evidence Proof Vault for objective wins.
 
+### People-Pleasing & Boundary Script Generator
+- **Primary URL**: `https://dopabrain.com/portal/tools/boundary-script-builder.html`
+- **Framework**: DBT DEAR MAN interpersonal effectiveness and JADE-free assertive communication (Tawwab, 2021; Cloud & Townsend, 2017).
+- **Core Functionality**:
+  - Builds ready-to-send warm, firm, or broken-record scripts across 6 pressure scenarios with XSS-safe local context, anti-guilt mindset anchors, and 1080x1920 PNG Story Cards.
+
+### Window of Tolerance & Nervous System Check-In
+- **Primary URL**: `https://dopabrain.com/portal/tools/window-of-tolerance-check.html`
+- **Framework**: Dr. Dan Siegel's Window of Tolerance and Dr. Stephen Porges / Deb Dana Polyvagal autonomic state mapping.
+- **Core Functionality**:
+  - Evaluates 6 somatic markers to distinguish Hyperarousal (Fight/Flight), Optimal Ventral Window, Hypoarousal (Functional Freeze/Numbness), or Mixed states, launching a state-matched 60-second vagal re-entry pacer and 1080x1920 PNG Story Cards.
+
+### ADHD & Executive Function Friction Audit + 10-Min Body-Doubling Timer
+- **Primary URL**: `https://dopabrain.com/portal/tools/adhd-focus-friction-audit.html`
+- **Framework**: Russell Barkley Executive Function model and low-friction neurodivergent accommodations (Hallowell & Ratey; KC Davis).
+- **Core Functionality**:
+  - Rates 5 executive friction axes locally to surface tailored micro-accommodations, an XSS-safe 10-minute single anchor task, a paced body-doubling sprint timer, and 1080x1920 PNG Story Cards.
+
 ### Emotion Iceberg Explorer
 - **URL**: `https://dopabrain.com/emotion-iceberg/`
 - **Methodology**: Emotional granularity framework separating secondary emotional reactions (surface level) from primary emotional roots (submerged level).
