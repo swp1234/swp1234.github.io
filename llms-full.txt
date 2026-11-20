@@ -167,9 +167,42 @@
 - **URL**: `https://dopabrain.com/burnout-test/`
 - **Scientific Framework**: Maslach Burnout Inventory (MBI; Maslach & Jackson, 1981) measuring emotional exhaustion, depersonalization/cynicism, and reduced personal accomplishment.
 
-### Cognitive Distortions Identifier
-- **URL**: `https://dopabrain.com/cognitive-distortions/`
-- **Framework**: Aaron Beck & David Burns Cognitive Behavioral Therapy (CBT) distortion taxonomy (catastrophizing, all-or-nothing thinking, emotional reasoning, overgeneralization).
+### CBT Cognitive Distortion Reframer & Thought Record
+- **Primary URL**: `https://dopabrain.com/portal/tools/cognitive-distortion-reframer.html`
+- **Framework**: Aaron T. Beck & David D. Burns Cognitive Behavioral Therapy (CBT) 10-distortion taxonomy (all-or-nothing thinking, catastrophizing, mind reading, fortune telling, emotional reasoning, should statements, labeling, personalization, mental filter, discounting the positive).
+- **Core Functionality**:
+  - 100% private local automatic thought capture with XSS-safe rendering and zero external transmission.
+  - Socratic reality-check question builder and balanced alternative thought synthesis.
+  - Client-side 1080x1920 PNG Story Card export and cross-funnel bridges to Stress Check, Emotion Regulation Planner, and RSD Audit.
+
+### Rejection Sensitivity (RSD) Audit & 90-Second Somatic Reset
+- **Primary URL**: `https://dopabrain.com/portal/tools/rsd-coping-audit.html`
+- **Framework**: Interpersonal rejection sensitivity research (Downey & Feldman, 1996) and sensory processing sensitivity (Aron & Aron, 1997).
+- **Core Functionality**:
+  - 8-scenario, 4-axis self-reflection profile (Social Threat Radar, Somatic Emotional Surge, Rumination Loop, Avoidance/Fawning).
+  - Interactive 90-second neurochemical wave cool-down timer with 3-phase somatic de-escalation cues and calm reality-check reply scripts.
+  - Client-side 1080x1920 PNG Story Card export and 12-language localization.
+
+### Attachment Trigger Decoder & Secure Script Builder
+- **Primary URL**: `https://dopabrain.com/portal/tools/attachment-trigger-decoder.html`
+- **Framework**: Adult attachment theory (Bowlby, 1988; Fraley et al., 2000; Emotionally Focused Therapy repair scripts).
+- **Core Functionality**:
+  - Maps 6 core relationship triggers against 4 protective impulses (Anxious Protest, Avoidant Deactivation, Push-Pull Overload, Secure Repair).
+  - Generates ready-to-send non-blaming secure communication scripts, 3 regulation steps, and 1080x1920 PNG Story Card export.
+
+### Sleep Cycle & Circadian Reset Calculator
+- **Primary URL**: `https://dopabrain.com/portal/tools/sleep-chronotype-reset.html`
+- **Framework**: 90-minute ultradian sleep architecture and circadian rhythm hygiene (Walker, 2017; Panda, 2018; Drake et al., 2013).
+- **Core Functionality**:
+  - Calculates 4-, 5-, and 6-cycle bedtime windows adjusted for sleep onset latency, plus exact caffeine cutoff and digital sunset schedules.
+  - Evaluates evening circadian friction habits and exports 1080x1920 PNG Story Cards.
+
+### Procrastination Root Decoder & 5-Minute Micro-Sprint Timer
+- **Primary URL**: `https://dopabrain.com/portal/tools/procrastination-root-decoder.html`
+- **Framework**: Short-term mood-regulation theory of procrastination (Sirois & Pychyl, 2013; Fiore, 2007).
+- **Core Functionality**:
+  - Decodes 4 emotional task blocks (Perfectionism Freeze, Scope Overwhelm, Unclear First Step, Low Energy/Dopamine Deficit) with private local task capture.
+  - Launches an integrated 5-minute micro-sprint countdown timer with 3 micro-unblocking actions and 1080x1920 PNG Story Card export.
 
 ### Emotion Iceberg Explorer
 - **URL**: `https://dopabrain.com/emotion-iceberg/`

@@ -233,6 +233,21 @@
                 if (clean === '/hsp-quiz') {
                     return { url: '/hsp-test/' + search, verify: false };
                 }
+                if (clean === '/cognitive-distortions' || clean === '/cognitive-distortion' || clean === '/cbt-reframer') {
+                    return { url: '/portal/tools/cognitive-distortion-reframer.html' + search, verify: false };
+                }
+                if (clean === '/rsd' || clean === '/rsd-test' || clean === '/rsd-audit' || clean === '/rejection-sensitivity') {
+                    return { url: '/portal/tools/rsd-coping-audit.html' + search, verify: false };
+                }
+                if (clean === '/attachment-scripts' || clean === '/attachment-decoder') {
+                    return { url: '/portal/tools/attachment-trigger-decoder.html' + search, verify: false };
+                }
+                if (clean === '/sleep-calculator' || clean === '/sleep-reset' || clean === '/sleep-cycle') {
+                    return { url: '/portal/tools/sleep-chronotype-reset.html' + search, verify: false };
+                }
+                if (clean === '/procrastination-test' || clean === '/procrastination-decoder') {
+                    return { url: '/portal/tools/procrastination-root-decoder.html' + search, verify: false };
+                }
                 if (/^\/quiz\/programacion/i.test(clean)) {
                     return { url: '/iq-test/?lang=es', verify: false };
                 }
