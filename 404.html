@@ -248,6 +248,12 @@
                 if (clean === '/procrastination-test' || clean === '/procrastination-decoder') {
                     return { url: '/portal/tools/procrastination-root-decoder.html' + search, verify: false };
                 }
+                if (clean === '/daily-checkin' || clean === '/mind-checkin' || clean === '/mood-checkin') {
+                    return { url: '/portal/tools/daily-mind-checkin.html' + search, verify: false };
+                }
+                if (clean === '/imposter-syndrome' || clean === '/imposter-test' || clean === '/imposter-audit') {
+                    return { url: '/portal/tools/imposter-syndrome-audit.html' + search, verify: false };
+                }
                 if (/^\/quiz\/programacion/i.test(clean)) {
                     return { url: '/iq-test/?lang=es', verify: false };
                 }

@@ -204,6 +204,19 @@
   - Decodes 4 emotional task blocks (Perfectionism Freeze, Scope Overwhelm, Unclear First Step, Low Energy/Dopamine Deficit) with private local task capture.
   - Launches an integrated 5-minute micro-sprint countdown timer with 3 micro-unblocking actions and 1080x1920 PNG Story Card export.
 
+### Daily 60-Second Mind Check-In & Wellness Router
+- **Primary URL**: `https://dopabrain.com/portal/tools/daily-mind-checkin.html`
+- **Framework**: Affect labeling (Lieberman et al., 2007) and Gross emotion regulation triage.
+- **Core Functionality**:
+  - 3-axis pulse sliders (energy, somatic tension, brain fog) + 6 daily friction selectors with private local 7-day streak history sparkline.
+  - Dynamically prescribes 3 matched DopaBrain tools and exports 1080x1920 PNG Story Cards.
+
+### Imposter Syndrome Archetype Audit & Proof Vault
+- **Primary URL**: `https://dopabrain.com/portal/tools/imposter-syndrome-audit.html`
+- **Framework**: Clance & Imes (1978) Imposter Phenomenon and Dr. Valerie Young's 5 Competence Rules (Perfectionist, Expert, Natural Genius, Soloist, Superperson).
+- **Core Functionality**:
+  - Maps primary imposter competence rules with grounded reframes and a private local Evidence Proof Vault for objective wins.
+
 ### Emotion Iceberg Explorer
 - **URL**: `https://dopabrain.com/emotion-iceberg/`
 - **Methodology**: Emotional granularity framework separating secondary emotional reactions (surface level) from primary emotional roots (submerged level).
