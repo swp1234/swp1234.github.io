@@ -263,6 +263,9 @@
                 if (clean === '/adhd-test' || clean === '/executive-dysfunction' || clean === '/task-paralysis' || clean === '/body-doubling' || clean === '/focus-audit') {
                     return { url: '/portal/tools/adhd-focus-friction-audit.html' + search, verify: false };
                 }
+                if (clean === '/inner-critic' || clean === '/self-compassion' || clean === '/inner-child-healing' || clean === '/shadow-work-tool') {
+                    return { url: '/portal/tools/inner-critic-compassion-lab.html' + search, verify: false };
+                }
                 if (/^\/quiz\/programacion/i.test(clean)) {
                     return { url: '/iq-test/?lang=es', verify: false };
                 }

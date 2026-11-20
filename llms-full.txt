@@ -235,6 +235,12 @@
 - **Core Functionality**:
   - Rates 5 executive friction axes locally to surface tailored micro-accommodations, an XSS-safe 10-minute single anchor task, a paced body-doubling sprint timer, and 1080x1920 PNG Story Cards.
 
+### Inner Critic & Self-Compassion Reframer
+- **Primary URL**: `https://dopabrain.com/portal/tools/inner-critic-compassion-lab.html`
+- **Framework**: Dr. Kristin Neff's 3-Pillar Self-Compassion model (Mindfulness, Common Humanity, Self-Kindness) and Richard Schwartz's Internal Family Systems (IFS) protective parts lens.
+- **Core Functionality**:
+  - Unmasks 5 Inner Critic archetypes locally, externalizes harsh self-talk safely without server transmission, builds a grounded inner ally response, and exports 1080x1920 PNG Story Cards.
+
 ### Emotion Iceberg Explorer
 - **URL**: `https://dopabrain.com/emotion-iceberg/`
 - **Methodology**: Emotional granularity framework separating secondary emotional reactions (surface level) from primary emotional roots (submerged level).
