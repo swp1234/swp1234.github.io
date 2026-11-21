@@ -16,6 +16,22 @@
 
 ## 1. Flagship Psychological & Cognitive Tools
 
+### Interactive Mental Wellness Lab (24-Tool Hub)
+- **Primary URL**: `https://dopabrain.com/portal/tools/wellness-lab.html`
+- **Scope**: Unified 12-language interactive directory indexing all 24 free, client-side CBT, somatic, burnout, boundary, attachment, ADHD focus, social battery, and sleep regulation workspaces with instant category filtering and `?lang=` preservation across every tool link.
+
+### Gaslighting & Manipulation Reality-Check Log
+- **Primary URL**: `https://dopabrain.com/portal/tools/gaslighting-reality-check.html`
+- **Functionality**: 12-language browser-private checklist of 8 recurring distortion tactics (denial, DARVO, invalidation, shifting goalposts, love-bomb/devalue cycles, isolation, stonewalling, history rewriting) paired with an XSS-safe local objective fact anchor, calm Grey-Rock scripts, and 1080x1920 PNG Story Cards.
+
+### Codependency & Interdependence Reset Audit
+- **Primary URL**: `https://dopabrain.com/portal/tools/codependency-reset-audit.html`
+- **Functionality**: 12-language 6-axis differentiation-of-self audit measuring mood-scanning, compulsive rescuing, self-abandonment, approval anchoring, boundary guilt, and conflict avoidance with a Detach-With-Love shift plan, Own-Lane script, and 1080x1920 PNG Story Cards.
+
+### Perfectionism & Self-Sabotage Loop Decoder
+- **Primary URL**: `https://dopabrain.com/portal/tools/perfectionism-loop-decoder.html`
+- **Functionality**: 12-language CBT perfectionism workspace decoding 5 self-sabotage loops (all-or-nothing restarts, endless polish, ego-shield self-handicapping, moving goalposts, finish-line quitting) with a local 80% Good-Enough Ship Contract, 5-minute ugly-first-draft timer, and 1080x1920 PNG Story Cards.
+
 ### Stress Check & Decompression Suite
 - **Primary URL**: `https://dopabrain.com/stress-check/`
 - **Sub-pages**:

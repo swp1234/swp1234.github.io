@@ -278,6 +278,18 @@
                 if (clean === '/energy-audit' || clean === '/energy-leaks' || clean === '/stop-doing') {
                     return { url: '/portal/tools/emotional-energy-audit.html' + search, verify: false };
                 }
+                if (clean === '/gaslighting' || clean === '/gaslighting-test' || clean === '/darvo' || clean === '/grey-rock' || clean === '/manipulation-check') {
+                    return { url: '/portal/tools/gaslighting-reality-check.html' + search, verify: false };
+                }
+                if (clean === '/codependency' || clean === '/codependency-test' || clean === '/detach-with-love') {
+                    return { url: '/portal/tools/codependency-reset-audit.html' + search, verify: false };
+                }
+                if (clean === '/perfectionism' || clean === '/perfectionism-test' || clean === '/self-sabotage' || clean === '/self-sabotage-test') {
+                    return { url: '/portal/tools/perfectionism-loop-decoder.html' + search, verify: false };
+                }
+                if (clean === '/wellness-lab' || clean === '/mental-health-tools' || clean === '/cbt-tools' || clean === '/self-help-tools' || clean === '/therapy-tools' || clean === '/mindfulness-tools') {
+                    return { url: '/portal/tools/wellness-lab.html' + search, verify: false };
+                }
                 if (/^\/quiz\/programacion/i.test(clean)) {
                     return { url: '/iq-test/?lang=es', verify: false };
                 }
