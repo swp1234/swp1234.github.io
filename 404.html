@@ -266,6 +266,18 @@
                 if (clean === '/inner-critic' || clean === '/self-compassion' || clean === '/inner-child-healing' || clean === '/shadow-work-tool') {
                     return { url: '/portal/tools/inner-critic-compassion-lab.html' + search, verify: false };
                 }
+                if (clean === '/overthinking' || clean === '/rumination' || clean === '/cognitive-shuffle' || clean === '/stop-overthinking') {
+                    return { url: '/portal/tools/overthinking-rumination-breaker.html' + search, verify: false };
+                }
+                if (clean === '/social-battery' || clean === '/introvert-recharge' || clean === '/hsp-recharge') {
+                    return { url: '/portal/tools/social-battery-recharge-planner.html' + search, verify: false };
+                }
+                if (clean === '/somatic-map' || clean === '/body-tension' || clean === '/pmr-timer') {
+                    return { url: '/portal/tools/somatic-tension-body-map.html' + search, verify: false };
+                }
+                if (clean === '/energy-audit' || clean === '/energy-leaks' || clean === '/stop-doing') {
+                    return { url: '/portal/tools/emotional-energy-audit.html' + search, verify: false };
+                }
                 if (/^\/quiz\/programacion/i.test(clean)) {
                     return { url: '/iq-test/?lang=es', verify: false };
                 }

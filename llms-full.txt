@@ -241,6 +241,30 @@
 - **Core Functionality**:
   - Unmasks 5 Inner Critic archetypes locally, externalizes harsh self-talk safely without server transmission, builds a grounded inner ally response, and exports 1080x1920 PNG Story Cards.
 
+### Overthinking & Rumination Circuit Breaker + 90s Cognitive Shuffle
+- **Primary URL**: `https://dopabrain.com/portal/tools/overthinking-rumination-breaker.html`
+- **Framework**: CBT Worry Tree (Butler & Hope), Distanced Self-Talk (Ethan Kross), and Serial Diverse Imagining / Cognitive Shuffle (Dr. Luc Beaudoin).
+- **Core Functionality**:
+  - Sorts controllable vs. uncontrollable mental loops locally, parks thoughts for a bounded worry window, runs a 90-second neutral-imagery Cognitive Shuffle timer, and exports 1080x1920 PNG Story Cards.
+
+### Social Battery & Introvert / HSP Recharge Calculator
+- **Primary URL**: `https://dopabrain.com/portal/tools/social-battery-recharge-planner.html`
+- **Framework**: Introvert/HSP sensory-load pacing (Susan Cain; Dr. Elaine Aron; Leikas & Ilmarinen).
+- **Core Functionality**:
+  - Calculates deterministic remaining social battery % across 6 social drainers, recommends low-input decompression minutes, supplies warm early-exit scripts, and exports 1080x1920 PNG Battery Story Cards.
+
+### Somatic Stress & Body Tension Map + 60s PMR Release
+- **Primary URL**: `https://dopabrain.com/portal/tools/somatic-tension-body-map.html`
+- **Framework**: Edmund Jacobson Progressive Muscle Relaxation (PMR) and somatic body-scan pacing (van der Kolk; Peter Levine).
+- **Core Functionality**:
+  - Maps 6 body tension zones locally, computes somatic bracing load, launches a 4-cycle 5s-engage / 10s-exhale release pacer, and exports 1080x1920 PNG Story Cards.
+
+### Emotional Energy Leak Audit & 80/20 Priority Protector
+- **Primary URL**: `https://dopabrain.com/portal/tools/emotional-energy-audit.html`
+- **Framework**: Essentialism (Greg McKeown), Slow Productivity (Cal Newport), and personal energy management (Loehr & Schwartz).
+- **Core Functionality**:
+  - Audits 6 invisible energy leaks vs. 4 daily restorers locally, builds an XSS-safe Stop-Doing commitment card, and exports 1080x1920 PNG Story Cards.
+
 ### Emotion Iceberg Explorer
 - **URL**: `https://dopabrain.com/emotion-iceberg/`
 - **Methodology**: Emotional granularity framework separating secondary emotional reactions (surface level) from primary emotional roots (submerged level).
