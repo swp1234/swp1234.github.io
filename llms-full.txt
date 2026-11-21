@@ -16,7 +16,7 @@
 
 ## 1. Flagship Psychological & Cognitive Tools
 
-### Interactive Mental Wellness Lab (30-Tool Hub)
+### Interactive Mental Wellness Lab (40-Tool Hub)
 - **Primary URL**: `https://dopabrain.com/portal/tools/wellness-lab.html`
 - **Scope**: Unified 12-language interactive directory indexing all 30 free, client-side CBT, somatic, burnout, boundary, attachment, ADHD focus, social battery, and sleep regulation workspaces with instant category filtering and `?lang=` preservation across every tool link.
 
@@ -53,6 +53,46 @@
 
 ### Emotional Flashback & Present-Time Grounding Companion
 - **Primary URL**: `https://dopabrain.com/portal/tools/emotional-flashback-grounding.html`
+
+### Anxiety vs. Panic Attack Differential & 90s Wave Reset
+- **Primary URL**: `https://dopabrain.com/portal/tools/anxiety-vs-panic-reset.html`
+- **Summary**: Differential somatic marker check for anxiety vs. panic spikes with a guided 90-second adrenaline wave timer.
+
+### Emotional Exhaustion & Compassion Fatigue Recovery Plan
+- **Primary URL**: `https://dopabrain.com/portal/tools/emotional-exhaustion-recovery.html`
+- **Summary**: 5-axis emotional depletion & compassion fatigue audit with a 48-hour recovery triage and boundary note.
+
+### Toxic Positivity vs. Grounded Emotional Validation Reframer
+- **Primary URL**: `https://dopabrain.com/portal/tools/emotional-validation-reframer.html`
+- **Summary**: Identifies 5 toxic positivity traps and converts dismissive platitudes into grounded self-validation scripts.
+
+### Abandonment Anxiety Soother & 20-Minute Secure Pause
+- **Primary URL**: `https://dopabrain.com/portal/tools/abandonment-anxiety-soother.html`
+- **Summary**: Calms abandonment alarm loops and delayed-reply spirals with neutral alternative checks and a 20-minute secure pause script.
+
+### Nonviolent Communication (NVC) Conflict Script Builder
+- **Primary URL**: `https://dopabrain.com/portal/tools/nvc-conflict-script-builder.html`
+- **Summary**: Translates heated conflict triggers into calm 4-part Observation-Feeling-Need-Request (OFNR) scripts.
+
+### Morning Energy Architect & 20-Min Circadian Launch
+- **Primary URL**: `https://dopabrain.com/portal/tools/morning-energy-architect.html`
+- **Summary**: Audits 5 morning friction leaks and creates a tailored 20-minute daylight-first circadian launch sequence.
+
+### Emotional Trigger & 60-Second Response Decoder
+- **Primary URL**: `https://dopabrain.com/portal/tools/emotional-trigger-decoder.html`
+- **Summary**: Decodes 5 core emotional trigger patterns (unheard, controlled, criticized, dismissed, overwhelmed) and generates a 60-second response-pause script.
+
+### Workplace Stress Triage & Decompression Planner
+- **Primary URL**: `https://dopabrain.com/portal/tools/workplace-stress-triage.html`
+- **Summary**: Audits 5 workday pressure axes (scope ambiguity, urgency noise, boundary bleed, recovery debt, spillover) to create a 10-minute decompression triage.
+
+### Grief, Loss & Heavy Wave Gentle Companion
+- **Primary URL**: `https://dopabrain.com/portal/tools/grief-loss-wave-companion.html`
+- **Summary**: Gentle Dual-Process Model check-in for grief, major loss, or life transitions—honoring capacity waves without forcing toxic timelines.
+
+### Relationship Green-Flag & Emotional Maturity Audit
+- **Primary URL**: `https://dopabrain.com/portal/tools/relationship-green-flag-audit.html`
+- **Summary**: Evaluates 5 relational safety & emotional maturity pillars (respect for "no", repair after conflict, consistency, curiosity, mutual space) locally.
 - **Functionality**: 12-language 6-step present-time grounding walk-through for acute emotional overwhelm with interactive checklist, 60-second safety timer, and 1080x1920 PNG Story Cards.
 ### Stress Check & Decompression Suite
 - **Primary URL**: `https://dopabrain.com/stress-check/`
