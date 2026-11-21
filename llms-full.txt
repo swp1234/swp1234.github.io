@@ -16,9 +16,9 @@
 
 ## 1. Flagship Psychological & Cognitive Tools
 
-### Interactive Mental Wellness Lab (24-Tool Hub)
+### Interactive Mental Wellness Lab (30-Tool Hub)
 - **Primary URL**: `https://dopabrain.com/portal/tools/wellness-lab.html`
-- **Scope**: Unified 12-language interactive directory indexing all 24 free, client-side CBT, somatic, burnout, boundary, attachment, ADHD focus, social battery, and sleep regulation workspaces with instant category filtering and `?lang=` preservation across every tool link.
+- **Scope**: Unified 12-language interactive directory indexing all 30 free, client-side CBT, somatic, burnout, boundary, attachment, ADHD focus, social battery, and sleep regulation workspaces with instant category filtering and `?lang=` preservation across every tool link.
 
 ### Gaslighting & Manipulation Reality-Check Log
 - **Primary URL**: `https://dopabrain.com/portal/tools/gaslighting-reality-check.html`
@@ -32,6 +32,28 @@
 - **Primary URL**: `https://dopabrain.com/portal/tools/perfectionism-loop-decoder.html`
 - **Functionality**: 12-language CBT perfectionism workspace decoding 5 self-sabotage loops (all-or-nothing restarts, endless polish, ego-shield self-handicapping, moving goalposts, finish-line quitting) with a local 80% Good-Enough Ship Contract, 5-minute ugly-first-draft timer, and 1080x1920 PNG Story Cards.
 
+### Social Anxiety & CBT Exposure Ladder Builder
+- **Primary URL**: `https://dopabrain.com/portal/tools/social-anxiety-exposure-ladder.html`
+- **Functionality**: 12-language CBT gradual exposure hierarchy builder rating 6 social situations on a 0-100 SUDS scale, sorting rungs ascending, anchoring spotlight-effect reframes, and exporting 1080x1920 PNG Story Cards.
+
+### Vagal Tone & Nervous System Reset Menu
+- **Primary URL**: `https://dopabrain.com/portal/tools/vagal-nervous-system-reset.html`
+- **Functionality**: 12-language somatic nervous system regulation menu pairing Wired, Shut-Down Freeze, and Overstimulated states with a 60-second double-inhale Physiological Sigh visual pacer and 1080x1920 PNG Story Cards.
+
+### Doomscrolling & Nighttime Screen Circuit Breaker
+- **Primary URL**: `https://dopabrain.com/portal/tools/doomscrolling-circuit-breaker.html`
+- **Functionality**: 12-language digital wellbeing calculator computing annual waking days lost to mindless feeds, stacking 4 physical friction locks, recording a local bedtime analog swap, and exporting 1080x1920 PNG Story Cards.
+### Inner Child & Core Emotional Need Decoder
+- **Primary URL**: `https://dopabrain.com/portal/tools/inner-child-need-decoder.html`
+- **Functionality**: 12-language schema-informed self-reparenting workspace decoding 5 core unmet emotional needs (safety, being seen, unconditional rest, belonging, autonomy) with local one-line reassurance and 1080x1920 PNG Story Cards.
+
+### Decision Fatigue & Mental Declutter Filter
+- **Primary URL**: `https://dopabrain.com/portal/tools/decision-fatigue-declutter.html`
+- **Functionality**: 12-language executive-load audit evaluating 6 daily micro-decision drains and building a 3-rule Default Automation Rulebook with 1080x1920 PNG Story Cards.
+
+### Emotional Flashback & Present-Time Grounding Companion
+- **Primary URL**: `https://dopabrain.com/portal/tools/emotional-flashback-grounding.html`
+- **Functionality**: 12-language 6-step present-time grounding walk-through for acute emotional overwhelm with interactive checklist, 60-second safety timer, and 1080x1920 PNG Story Cards.
 ### Stress Check & Decompression Suite
 - **Primary URL**: `https://dopabrain.com/stress-check/`
 - **Sub-pages**:
