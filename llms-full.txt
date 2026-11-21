@@ -16,7 +16,7 @@
 
 ## 1. Flagship Psychological & Cognitive Tools
 
-### Interactive Mental Wellness Lab (46-Tool Hub)
+### Interactive Mental Wellness Lab (50-Tool Hub)
 - **Primary URL**: `https://dopabrain.com/portal/tools/wellness-lab.html`
 - **Scope**: Unified 12-language interactive directory indexing all 30 free, client-side CBT, somatic, burnout, boundary, attachment, ADHD focus, social battery, and sleep regulation workspaces with instant category filtering and `?lang=` preservation across every tool link.
 
@@ -117,6 +117,22 @@
 ### Avoidant Attachment Thaw & Space-With-Return Lab
 - **Primary URL**: `https://dopabrain.com/portal/tools/avoidant-attachment-thaw-lab.html`
 - **Summary**: Audits 5 avoidant deactivation reflexes (closeness claustrophobia, flaw-finding, silent pull-back, hyper-independence, fear of engulfment) and crafts a Space-With-Return script.
+
+### Anger & Irritability 90-Second Cooldown De-escalator
+- **Primary URL**: `https://dopabrain.com/portal/tools/anger-cooldown-deescalator.html`
+- **Summary**: Decodes 5 underlying anger fuels (violated boundary, exhaustion fuse, feeling disrespected, helplessness, stacked resentment) into a 90-second cooldown and firm non-explosive script.
+
+### False Guilt vs. True Responsibility Clarity Filter
+- **Primary URL**: `https://dopabrain.com/portal/tools/guilt-vs-responsibility-filter.html`
+- **Summary**: Separates healthy repairable responsibility from 5 false-guilt traps (saying no, resting, others’ emotions, outgrowing roles, past-self hindsight) with a grounded release statement.
+
+### Loneliness & Disconnection Micro-Connection Planner
+- **Primary URL**: `https://dopabrain.com/portal/tools/loneliness-micro-connection-plan.html`
+- **Summary**: Audits 5 disconnection barriers (effort dread, rejection hesitation, mask fatigue, digital-only scrolling, rusty outreach) and builds a zero-awkwardness 5-minute reach-out script.
+
+### Sunday Scaries & Monday Anxiety 15-Min Reset
+- **Primary URL**: `https://dopabrain.com/portal/tools/sunday-scaries-week-reset.html`
+- **Summary**: Audits 5 Sunday Scaries triggers (open Monday loops, unfinished weekend rest, dreaded meeting, inbox anxiety, sleep-shift jetlag) and builds a 15-minute Sunday brain-dump & Monday Top-1 launch.
 - **Functionality**: 12-language 6-step present-time grounding walk-through for acute emotional overwhelm with interactive checklist, 60-second safety timer, and 1080x1920 PNG Story Cards.
 ### Stress Check & Decompression Suite
 - **Primary URL**: `https://dopabrain.com/stress-check/`
