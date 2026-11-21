@@ -16,7 +16,7 @@
 
 ## 1. Flagship Psychological & Cognitive Tools
 
-### Interactive Mental Wellness Lab (40-Tool Hub)
+### Interactive Mental Wellness Lab (46-Tool Hub)
 - **Primary URL**: `https://dopabrain.com/portal/tools/wellness-lab.html`
 - **Scope**: Unified 12-language interactive directory indexing all 30 free, client-side CBT, somatic, burnout, boundary, attachment, ADHD focus, social battery, and sleep regulation workspaces with instant category filtering and `?lang=` preservation across every tool link.
 
@@ -93,6 +93,30 @@
 ### Relationship Green-Flag & Emotional Maturity Audit
 - **Primary URL**: `https://dopabrain.com/portal/tools/relationship-green-flag-audit.html`
 - **Summary**: Evaluates 5 relational safety & emotional maturity pillars (respect for "no", repair after conflict, consistency, curiosity, mutual space) locally.
+
+### People-Pleasing & Fawn Response Decoder
+- **Primary URL**: `https://dopabrain.com/portal/tools/people-pleasing-fawn-decoder.html`
+- **Summary**: Decodes 5 people-pleasing & fawn-response reflexes (automatic yes, mood-scanning, over-apologizing, conflict dread, silent resentment) with a 24-hour Pause-Before-Yes script.
+
+### Functional Freeze & Shutdown 5-Min Thaw Planner
+- **Primary URL**: `https://dopabrain.com/portal/tools/functional-freeze-thaw-planner.html`
+- **Summary**: Audits 5 dorsal-vagal functional freeze & shutdown signals (autopilot numbness, couch paralysis, scroll trance, time fog) and creates a zero-shame 5-minute somatic thaw ladder.
+
+### Hypervigilance & Threat-Scanning Safety Reset
+- **Primary URL**: `https://dopabrain.com/portal/tools/hypervigilance-safety-reset.html`
+- **Summary**: Rates 5 hypervigilance & threat-scanning habits (room scanning, tone hyper-reading, startle reflex, rest guilt, jaw/shoulder bracing) and builds a 3-minute orienting safety protocol.
+
+### Self-Worth & Shadow Integration Evidence Builder
+- **Primary URL**: `https://dopabrain.com/portal/tools/self-worth-evidence-builder.html`
+- **Summary**: Audits 5 conditional self-worth traps (achievement-only value, social comparison, hiding flaws, approval hunger, harsh scorekeeping) and anchors unconditional worth locally.
+
+### Sensory Overload & HSP 5-Minute Calm Kit
+- **Primary URL**: `https://dopabrain.com/portal/tools/sensory-overload-calm-kit.html`
+- **Summary**: Audits 5 sensory overload triggers (noise, harsh light, crowds/multitasking, emotional contagion, tactile friction) and prescribes a 5-minute low-stimulation HSP recovery kit.
+
+### Avoidant Attachment Thaw & Space-With-Return Lab
+- **Primary URL**: `https://dopabrain.com/portal/tools/avoidant-attachment-thaw-lab.html`
+- **Summary**: Audits 5 avoidant deactivation reflexes (closeness claustrophobia, flaw-finding, silent pull-back, hyper-independence, fear of engulfment) and crafts a Space-With-Return script.
 - **Functionality**: 12-language 6-step present-time grounding walk-through for acute emotional overwhelm with interactive checklist, 60-second safety timer, and 1080x1920 PNG Story Cards.
 ### Stress Check & Decompression Suite
 - **Primary URL**: `https://dopabrain.com/stress-check/`
