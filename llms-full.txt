@@ -16,7 +16,7 @@
 
 ## 1. Flagship Psychological & Cognitive Tools
 
-### Interactive Mental Wellness Lab (50-Tool Hub)
+### Interactive Mental Wellness Lab (60-Tool Hub)
 - **Primary URL**: `https://dopabrain.com/portal/tools/wellness-lab.html`
 - **Scope**: Unified 12-language interactive directory indexing all 30 free, client-side CBT, somatic, burnout, boundary, attachment, ADHD focus, social battery, and sleep regulation workspaces with instant category filtering and `?lang=` preservation across every tool link.
 
