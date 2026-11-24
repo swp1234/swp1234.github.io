@@ -18,7 +18,7 @@
 
 ### Interactive Mental Wellness Lab (70-Tool Hub)
 - **Primary URL**: `https://dopabrain.com/portal/tools/wellness-lab.html`
-- **Scope**: Unified 12-language interactive directory indexing all 70 free, client-side CBT, somatic, burnout, boundary, attachment, ADHD focus, working memory, social battery, and sleep regulation workspaces with instant category filtering and `?lang=` preservation across every tool link.
+- **Scope**: Unified 12-language interactive directory indexing all 80 free, client-side CBT, somatic, burnout, boundary, attachment, ADHD focus, working memory, social battery, and sleep regulation workspaces with instant category filtering and `?lang=` preservation across every tool link.
 
 ### Gaslighting & Manipulation Reality-Check Log
 - **Primary URL**: `https://dopabrain.com/portal/tools/gaslighting-reality-check.html`
