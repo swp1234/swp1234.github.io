@@ -1,16 +1,16 @@
 # DopaBrain — 100% Browser-Private Mental Wellness, Focus & Self-Discovery Studio
 
-> Free, zero-signup interactive self-reflection apps, **110 browser-private Mental Wellness Labs**, ambient focus tools, and **12-language** evidence-grounded guides — built for instant mobile speed and strict local privacy.
+> Free, zero-signup interactive self-reflection apps, **120 browser-private Mental Wellness Labs**, ambient focus tools, and **12-language** evidence-grounded guides — built for instant mobile speed and strict local privacy.
 
 - **Website**: [https://dopabrain.com](https://dopabrain.com)
-- **110-Tool Mental Wellness Lab**: [https://dopabrain.com/portal/tools/wellness-lab.html](https://dopabrain.com/portal/tools/wellness-lab.html)
+- **120-Tool Mental Wellness Lab**: [https://dopabrain.com/portal/tools/wellness-lab.html](https://dopabrain.com/portal/tools/wellness-lab.html)
 - **AI Discovery Index**: [`llms.txt`](https://dopabrain.com/llms.txt) · [`llms-full.txt`](https://dopabrain.com/llms-full.txt)
 
 ## Featured Interactive Experiences
 
 | Experience | Purpose | Privacy |
 |---|---|---|
-| [110-Tool Mental Wellness Lab](https://dopabrain.com/portal/tools/wellness-lab.html) | CBT reframing, ADHD focus, dopamine detox, sleep & circadian resets, relationship scripts | 100% Local Browser |
+| [120-Tool Mental Wellness Lab](https://dopabrain.com/portal/tools/wellness-lab.html) | CBT reframing, ADHD focus, dopamine detox, sleep & circadian resets, relationship scripts | 100% Local Browser |
 | [Stress Check](https://dopabrain.com/stress-check/) | 5-domain autonomic stress & nervous-system load check with 7-day somatic reset | 100% Local Browser |
 | [HSP Sensitivity Check](https://dopabrain.com/hsp-test/) | Sensory processing preferences across 5 channels + rapid sensory calm kit | 100% Local Browser |
 | [Future Self Archetype](https://dopabrain.com/future-self/) | Temporal-discounting reflection with instant 1080×1920 visual story card | 100% Local Browser |
