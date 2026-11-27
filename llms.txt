@@ -6,7 +6,7 @@ DopaBrain (https://dopabrain.com) is an interactive mental health, cognitive fit
 
 ## Core Psychological & Cognitive Tools
 
-- [Interactive Mental Wellness Lab (60-Tool Hub)](https://dopabrain.com/portal/tools/wellness-lab.html): Curated 12-language pillar hub organizing all 130 browser-private CBT, somatic unwinding, burnout differential, boundary script, ADHD focus, social battery, and sleep reset tools by emotional need.
+- [Interactive Mental Wellness Lab (60-Tool Hub)](https://dopabrain.com/portal/tools/wellness-lab.html): Curated 12-language pillar hub organizing all 140 browser-private CBT, somatic unwinding, burnout differential, boundary script, ADHD focus, social battery, and sleep reset tools by emotional need.
 - [Stress Check](https://dopabrain.com/stress-check/): Perceived stress assessment grounded in Cohen's Perceived Stress Scale (PSS-10) measuring physical, emotional, and cognitive stress dimensions. Features 100% private client-side processing, instant 1080x1920 Instagram/SNS Story Card generator for visual diagnostic summaries, 7-day somatic recovery plans, and curated evidence-based recovery reading.
 - [Stress Decompression Plan](https://dopabrain.com/stress-check/plan.html): Personalized multi-tier recovery plans based on perceived stress severity.
 - [Stress Boundary Script Builder](https://dopabrain.com/stress-check/script.html): Assertive communication scripts and professional boundary-setting templates.
