@@ -16,9 +16,9 @@
 
 ## 1. Flagship Psychological & Cognitive Tools
 
-### Interactive Mental Wellness Lab (70-Tool Hub)
+### Interactive Mental Wellness Lab (150-Tool Hub)
 - **Primary URL**: `https://dopabrain.com/portal/tools/wellness-lab.html`
-- **Scope**: Unified 12-language interactive directory indexing all 140 free, client-side CBT, somatic, burnout, boundary, attachment, ADHD focus, working memory, social battery, and sleep regulation workspaces with instant category filtering and `?lang=` preservation across every tool link.
+- **Scope**: Unified 12-language interactive directory indexing all 150 free, client-side CBT, somatic, burnout, boundary, attachment, ADHD focus, working memory, social battery, and sleep regulation workspaces with instant category filtering and `?lang=` preservation across every tool link.
 
 ### Gaslighting & Manipulation Reality-Check Log
 - **Primary URL**: `https://dopabrain.com/portal/tools/gaslighting-reality-check.html`
@@ -401,3 +401,105 @@
 - **Classic 2048**: `https://dopabrain.com/puzzle-2048/`
 - **Daily Affirmation Cards**: `https://dopabrain.com/affirmation/`
 - **White Noise Ambient Player**: `https://dopabrain.com/white-noise/`
+
+### Additional Mental Wellness Labs (Expanded Through Wave 78 — 150 Total)
+- [Working Memory & Focus Span Trainer](https://dopabrain.com/portal/tools/working-memory-span-trainer.html): Audit 5 working-memory drains and build a distraction-proof 15-minute focus sprint locally.
+- [Attention Switching & Context-Shift Lab](https://dopabrain.com/portal/tools/attention-switching-agility-lab.html): Audit 5 context-switching traps and install a 60-second clean transition ritual locally.
+- [Deep Work & Distraction Friction Audit](https://dopabrain.com/portal/tools/deep-work-focus-readiness.html): Score 5 pre-flight readiness levers and launch a clean 25- or 50-minute deep work block.
+- [HSP Workplace Energy & Sensory Planner](https://dopabrain.com/portal/tools/hsp-workplace-energy-planner.html): Map 5 office sensory stressors and craft discreet workday pacing & boundary scripts locally.
+- [Nervous System State Mapper & Reset](https://dopabrain.com/portal/tools/nervous-system-state-mapper.html): Map 5 somatic cues to match calming vs. gentle grounding moves to your exact body state.
+- [Burnout Load vs. Recovery Calculator](https://dopabrain.com/portal/tools/burnout-boundary-recovery-calc.html): Compare 5 weekly depletion drains against your recovery margin & build a 7-day trim plan.
+- [Sleep Debt & 7-Day Circadian Planner](https://dopabrain.com/portal/tools/sleep-debt-recovery-planner.html): Audit 5 sleep-debt drivers and build a gentle 7-day circadian catch-up plan locally.
+- [Daydreaming Loop & Present Grounding Kit](https://dopabrain.com/portal/tools/maladaptive-daydreaming-grounding.html): Map 5 vivid daydream triggers without shame and step gently back into the present room.
+- [Executive Dysfunction Micro-Ramp (90s)](https://dopabrain.com/portal/tools/executive-dysfunction-micro-ramp.html): Audit 5 task-initiation blocks and build a zero-shame 90-second micro-ramp to start smoothly.
+- [Health Anxiety & Search-Loop Breaker](https://dopabrain.com/portal/tools/health-anxiety-reassurance-breaker.html): Break late-night symptom-Googling and reassurance spirals with a calm CBT uncertainty plan.
+- [Allostatic Stress Load & Energy Budgeter](https://dopabrain.com/portal/tools/allostatic-stress-budgeter.html): Map 5 hidden allostatic stress drains locally and balance today’s energy budget before burnout.
+- [Self-Sabotage & Procrastination Decoder](https://dopabrain.com/portal/tools/self-sabotage-pattern-decoder.html): Decode 5 protective self-sabotage loops locally and pick one safe 3-minute micro-step.
+- [Social Comparison Spiral Grounding Lab](https://dopabrain.com/portal/tools/comparison-spiral-detox.html): Audit 5 social comparison triggers locally and anchor back to your own real timeline.
+- [Post-Burnout Work Re-Entry Planner](https://dopabrain.com/portal/tools/burnout-return-to-work-planner.html): Audit 5 burnout relapse traps locally and build a sustainable 4-week work pacing ramp.
+- [Digital Eye Strain & 20-20-20 Focus Reset](https://dopabrain.com/portal/tools/digital-eye-strain-focus-reset.html): Audit 5 screen-fatigue stressors locally and run a 60-second panoramic visual reset.
+- [Calm Conflict Repair & Apology Builder](https://dopabrain.com/portal/tools/conflict-repair-apology-builder.html): Audit 5 conflict friction points locally and draft a clear, non-defensive 3-part repair message.
+- [High-Stakes Career Decision Clarity Matrix](https://dopabrain.com/portal/tools/career-decision-clarity-matrix.html): Weigh 5 career decision-clarity dimensions locally and design a low-risk 14-day test.
+- [Empathy Fatigue & Caregiver Boundary Kit](https://dopabrain.com/portal/tools/empathy-fatigue-boundary-kit.html): Audit 5 empathy-overload leaks locally and build warm, guilt-free caring boundaries.
+- [Pre-Sleep Racing Thoughts Brain-Dump Vault](https://dopabrain.com/portal/tools/pre-sleep-brain-dump-vault.html): Audit 5 bedtime thought loops locally and park tomorrow’s nagging worries until morning.
+- [Perfectionist Task & Inbox Triage Lab](https://dopabrain.com/portal/tools/perfectionist-inbox-triage-lab.html): Audit 5 perfectionist bottlenecks locally and ship clear "B+ done" tasks without guilt.
+- [Financial Stress & Money-Worry Triage](https://dopabrain.com/portal/tools/financial-worry-action-triage.html): Separate controllable money steps from late-night catastrophic loops locally in 60s.
+- [Video Call & Meeting Fatigue Scheduler](https://dopabrain.com/portal/tools/meeting-fatigue-recovery-scheduler.html): Score 5 proven Zoom-fatigue triggers locally and build a 5-minute recovery buffer plan.
+- [3 AM Awakening & Thought Parker](https://dopabrain.com/portal/tools/insomnia-3am-thought-parker.html): Park racing midnight thoughts locally and follow a calm CBT-I return-to-sleep reset.
+- [Family & Holiday Boundary Planner](https://dopabrain.com/portal/tools/family-holiday-boundary-planner.html): Map 5 predictable family gathering triggers locally and pack warm, polite exit scripts.
+- [Career Burnout & Micro-Sabbatical Planner](https://dopabrain.com/portal/tools/career-burnout-sabbatical-planner.html): Tell exhaustion apart from career mismatch and design a 3–14 day unplugged reset.
+- [Chronic Indecision & Deadline Tool](https://dopabrain.com/portal/tools/chronic-indecision-deadline-tool.html): Break analysis paralysis on reversible choices with a clean 10-minute satisficer cutoff.
+- [Caregiver Exhaustion & Respite Planner](https://dopabrain.com/portal/tools/caregiver-exhaustion-relief-check.html): Check 5 caregiver overload signals locally and craft one concrete, guilt-free respite ask.
+- [Smartphone Alert & Calm Notification Audit](https://dopabrain.com/portal/tools/phone-notification-calm-audit.html): Audit 5 phone interruption leaks locally and silence 80% of alert noise in 3 minutes.
+- [Public Speaking & Presentation Nerves Kit](https://dopabrain.com/portal/tools/public-speaking-nerves-reframer.html): Reframe 5 pre-stage adrenaline triggers into calm energy and anchor your opening 20s.
+- [Revenge Bedtime Procrastination Reset](https://dopabrain.com/portal/tools/bedtime-revenge-procrastination-reset.html): Audit 5 daytime-autonomy gaps locally and reclaim guilt-free leisure before 10 PM.
+- [Exam & Test Anxiety Cooldown Lab](https://dopabrain.com/portal/tools/exam-test-anxiety-cooldown.html): Clear test-day working-memory interference with a 3-minute cooldown & 2-pass plan.
+- [Post-Interview Replay & Waiting Calm Kit](https://dopabrain.com/portal/tools/job-interview-postmortem-calm.html): End post-interview cringe loops and inbox refresh stress with a clean 5-min debrief.
+- [Toxic Workplace & Calm Exit Readiness](https://dopabrain.com/portal/tools/toxic-workplace-exit-readiness.html): Audit 5 objective culture red flags locally and map a calm, safe 90-day exit plan.
+- [Night-Shift & Circadian Sleep Anchor](https://dopabrain.com/portal/tools/night-shift-circadian-anchor.html): Block morning sunlight leaks and design a realistic anchor-sleep plan for shift work.
+- [Jet Lag & Time-Zone Shift Planner](https://dopabrain.com/portal/tools/travel-jetlag-sleep-shifter.html): Map arrival-day sunlight, meal cues, and nap limits locally to cut jet lag in half.
+- [Creative Block & Blank-Page Starter](https://dopabrain.com/portal/tools/creative-block-momentum-starter.html): Silence premature editing locally and unlock a messy 5-minute draft sprint fast.
+- [Meal & Errand Decision-Fatigue Simplifier](https://dopabrain.com/portal/tools/sunday-meal-decision-fatigue.html): Eliminate 6 PM dinner overwhelm with a 5-theme weekly default rotation locally.
+- [Social Media Envy & FOMO Reset](https://dopabrain.com/portal/tools/scrolling-envy-comparison-reset.html): Break passive feed envy and highlight-reel FOMO locally with a JOMO reality anchor.
+- [Calendar Overcommitment & Polite "No" Audit](https://dopabrain.com/portal/tools/chronic-overcommitment-no-audit.html): Beat the "Yes-Damn Effect" locally and copy warm, zero-guilt decline scripts fast.
+- [New Parent Sleep & Sanity Shift Planner](https://dopabrain.com/portal/tools/new-parent-sleep-sanity-plan.html): Audit 5 fragmented-sleep drains locally and protect one uninterrupted 4-hour rest block.
+- [ADHD Body-Doubling Session Prep](https://dopabrain.com/portal/tools/adhd-body-doubling-session-prep.html): Clear solo task-initiation freeze and build a crisp 25-minute body-doubling sprint.
+- [Breakup No-Contact & Urge Anchor Plan](https://dopabrain.com/portal/tools/breakup-no-contact-anchor.html): Ride out late-night texting urges and profile-checking waves locally in 15 minutes.
+- [Winter & Low-Sunlight Mood Light Plan](https://dopabrain.com/portal/tools/seasonal-winter-mood-light-plan.html): Audit 5 dark-season circadian gaps locally and build a bright morning energy routine.
+- [Work-From-Home 5-Min Shutdown Ritual](https://dopabrain.com/portal/tools/work-from-home-shutdown-ritual.html): Stop remote work from bleeding into evenings with a crisp physical off-switch plan.
+- [Introvert Social-Hangover Recovery Plan](https://dopabrain.com/portal/tools/social-hangover-recovery-timer.html): Clear post-event exhaustion locally with a guilt-free low-stimulation solitude plan.
+- [Doctor Visit & Medical Checkup Calm Prep](https://dopabrain.com/portal/tools/health-checkup-appointment-calm.html): Ease waiting-room white-coat nerves and pack a crisp 2-question exam-room note locally.
+- [Adult Friendship Drift & Reconnect Planner](https://dopabrain.com/portal/tools/friendship-drift-repair-planner.html): Drop delayed-reply guilt and copy a warm, zero-pressure 2-line reconnect text.
+- [Good-Enough Parenting Guilt Reset](https://dopabrain.com/portal/tools/perfectionist-parenting-guilt-reset.html): Replace harsh mom/dad guilt with Winnicott’s warm repair & realistic calm standards.
+- [Life-Admin 20-Minute Sprint Planner](https://dopabrain.com/portal/tools/sunday-money-admin-sprint-plan.html): Clear lingering bills, forms, and errands in one friction-free 20-minute power burst.
+- [Retirement & Life-Transition Purpose Map](https://dopabrain.com/portal/tools/retirement-transition-purpose-map.html): Rebuild structure, community, and curiosity during major life chapters locally.
+- [48-Hour Realistic Dopamine Detox Planner](https://dopabrain.com/portal/tools/dopamine-detox-weekend-planner.html): Audit overstimulation loops and build a sustainable analog weekend reset locally.
+- [Afternoon Brain Fog Clarity Checklist](https://dopabrain.com/portal/tools/brain-fog-clarity-checklist.html): Audit 5 everyday fog triggers (water, air, tabs, glucose, eyes) for a 15-min reset.
+- [2-Minute Cognitive Focus Warmup Primer](https://dopabrain.com/portal/tools/dual-n-back-focus-warmup.html): Flush attention residue and prime your brain for deep work in 120 seconds.
+- [Smartphone Scroll Friction Builder](https://dopabrain.com/portal/tools/phone-scroll-friction-builder.html): Break autopilot phone pickups with grayscale, badge removal, and 15-sec speed bumps.
+- [Deep Reading Attention Span Rebuilder](https://dopabrain.com/portal/tools/reading-attention-span-rebuilder.html): Restore deep book focus from 5 to 25 minutes with a gentle 4-week stamina ladder.
+- [Caffeine Half-Life Cutoff & Sleep Planner](https://dopabrain.com/portal/tools/caffeine-cutoff-sleep-calculator.html): Protect deep slow-wave sleep by auditing hidden caffeine traps and cutoff timing.
+- [3 PM Energy Crash & 10-Min NSDR Recovery](https://dopabrain.com/portal/tools/afternoon-slump-recovery-protocol.html): Beat post-lunch drowsiness without late coffee using walking, daylight, and NSDR.
+- [Neuro-Friendly Study Block & Recall Customizer](https://dopabrain.com/portal/tools/study-pomodoro-customizer.html): Tailor 15/3, 25/5, or 50/10 focus blocks with built-in active-recall memory checks.
+- [Home Overstimulation & Quiet-Corner Planner](https://dopabrain.com/portal/tools/overstimulation-quiet-corner-plan.html): Calm layered noise and glare at home with a 5-minute low-input quiet corner.
+- [Sunday 10-Min Mental Clarity Weekly Review](https://dopabrain.com/portal/tools/mental-clarity-weekly-review.html): Empty carryover mental clutter and lock your Top 3 weekly wins in 10 minutes.
+- [Salary Negotiation Nerves & Script Prep](https://dopabrain.com/portal/tools/salary-negotiation-nerves-prep.html): Calm pay-talk anxiety and draft a 3-line evidence-first compensation script locally.
+- [Career Pivot & Uncertainty Fear Audit](https://dopabrain.com/portal/tools/career-pivot-fear-audit.html): Separate sunk-cost fear from real constraints and map a low-risk 30-day career test.
+- [Time-Blindness & Departure Buffer Planner](https://dopabrain.com/portal/tools/chronic-lateness-time-buffer.html): Beat chronic 10-min lateness with backwards scheduling and +15 min transition buffers.
+- [Everyday Name & Conversation Recall Lab](https://dopabrain.com/portal/tools/memory-name-recall-trainer.html): Stop forgetting names 3 seconds after intros with the 3-step attention & echo lock.
+- [Social Comparison & Status-Envy Reset](https://dopabrain.com/portal/tools/social-media-envy-detox.html): Step out of highlight-reel inadequacy and return to your own lane locally.
+- [Phone-Call Anxiety & 2-Min Opener Builder](https://dopabrain.com/portal/tools/difficult-phone-call-starter.html): Beat telephonophobia with a verbatim 10-second opening card and calm dialing steps.
+- [Couple Mental-Load & Chore Fairness Map](https://dopabrain.com/portal/tools/partner-chore-fairness-reset.html): End invisible household resentment with blame-free end-to-end ownership resets.
+- [Family Gathering & Holiday Boundary Kit](https://dopabrain.com/portal/tools/in-law-holiday-boundary-prep.html): Pack warm deflection phrases and an exit-time buffer for drama-free family visits.
+- [3 AM Middle-of-Night Wakeup & Calm Reset](https://dopabrain.com/portal/tools/middle-of-night-3am-wake-reset.html): Stop clock-watching panic with CBT-I rules and the 2-minute Cognitive Shuffle.
+- [Social Jetlag & Weekend Sleep Recovery](https://dopabrain.com/portal/tools/weekend-sleep-debt-recovery.html): End Monday grogginess by capping weekend wake drift within +60–90 min locally.
+- [Year-End Burnout & Open-Loop Closure Audit](https://dopabrain.com/portal/tools/year-end-burnout-closure-audit.html): Audit December exhaustion locally and build a guilt-free 3-item closure & January deferral plan.
+- [Manager 1:1 & Feedback Calm Prep](https://dopabrain.com/portal/tools/manager-1on1-feedback-prep.html): Turn 1:1 anxiety into a crisp 3-bullet agenda and calm non-defensive feedback responses locally.
+- [10-Minute Email & Message Overload Triage](https://dopabrain.com/portal/tools/inbox-zero-10min-triage.html): Clear inbox freeze fast using a guilt-free 4-bucket triage and 2-sentence reply opener.
+- [ADHD Hyperfocus Exit & Transition Cue](https://dopabrain.com/portal/tools/hyperfocus-exit-transition-cue.html): Step out of deep hyperfocus smoothly using a 1-line breadcrumb bookmark and 5-min landing ramp.
+- [Dental & Medical Visit Calm & Control Kit](https://dopabrain.com/portal/tools/dental-medical-visit-calm-kit.html): Ease clinic anxiety with a clinician hand-signal script, sensory tips, and chair breathing locally.
+- [Flight & Turbulence Anxiety Calm Protocol](https://dopabrain.com/portal/tools/flying-turbulence-calm-protocol.html): Ease fear of flying with Jell-O air physics, open-palm grounding, and cabin calm reminders locally.
+- [Texting Anxiety & Read-Receipt Calm Guide](https://dopabrain.com/portal/tools/texting-anxiety-reply-pace-guide.html): Break read-receipt overthinking locally with mundane-reason checks and secure reply pacing.
+- [Saying No to Family Without Guilt Script](https://dopabrain.com/portal/tools/saying-no-to-family-guilt-script.html): Decline draining family demands warmly without over-explaining or folding to guilt locally.
+- [45-Minute Evening Wind-Down Buffer](https://dopabrain.com/portal/tools/shift-end-evening-winddown-timer.html): Shift from wired screens to deep sleep with a 15-15-15 light, temperature, and analog landing plan.
+- [5 AM Early Waking & Morning Cortisol Reset](https://dopabrain.com/portal/tools/early-morning-waking-cortisol-calm.html): Calm sudden morning dread by reframing the Cortisol Awakening Response and anchoring your first 10 min.
+- [Layoff & Job-Security Anxiety Planner](https://dopabrain.com/portal/tools/layoff-job-security-anxiety-plan.html): Turn layoff dread into a calm 7-day career safety net (wins log, runway math, warm contacts) locally.
+- [Post-Vacation & Holiday Re-Entry Planner](https://dopabrain.com/portal/tools/return-from-vacation-reentry-plan.html): Beat post-holiday work shock with a 2-hour Day-1 triage block and newest-first inbox reset.
+- [3-Minute Post-Meeting Action Distiller](https://dopabrain.com/portal/tools/meeting-note-action-distiller.html): Clear meeting fog locally with a 3-line Decision, Owner, and Deadline recap protocol.
+- [15-Minute Digital Workspace & Tab Declutter](https://dopabrain.com/portal/tools/digital-declutter-15min-reset.html): Clear 50 open tabs and desktop chaos in 15 min without deletion fear using one archive sweep.
+- [Highway & Bridge Driving Anxiety Calm Kit](https://dopabrain.com/portal/tools/driving-highway-anxiety-calm-kit.html): Prepare parked before driving with a right-lane grounding anchor and 1-exit confidence ladder.
+- [Needle & Blood-Draw Applied-Tension Kit](https://dopabrain.com/portal/tools/needle-blood-draw-faint-calm-kit.html): Prevent lightheadedness during blood draws with Applied Tension, hydration, and nurse recline scripts.
+- [New City & Adult Friendship 30-Day Planner](https://dopabrain.com/portal/tools/new-city-adult-friendship-plan.html): Build real adult friendships locally using recurring third places and low-pressure invites.
+- [Awkward Small-Talk & Party Calm Kit](https://dopabrain.com/portal/tools/awkward-small-talk-icebreaker-kit.html): Carry 3 effortless curiosity openers, a "What’s new?" story, and a graceful exit line locally.
+- [Snoring Partner Sleep-Peace Planner](https://dopabrain.com/portal/tools/snoring-partner-sleep-peace-plan.html): Protect both sleep and love with brown-noise masking, a 20-min head start, and kind couple scripts.
+- [20-Minute Power Nap & Coffee-Nap Planner](https://dopabrain.com/portal/tools/afternoon-power-nap-timer-guide.html): Avoid 45-min nap grogginess with the exact pre-2 PM 20-minute Stage-2 window and wake cues.
+- [Micromanager Stress & Autonomy Buffer Planner](https://dopabrain.com/portal/tools/workplace-micromanager-calm-buffer.html): Calm hover-management with a pre-emptive 3-line status rhythm and written done-criteria locally.
+- [Sustainable Pace & Healthy Work Boundary Audit](https://dopabrain.com/portal/tools/quiet-quitting-energy-boundary-audit.html): Replace exhausting over-functioning with clean priority trade-offs and sustainable work boundaries.
+- [50-Tab Browser Overload & Focus Reset](https://dopabrain.com/portal/tools/tab-overload-browser-focus-reset.html): Collapse 50 open tabs into a guilt-free Parking folder and reclaim 3-tab single-task focus in 3 minutes.
+- [Blank-Page Freeze & 5-Min Ugly-Draft Starter](https://dopabrain.com/portal/tools/writer-blank-page-momentum-kit.html): Break blinking-cursor paralysis by separating drafting from editing with a 5-min ugly first draft.
+- [Elevator, Tunnel & MRI Enclosed-Space Calm Kit](https://dopabrain.com/portal/tools/claustrophobia-elevator-mri-calm-kit.html): Defuse enclosed-space tightness with 4-6 exhale pacing, cool airflow cues, and a 1-line tech script.
+- [Phone Call & Voicemail Dread 3-Line Starter Kit](https://dopabrain.com/portal/tools/phone-call-voicemail-dread-reset.html): End 3-week procrastination on 2-minute calls with a 3-line opener, pause cue, and voicemail backup.
+- [Difficult Coworker Professional Grey-Rock Scripts](https://dopabrain.com/portal/tools/toxic-coworker-grey-rock-script.html): Starve office drama and passive-aggressive bait with polite, factual BIFF & Grey-Rock responses.
+- [Adult Child & Parent Loving Boundary Planner](https://dopabrain.com/portal/tools/parent-adult-child-boundary-plan.html): Hold adult independence without guilt using the Love + Limit + Pivot script and info-diet strategy.
+- [Sunday-Night Insomnia & Sleep Clock Reset](https://dopabrain.com/portal/tools/sunday-night-insomnia-clock-reset.html): Fix Sunday-night wide-awake dread with social-jetlag anchoring, clock-hiding, and a Monday park note.
+- [Bedtime Racing-Mind Worry Shelf & Sleep Shuffle](https://dopabrain.com/portal/tools/racing-mind-bedtime-worry-shelf.html): Park loud bedtime thoughts onto tomorrow’s 10 AM shelf and trigger sleep with the Cognitive Shuffle.
