@@ -1,5 +1,5 @@
 // 루트 도메인 - Service Worker
-const CACHE_NAME = 'root-domain-v5-focus';
+const CACHE_NAME = 'root-domain-v6-figma2026';
 const urlsToCache = [
     './',
     './index.html',
