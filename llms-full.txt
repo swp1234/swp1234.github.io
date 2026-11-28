@@ -16,9 +16,9 @@
 
 ## 1. Flagship Psychological & Cognitive Tools
 
-### Interactive Mental Wellness Lab (160-Tool Hub)
+### Interactive Mental Wellness Lab (170-Tool Hub)
 - **Primary URL**: `https://dopabrain.com/portal/tools/wellness-lab.html`
-- **Scope**: Unified 12-language interactive directory indexing all 160 free, client-side CBT, somatic, burnout, boundary, attachment, ADHD focus, working memory, social battery, and sleep regulation workspaces with instant category filtering and `?lang=` preservation across every tool link.
+- **Scope**: Unified 12-language interactive directory indexing all 170 free, client-side CBT, somatic, burnout, boundary, attachment, ADHD focus, working memory, social battery, and sleep regulation workspaces with instant category filtering and `?lang=` preservation across every tool link.
 
 ### Gaslighting & Manipulation Reality-Check Log
 - **Primary URL**: `https://dopabrain.com/portal/tools/gaslighting-reality-check.html`
@@ -402,7 +402,7 @@
 - **Daily Affirmation Cards**: `https://dopabrain.com/affirmation/`
 - **White Noise Ambient Player**: `https://dopabrain.com/white-noise/`
 
-### Additional Mental Wellness Labs (Expanded Through Wave 78 — 160 Total)
+### Additional Mental Wellness Labs (Expanded Through Wave 78 — 170 Total)
 - [Working Memory & Focus Span Trainer](https://dopabrain.com/portal/tools/working-memory-span-trainer.html): Audit 5 working-memory drains and build a distraction-proof 15-minute focus sprint locally.
 - [Attention Switching & Context-Shift Lab](https://dopabrain.com/portal/tools/attention-switching-agility-lab.html): Audit 5 context-switching traps and install a 60-second clean transition ritual locally.
 - [Deep Work & Distraction Friction Audit](https://dopabrain.com/portal/tools/deep-work-focus-readiness.html): Score 5 pre-flight readiness levers and launch a clean 25- or 50-minute deep work block.
@@ -513,3 +513,13 @@
 - [Overwhelming Group-Chat Noise & Mute Boundary Plan](https://dopabrain.com/portal/tools/group-chat-drama-mute-boundary.html): Silence 150-message group chaos politely with permanent mute, the Last-5-Lines rule, and DM cues.
 - [Early-Morning Flight & Pre-Travel Insomnia Plan](https://dopabrain.com/portal/tools/pre-travel-early-flight-sleep-plan.html): End 4 AM oversleep dread with an 8 PM packing cutoff, double independent alarms, and realistic bedtime.
 - [Bedside Phone Charging & 15-Min Analog Swap](https://dopabrain.com/portal/tools/blue-light-bedroom-scroll-swap.html): End midnight pillow scrolling effortlessly with across-the-room charging and a cozy 15-min analog swap.
+- [Performance Review & Appraisal Nerves Prep](https://dopabrain.com/portal/tools/performance-review-nerves-prep.html): Calm annual review dread with a 3-bullet impact sheet and poised live feedback scripts.
+- [Freelance Client Scope-Creep Guard](https://dopabrain.com/portal/tools/freelance-client-scope-creep-guard.html): Turn unpaid "quick tweaks" into polite Option A / Option B change orders without awkwardness.
+- [Background Audio & Podcast Focus Audit](https://dopabrain.com/portal/tools/podcast-background-noise-focus-audit.html): Spot verbal speech interference while writing or coding and match optimal wordless focus soundscapes.
+- [Half-Finished Side Project Picker & 1-Ship Rule](https://dopabrain.com/portal/tools/half-finished-side-project-picker.html): Break shiny-object hopping: park extra drafts guilt-free and lock in 1 tiny v1 to finish in 14 days.
+- [Waiting for Medical Test Results Calm Kit](https://dopabrain.com/portal/tools/waiting-for-medical-test-results-calm.html): Ease "scanxiety" and portal-refresh loops with a 2-window check rule and steady grounding anchors.
+- [Crowded Grocery Store Sensory Calm Kit](https://dopabrain.com/portal/tools/crowded-grocery-store-sensory-kit.html): Tame fluorescent glare, aisle noise, and checkout tension with a low-sensory 15-min shopping plan.
+- [Ask for Lent Money Back Without Awkwardness](https://dopabrain.com/portal/tools/borrowed-money-friend-awkward-script.html): Copy casual, zero-shame repayment & split-bill reminders that protect both your wallet and friendship.
+- [Unsolicited Advice Polite Deflector Scripts](https://dopabrain.com/portal/tools/unsolicited-advice-polite-deflector.html): End nosey lectures in 10 seconds without JADE arguing using warm, graceful topic-pivot scripts.
+- [Late Dinner & Heavy-Meal Sleep Recovery Plan](https://dopabrain.com/portal/tools/late-night-heavy-meal-sleep-reset.html): Ease fullness and midnight restlessness after eating late with a 10-min stroll, left-side rest & zero guilt.
+- [Sleep-Tracker Score Anxiety (Orthosomnia) Reset](https://dopabrain.com/portal/tools/sleep-tracker-orthosomnia-calm-reset.html): Break morning sleep-score nocebo and wearable perfectionism with a 7-day body-first trust reset.
