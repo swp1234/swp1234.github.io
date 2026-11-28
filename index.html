@@ -799,21 +799,23 @@
         /* ===== SKIP LINK ===== */
         .skip-link {
             position: absolute;
-            top: -40px;
-            left: 0;
+            top: -999px;
+            left: 12px;
             background: var(--neon-cyan);
             color: #0a0118;
             padding: 8px 16px;
+            border-radius: 10px;
             z-index: 10001;
-            transition: top 0.3s;
+            transition: top 0.2s;
             font-size: 14px;
-            font-weight: 600;
+            font-weight: 700;
             text-decoration: none;
             min-height: 44px;
             display: inline-flex;
             align-items: center;
         }
-        .skip-link:focus { top: 0; }
+        .skip-link:focus { top: 12px; }
+        :lang(ko) h1, :lang(ko) h2, :lang(ko) h3, :lang(ko) p { word-break: keep-all; overflow-wrap: break-word; }
     </style>
 </head>
 <body>
